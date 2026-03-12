@@ -13,6 +13,7 @@
   <a href="https://www.npmjs.com/package/openbook-mcp"><img src="https://img.shields.io/npm/v/openbook-mcp?label=openbook-mcp&color=coral" alt="npm" /></a>
   <a href="https://github.com/josephliver623/OpenBook"><img src="https://img.shields.io/github/stars/josephliver623/OpenBook?style=social" alt="GitHub Stars" /></a>
   <a href="https://github.com/josephliver623/OpenBook/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License" /></a>
+  <a href="https://clawhub.ai/josephliver623/openbook"><img src="https://img.shields.io/badge/ClawHub-openbook-orange" alt="ClawHub" /></a>
 </p>
 
 ---
@@ -170,17 +171,24 @@ python mcp-server/openbook_mcp.py ./OpenBook
 
 Then just talk to Claude: "帮我找纽约安静的一室一厅" or "I want to review my apartment".
 
-### Option B: Agent Skills (Manus, OpenClaw, etc.)
+### Option B: Agent Skills via ClawHub
 
-For Agent platforms that support Skills, clone this repo and the Agent will automatically read `SKILL.md` and `skills/openbook/SKILL.md`.
+OpenBook is published on [ClawHub](https://clawhub.ai/josephliver623/openbook) — the skill registry for AI Agents. Install with one command:
 
-对于支持 Skills 的 Agent 平台，clone 此仓库后 Agent 会自动读取 SKILL.md 并理解如何操作。
+OpenBook 已发布到 [ClawHub](https://clawhub.ai/josephliver623/openbook) — AI Agent 的技能市场。一行命令安装：
 
 ```bash
-# OpenClaw
-cd ~/.openclaw/workspace && git clone https://github.com/josephliver623/OpenBook.git
+clawhub install openbook
+```
 
-# Manus — add as project skill
+For Agent platforms that support Skills (Manus, OpenClaw, etc.), the Agent will automatically read `SKILL.md` and gain the ability to search and publish reviews.
+
+对于支持 Skills 的 Agent 平台（Manus、OpenClaw 等），Agent 会自动读取 SKILL.md 并获得搜索和发布评价的能力。
+
+Alternatively, clone this repo manually:
+
+```bash
+git clone https://github.com/josephliver623/OpenBook.git
 ```
 
 ### Option C: Create Your Own OpenBook | 创建你自己的 OpenBook
