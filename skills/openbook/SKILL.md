@@ -1,65 +1,148 @@
 ---
 name: openbook
 description: >
-  Search, browse, and publish structured community reviews in OpenBook.
-  Use when the user wants to find or share reviews about housing, restaurants,
-  jobs, or any category defined in this OpenBook instance. This skill reads
-  YAML schema files to understand what structured data to collect, validates
-  entries, and saves them as JSON files to the repository.
+  Search, browse, and publish structured community reviews on OpenBook — an
+  open, non-commercial, schema-driven review platform. Covers housing, food,
+  jobs, and any custom category. Data is stored as JSON in a public GitHub
+  repository. Use when the user wants to find or share real reviews.
 ---
 
-# OpenBook Skill
+# OpenBook — Open Structured Reviews
 
-OpenBook is a schema-driven, open-source community review platform. Reviews are
-stored as JSON files in a Git repository, with each category defined by a YAML
-schema that specifies fields, types, constraints, and conversational prompts.
+OpenBook is a community-driven, non-commercial review platform where every
+review is structured, validated, and machine-readable. No ads, no algorithms,
+no registration required.
 
-**Repository root:** `{baseDir}`
-
----
-
-## Quick Reference
-
-| Action | Command |
-|---|---|
-| List categories | `ls {baseDir}/schemas/*.yml` |
-| Read a schema | `cat {baseDir}/schemas/{category}.yml` |
-| Search reviews | `python3 -c "..."` (see below) |
-| Read one review | `cat {baseDir}/data/{category}/{id}.json` |
-| Publish review | Create JSON → validate → save → commit |
+**Website:** https://openbook.now
+**GitHub:** https://github.com/josephliver623/OpenBook
+**MCP Server:** `npx openbook-mcp` (for MCP-compatible agents)
 
 ---
 
-## 1. Discover Categories
+## Setup (first time only)
+
+Clone the repository to get the data and schemas:
 
 ```bash
-ls {baseDir}/schemas/*.yml
+git clone https://github.com/josephliver623/OpenBook.git /tmp/openbook
 ```
 
-Each `.yml` file defines a review category. Read any schema to see its fields:
-
+Set the base directory:
 ```bash
-cat {baseDir}/schemas/housing.yml
+OPENBOOK_DIR="/tmp/openbook"
 ```
-
-Key schema properties per field:
-- `type`: string, number, list, text, date
-- `required`: true/false
-- `agent_prompt`: the question to ask the user
-- `enum` + `labels`: constrained choices with display names
-- `min`/`max`: numeric ranges
-- `auto: "today"`: auto-fill with current date
 
 ---
 
-## 2. Search Reviews
+## Categories & Schemas
 
-### Fast search via index
+### 🏠 Housing Reviews (`housing`)
+
+Share rental experiences with structured dimensions.
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| title | string | Yes | One-line summary of experience |
+| overall_rating | number 1-5 | Yes | Overall rating |
+| address | string | Yes | Street-level address |
+| city | string | Yes | City |
+| neighborhood | string | Yes | Neighborhood |
+| rent_monthly | number (USD) | Yes | Monthly rent |
+| bedrooms | enum 0-4 | Yes | 0=Studio, 1=1BR, 2=2BR, 3=3BR, 4=4BR+ |
+| noise_level | number 1-5 | Yes | 1=very quiet, 5=very noisy |
+| natural_light | number 1-5 | No | 1=very dark, 5=very bright |
+| renovation | enum | Yes | new / good / average / old / poor |
+| landlord_rating | number 1-5 | Yes | Landlord responsiveness |
+| amenities | list | No | laundry, gym, doorman, elevator, parking, etc. |
+| pros | list | No | What you liked |
+| cons | list | No | What you didn't like |
+| review_text | text | No | Free-form review |
+| date | date | Yes | Auto-fill today |
+| author | string | No | Default: anonymous |
+
+**Conversational prompts for housing:**
+- "请用一句话概括你的租房体验"
+- "在哪个城市？哪个社区？"
+- "每月租金多少？几室的？"
+- "噪音怎么样？1分很安静，5分很吵"
+- "装修情况？全新/较新/一般/较旧/很差"
+- "房东人怎么样？1-5分"
+- "有什么配套设施？洗衣、健身房、门卫、电梯等"
+- "优点和缺点分别是什么？"
+
+### 🍜 Restaurant Reviews (`food`)
+
+Share dining experiences with structured dimensions.
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| title | string | Yes | One-line summary |
+| restaurant_name | string | Yes | Restaurant name |
+| overall_rating | number 1-5 | Yes | Overall rating |
+| cuisine | string | Yes | Cuisine type |
+| city | string | Yes | City |
+| neighborhood | string | No | Area |
+| address | string | No | Address |
+| price_per_person | number (USD) | Yes | Average cost per person |
+| taste_rating | number 1-5 | Yes | Taste rating |
+| service_rating | number 1-5 | No | Service quality |
+| environment_rating | number 1-5 | No | Dining environment |
+| wait_time_minutes | number | No | Wait time in minutes |
+| must_try | list | No | Recommended dishes |
+| avoid | list | No | Dishes to avoid |
+| review_text | text | No | Free-form review |
+| date | date | Yes | Auto-fill today |
+| author | string | No | Default: anonymous |
+
+**Conversational prompts for food:**
+- "请用一句话概括你的用餐体验"
+- "餐厅叫什么名字？什么菜系？"
+- "在哪个城市？"
+- "人均大概多少钱？"
+- "口味/服务/环境分别打几分？1-5分"
+- "有什么推荐的菜？有踩雷的吗？"
+
+### 💼 Job Interview Reviews (`jobs`)
+
+Share interview experiences to help others prepare.
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| title | string | Yes | One-line summary |
+| company | string | Yes | Company name |
+| position | string | Yes | Position applied for |
+| city | string | No | Work location |
+| overall_rating | number 1-5 | Yes | Interview experience rating |
+| difficulty | number 1-5 | Yes | 1=easy, 5=very hard |
+| result | enum | Yes | offer / reject / pending / ghosted / withdrew |
+| salary_range | string | No | Compensation range |
+| interview_rounds | number | Yes | Total rounds |
+| interview_types | list | No | phone_screen, technical, behavioral, system_design, coding, take_home, onsite, panel |
+| timeline_days | number | No | Days from application to result |
+| tips | list | No | Advice for future candidates |
+| review_text | text | No | Detailed interview experience |
+| date | date | Yes | Auto-fill today |
+| author | string | No | Default: anonymous |
+
+**Conversational prompts for jobs:**
+- "请用一句话概括这次面试经历"
+- "哪家公司？什么职位？"
+- "面试难度怎么样？1分很简单，5分很难"
+- "最终结果是？拿到offer了吗？"
+- "一共几轮面试？包含哪些类型？"
+- "方便透露薪资范围吗？"
+- "有什么建议给后面面试的人吗？"
+
+---
+
+## Search Reviews
+
+### Quick search via index
 
 ```bash
 python3 -c "
 import json
-with open('{baseDir}/_index.json') as f:
+with open('$OPENBOOK_DIR/_index.json') as f:
     data = json.load(f)
 results = [r for r in data if r.get('_schema') == 'housing'
            and r.get('city','').lower() == 'new york'
@@ -73,19 +156,19 @@ for r in results:
 
 ```bash
 # Quiet apartments under $2500
-find {baseDir}/data/housing/ -name "*.json" -exec jq -r '
+find $OPENBOOK_DIR/data/housing/ -name "*.json" -exec jq -r '
   select(.noise_level <= 2 and .rent_monthly <= 2500) |
   "\(.title) | $\(.rent_monthly)/mo | noise \(.noise_level)/5"
 ' {} \;
 
 # 4+ star restaurants
-find {baseDir}/data/food/ -name "*.json" -exec jq -r '
+find $OPENBOOK_DIR/data/food/ -name "*.json" -exec jq -r '
   select(.overall_rating >= 4) |
   "\(.restaurant_name) | \(.cuisine) | $\(.price_per_person)/person"
 ' {} \;
 
-# Successful interview experiences at a company
-find {baseDir}/data/jobs/ -name "*.json" -exec jq -r '
+# Successful interviews at a specific company
+find $OPENBOOK_DIR/data/jobs/ -name "*.json" -exec jq -r '
   select(.company == "Google" and .result == "offer") |
   "\(.position) | difficulty \(.difficulty)/5"
 ' {} \;
@@ -94,46 +177,32 @@ find {baseDir}/data/jobs/ -name "*.json" -exec jq -r '
 ### Keyword search
 
 ```bash
-grep -rl "keyword" {baseDir}/data/ --include="*.json"
+grep -rl "keyword" $OPENBOOK_DIR/data/ --include="*.json"
 ```
 
 ---
 
-## 3. Publish a Review
+## Publish a Review
 
 ### Step 1: Identify category
 
-Ask the user what they want to review. Match to a schema in `{baseDir}/schemas/`.
+Ask the user what they want to review. Match to one of: `housing`, `food`, `jobs`.
 
-### Step 2: Read the schema
+### Step 2: Collect data conversationally
 
-```bash
-cat {baseDir}/schemas/{category}.yml
-```
+Use the conversational prompts listed above for the matching category. Go through
+each required field. For optional fields, ask briefly and skip if the user declines.
 
-### Step 3: Collect data conversationally
+**Rules:**
+- Required fields MUST have valid answers
+- Enum fields: present the friendly labels as options
+- List fields: let user provide multiple items
+- Date field: auto-fill with today's date
+- Author: use "anonymous" if user doesn't want to share
 
-Go through each field in the schema:
-- Use `agent_prompt` as your question
-- For `required: true` fields, you MUST get a valid answer
-- For `enum` fields, present `labels` as friendly options
-- For `list` fields with `options`, let user pick multiple
-- For `auto: "today"`, fill automatically
-- Batch related questions when natural
+### Step 3: Confirm with user
 
-**Example conversation:**
-```
-Agent: 你想评价哪里的房子？城市和大概位置？
-User:  纽约东村 E 10th St
-Agent: 月租多少？几室的？
-User:  2500 一室一厅
-Agent: 噪音怎么样？1分很安静，5分很吵
-User:  2分，挺安静的
-```
-
-### Step 4: Confirm with user
-
-Show a summary and ask for confirmation:
+Show a formatted summary. Example for housing:
 
 ```
 📝 你的租房评价摘要：
@@ -144,34 +213,35 @@ Show a summary and ask for confirmation:
 确认发布吗？
 ```
 
-### Step 5: Save as JSON
+### Step 4: Save as JSON
+
+Generate a filename: `YYYYMMDD-slug-from-title.json`
 
 ```bash
-# Generate ID: YYYYMMDD-slug
-cat > {baseDir}/data/{category}/{id}.json << 'EOF'
+cat > $OPENBOOK_DIR/data/{category}/{filename}.json << 'EOF'
 {
   "_schema": "{category}",
   "_version": 1,
-  "_id": "{id}",
-  ... all fields ...
+  "_id": "{filename}",
+  ... all collected fields ...
 }
 EOF
 ```
 
-### Step 6: Validate, index, and commit
+### Step 5: Validate, index, and commit
 
 ```bash
-python3 {baseDir}/scripts/validate.py {baseDir}
-python3 {baseDir}/scripts/build_index.py {baseDir}
-cd {baseDir}
+cd $OPENBOOK_DIR
+python3 scripts/validate.py .
+python3 scripts/build_index.py .
 git add data/ _index.json
 git commit -m "Add {category} review: {title}"
-git push origin main 2>/dev/null || echo "Saved locally"
+git push origin main 2>/dev/null || echo "Saved locally. You can push later."
 ```
 
 ---
 
-## 4. Present Results
+## Present Results
 
 Format results as tables appropriate to the category:
 
@@ -181,13 +251,21 @@ Format results as tables appropriate to the category:
 | Food | Restaurant, Cuisine, Price/person, Rating, Taste |
 | Jobs | Company, Position, Difficulty, Result, Salary |
 
-After showing results, ask if the user wants details on any specific review.
+Always offer to show full details of any specific review.
 
 ---
 
-## 5. Add a New Category
+## Add a New Category
 
-1. Create `{baseDir}/schemas/{name}.yml` (copy an existing one as template)
-2. Define fields with types, constraints, and `agent_prompt`
-3. Create `mkdir {baseDir}/data/{name}`
-4. The skill automatically adapts — no other changes needed
+1. Create `$OPENBOOK_DIR/schemas/{name}.yml` following the existing schema format
+2. Create `mkdir -p $OPENBOOK_DIR/data/{name}`
+3. The skill automatically adapts to any new schema
+
+---
+
+## Links
+
+- Website: https://openbook.now
+- GitHub: https://github.com/josephliver623/OpenBook
+- npm MCP Server: `npx openbook-mcp`
+- Report issues: https://github.com/josephliver623/OpenBook/issues
