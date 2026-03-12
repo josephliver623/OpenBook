@@ -1,0 +1,126 @@
+name: housing
+display_name: "租房评价"
+description: "分享你的租房体验，帮助他人找到理想住所"
+icon: "🏠"
+
+fields:
+  title:
+    type: string
+    required: true
+    description: "评价标题"
+    example: "东村一室一厅，安静但贵"
+    agent_prompt: "请用一句话概括你的租房体验"
+
+  overall_rating:
+    type: number
+    required: true
+    min: 1
+    max: 5
+    step: 0.5
+    description: "总体评分"
+    agent_prompt: "总体来说你给这个房子打几分？1-5分"
+
+  address:
+    type: string
+    required: true
+    description: "大致地址（街道级别即可，无需门牌号）"
+    example: "E 10th St & 1st Ave, New York"
+    agent_prompt: "房子大概在什么位置？给个街道或交叉路口就行"
+
+  city:
+    type: string
+    required: true
+    description: "城市"
+    agent_prompt: "在哪个城市？"
+
+  neighborhood:
+    type: string
+    required: true
+    description: "社区/街区"
+    example: "East Village"
+    agent_prompt: "在哪个社区或街区？"
+
+  rent_monthly:
+    type: number
+    required: true
+    unit: "USD"
+    description: "月租金"
+    agent_prompt: "每月租金多少钱？"
+
+  bedrooms:
+    type: number
+    required: true
+    enum: [0, 1, 2, 3, 4]
+    labels: ["Studio", "1BR", "2BR", "3BR", "4BR+"]
+    description: "卧室数量（0=Studio）"
+    agent_prompt: "几室的？Studio 还是一室/两室？"
+
+  noise_level:
+    type: number
+    required: true
+    min: 1
+    max: 5
+    description: "噪音程度（1=非常安静，5=非常吵）"
+    agent_prompt: "噪音怎么样？1分非常安静，5分非常吵"
+
+  natural_light:
+    type: number
+    required: false
+    min: 1
+    max: 5
+    description: "采光（1=很暗，5=非常好）"
+    agent_prompt: "采光好吗？1-5分"
+
+  renovation:
+    type: string
+    required: true
+    enum: ["new", "good", "average", "old", "poor"]
+    labels: ["全新装修", "较新", "一般", "较旧", "很差"]
+    description: "装修状况"
+    agent_prompt: "装修情况怎么样？全新/较新/一般/较旧/很差"
+
+  landlord_rating:
+    type: number
+    required: true
+    min: 1
+    max: 5
+    description: "房东评分"
+    agent_prompt: "房东人怎么样？1-5分"
+
+  amenities:
+    type: list
+    required: false
+    options: ["laundry", "gym", "doorman", "elevator", "parking", "rooftop", "dishwasher", "ac", "heating", "pet_friendly"]
+    labels: ["洗衣", "健身房", "门卫", "电梯", "停车", "天台", "洗碗机", "空调", "暖气", "允许宠物"]
+    description: "配套设施"
+    agent_prompt: "有什么配套设施？比如洗衣、健身房、门卫、电梯等"
+
+  pros:
+    type: list
+    required: false
+    description: "优点列表"
+    agent_prompt: "你觉得这个房子最大的优点是什么？可以说几个"
+
+  cons:
+    type: list
+    required: false
+    description: "缺点列表"
+    agent_prompt: "有什么缺点吗？"
+
+  review_text:
+    type: text
+    required: false
+    description: "详细评价（自由文本）"
+    agent_prompt: "还有什么想补充的吗？可以自由发挥"
+
+  date:
+    type: date
+    required: true
+    auto: "today"
+    description: "发布日期"
+
+  author:
+    type: string
+    required: false
+    default: "anonymous"
+    description: "作者"

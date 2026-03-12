@@ -1,0 +1,104 @@
+name: jobs
+display_name: "求职面经"
+description: "分享面试经历，帮助求职者准备"
+icon: "💼"
+
+fields:
+  title:
+    type: string
+    required: true
+    description: "面经标题"
+    agent_prompt: "请用一句话概括这次面试经历"
+
+  company:
+    type: string
+    required: true
+    description: "公司名称"
+    agent_prompt: "哪家公司？"
+
+  position:
+    type: string
+    required: true
+    description: "申请职位"
+    agent_prompt: "申请的什么职位？"
+
+  city:
+    type: string
+    required: false
+    description: "工作城市"
+    agent_prompt: "工作地点在哪？"
+
+  overall_rating:
+    type: number
+    required: true
+    min: 1
+    max: 5
+    description: "面试体验评分"
+    agent_prompt: "面试体验怎么样？1-5分"
+
+  difficulty:
+    type: number
+    required: true
+    min: 1
+    max: 5
+    description: "面试难度（1=简单，5=很难）"
+    agent_prompt: "面试难度怎么样？1分很简单，5分很难"
+
+  result:
+    type: string
+    required: true
+    enum: ["offer", "reject", "pending", "ghosted", "withdrew"]
+    labels: ["拿到Offer", "被拒", "等待中", "没消息了", "主动放弃"]
+    description: "面试结果"
+    agent_prompt: "最终结果是？拿到offer了吗？"
+
+  salary_range:
+    type: string
+    required: false
+    description: "薪资范围"
+    example: "$150k-$180k"
+    agent_prompt: "方便透露薪资范围吗？"
+
+  interview_rounds:
+    type: number
+    required: true
+    description: "面试轮数"
+    agent_prompt: "一共几轮面试？"
+
+  interview_types:
+    type: list
+    required: false
+    options: ["phone_screen", "technical", "behavioral", "system_design", "coding", "take_home", "onsite", "panel"]
+    labels: ["电话筛选", "技术面", "行为面", "系统设计", "编程题", "笔试", "现场面", "群面"]
+    description: "面试类型"
+    agent_prompt: "包含哪些类型的面试？"
+
+  timeline_days:
+    type: number
+    required: false
+    description: "从投递到结果的天数"
+    agent_prompt: "从投递到出结果大概多久？"
+
+  tips:
+    type: list
+    required: false
+    description: "给后来者的建议"
+    agent_prompt: "有什么建议给后面面试的人吗？"
+
+  review_text:
+    type: text
+    required: false
+    description: "详细面经"
+    agent_prompt: "详细说说面试过程？"
+
+  date:
+    type: date
+    required: true
+    auto: "today"
+    description: "发布日期"
+
+  author:
+    type: string
+    required: false
+    default: "anonymous"
+    description: "作者"

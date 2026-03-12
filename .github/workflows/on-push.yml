@@ -1,0 +1,40 @@
+name: Validate & Build Index
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'schemas/**'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'schemas/**'
+
+jobs:
+  validate-and-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate all reviews
+        run: python3 scripts/validate.py .
+
+      - name: Build index
+        run: python3 scripts/build_index.py .
+
+      - name: Commit updated index
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "openbook-bot"
+          git config user.email "bot@openbook.community"
+          git add _index.json
+          git diff --cached --quiet || git commit -m "chore: rebuild index [skip ci]"
+          git push
