@@ -116,5 +116,18 @@
       "file": "data/jobs/20260308-google-swe-l4.md"
     }
   ],
-  "signals": []
+  "signals": [
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-13-KzVuF0e0Uw",
+      "target_name": "t9",
+      "target_category": "food",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-13",
+      "severity": "info",
+      "content": "今天在环贸IAPM喝了一个t9的陈皮普洱，价格68，味道还不错，环境也还不错。",
+      "file": "data/signals/2026-03-13-KzVuF0e0Uw.md"
+    }
+  ]
 }
