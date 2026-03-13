@@ -2,6 +2,15 @@ name: jobs
 display_name: "求职面经"
 description: "分享面试经历，帮助求职者准备"
 icon: "💼"
+schema_url: "openbook/jobs/v1"
+version: 1
+
+agent_meta:
+  primary_use: "搜索和比较海外华人求职面试经验"
+  query_by: ["company", "position", "city", "difficulty", "result", "overall_rating"]
+  trust_level: "community_self_reported"
+  freshness_note: "面经超过6个月可能已过时（面试流程可能变化）"
+  limitations: "数据为用户自行上报；薪资范围为自述，可能不精确"
 
 fields:
   title:
@@ -14,18 +23,21 @@ fields:
     type: string
     required: true
     description: "公司名称"
+    intent: "entity_identifier"
     agent_prompt: "哪家公司？"
 
   position:
     type: string
     required: true
     description: "申请职位"
+    intent: "position_filter"
     agent_prompt: "申请的什么职位？"
 
   city:
     type: string
     required: false
     description: "工作城市"
+    intent: "geographic_filter"
     agent_prompt: "工作地点在哪？"
 
   overall_rating:
@@ -34,6 +46,8 @@ fields:
     min: 1
     max: 5
     description: "面试体验评分"
+    intent: "subjective_satisfaction_score"
+    context: "对面试流程的整体满意度，非公司好坏"
     agent_prompt: "面试体验怎么样？1-5分"
 
   difficulty:
@@ -42,6 +56,8 @@ fields:
     min: 1
     max: 5
     description: "面试难度（1=简单，5=很难）"
+    intent: "difficulty_assessment"
+    context: "1=简单 5=很难，帮助求职者评估准备量"
     agent_prompt: "面试难度怎么样？1分很简单，5分很难"
 
   result:
@@ -50,6 +66,7 @@ fields:
     enum: ["offer", "reject", "pending", "ghosted", "withdrew"]
     labels: ["拿到Offer", "被拒", "等待中", "没消息了", "主动放弃"]
     description: "面试结果"
+    intent: "outcome_filter"
     agent_prompt: "最终结果是？拿到offer了吗？"
 
   salary_range:
@@ -57,12 +74,15 @@ fields:
     required: false
     description: "薪资范围"
     example: "$150k-$180k"
+    intent: "compensation_reference"
+    context: "自述薪资范围，可能不精确，仅供参考"
     agent_prompt: "方便透露薪资范围吗？"
 
   interview_rounds:
     type: number
     required: true
     description: "面试轮数"
+    intent: "process_complexity_indicator"
     agent_prompt: "一共几轮面试？"
 
   interview_types:
@@ -71,24 +91,32 @@ fields:
     options: ["phone_screen", "technical", "behavioral", "system_design", "coding", "take_home", "onsite", "panel"]
     labels: ["电话筛选", "技术面", "行为面", "系统设计", "编程题", "笔试", "现场面", "群面"]
     description: "面试类型"
+    intent: "process_detail_atoms"
+    context: "每种类型可独立用于筛选和统计"
     agent_prompt: "包含哪些类型的面试？"
 
   timeline_days:
     type: number
     required: false
     description: "从投递到结果的天数"
+    intent: "timeline_reference"
+    context: "帮助求职者预估等待时间"
     agent_prompt: "从投递到出结果大概多久？"
 
   tips:
     type: list
     required: false
     description: "给后来者的建议"
+    intent: "actionable_advice_atoms"
+    context: "每条是一个可独立引用的建议"
     agent_prompt: "有什么建议给后面面试的人吗？"
 
   review_text:
     type: text
     required: false
     description: "详细面经"
+    intent: "narrative_context"
+    context: "提供结构化字段无法覆盖的面试细节"
     agent_prompt: "详细说说面试过程？"
 
   date:
@@ -96,9 +124,11 @@ fields:
     required: true
     auto: "today"
     description: "发布日期"
+    intent: "freshness_indicator"
 
   author:
     type: string
     required: false
     default: "anonymous"
     description: "作者"
+    intent: "attribution"
