@@ -2,6 +2,16 @@ name: housing
 display_name: "租房评价"
 description: "分享你的租房体验，帮助他人找到理想住所"
 icon: "🏠"
+schema_url: "openbook/housing/v1"
+version: 1
+
+# Agent instructions for this schema
+agent_meta:
+  primary_use: "搜索和比较海外华人租房经验"
+  query_by: ["city", "neighborhood", "rent_monthly", "bedrooms", "noise_level", "overall_rating"]
+  trust_level: "community_self_reported"
+  freshness_note: "评价超过1年可能已过时（租金、房东可能变化）"
+  limitations: "数据为用户自行上报，未经官方验证；租金不含水电除非特别说明"
 
 fields:
   title:
@@ -18,6 +28,8 @@ fields:
     max: 5
     step: 0.5
     description: "总体评分"
+    intent: "subjective_satisfaction_score"
+    context: "1=非常差 5=非常好，综合考虑性价比、居住体验"
     agent_prompt: "总体来说你给这个房子打几分？1-5分"
 
   address:
@@ -25,12 +37,16 @@ fields:
     required: true
     description: "大致地址（街道级别即可，无需门牌号）"
     example: "E 10th St & 1st Ave, New York"
+    intent: "location_identifier"
+    context: "精度为街道/交叉路口级别，非精确门牌号，用于定位社区"
     agent_prompt: "房子大概在什么位置？给个街道或交叉路口就行"
 
   city:
     type: string
     required: true
     description: "城市"
+    intent: "geographic_filter"
+    context: "用于城市级别筛选"
     agent_prompt: "在哪个城市？"
 
   neighborhood:
@@ -38,6 +54,8 @@ fields:
     required: true
     description: "社区/街区"
     example: "East Village"
+    intent: "geographic_filter"
+    context: "精度为街区/社区级别，用于区域比较"
     agent_prompt: "在哪个社区或街区？"
 
   rent_monthly:
@@ -45,6 +63,8 @@ fields:
     required: true
     unit: "USD"
     description: "月租金"
+    intent: "monthly_rent_usd"
+    context: "不含水电费，除非 review_text 中特别说明"
     agent_prompt: "每月租金多少钱？"
 
   bedrooms:
@@ -53,6 +73,7 @@ fields:
     enum: [0, 1, 2, 3, 4]
     labels: ["Studio", "1BR", "2BR", "3BR", "4BR+"]
     description: "卧室数量（0=Studio）"
+    intent: "room_count_filter"
     agent_prompt: "几室的？Studio 还是一室/两室？"
 
   noise_level:
@@ -61,6 +82,8 @@ fields:
     min: 1
     max: 5
     description: "噪音程度（1=非常安静，5=非常吵）"
+    intent: "noise_assessment"
+    context: "主观评估，1=非常安静 5=非常吵，可用于筛选安静住所"
     agent_prompt: "噪音怎么样？1分非常安静，5分非常吵"
 
   natural_light:
@@ -69,6 +92,7 @@ fields:
     min: 1
     max: 5
     description: "采光（1=很暗，5=非常好）"
+    intent: "light_assessment"
     agent_prompt: "采光好吗？1-5分"
 
   renovation:
@@ -77,6 +101,7 @@ fields:
     enum: ["new", "good", "average", "old", "poor"]
     labels: ["全新装修", "较新", "一般", "较旧", "很差"]
     description: "装修状况"
+    intent: "condition_category"
     agent_prompt: "装修情况怎么样？全新/较新/一般/较旧/很差"
 
   landlord_rating:
@@ -85,6 +110,8 @@ fields:
     min: 1
     max: 5
     description: "房东评分"
+    intent: "landlord_satisfaction_score"
+    context: "综合考虑响应速度、维修态度、沟通方式"
     agent_prompt: "房东人怎么样？1-5分"
 
   amenities:
@@ -93,24 +120,32 @@ fields:
     options: ["laundry", "gym", "doorman", "elevator", "parking", "rooftop", "dishwasher", "ac", "heating", "pet_friendly"]
     labels: ["洗衣", "健身房", "门卫", "电梯", "停车", "天台", "洗碗机", "空调", "暖气", "允许宠物"]
     description: "配套设施"
+    intent: "amenity_filter"
+    context: "可用于布尔筛选，如 pet_friendly=true"
     agent_prompt: "有什么配套设施？比如洗衣、健身房、门卫、电梯等"
 
   pros:
     type: list
     required: false
     description: "优点列表"
+    intent: "positive_experience_atoms"
+    context: "每条是一个可独立引用的正面事实"
     agent_prompt: "你觉得这个房子最大的优点是什么？可以说几个"
 
   cons:
     type: list
     required: false
     description: "缺点列表"
+    intent: "negative_experience_atoms"
+    context: "每条是一个可独立引用的负面事实或警告"
     agent_prompt: "有什么缺点吗？"
 
   review_text:
     type: text
     required: false
     description: "详细评价（自由文本）"
+    intent: "narrative_context"
+    context: "提供结构化字段无法覆盖的上下文信息，Agent 可从中提取额外语义"
     agent_prompt: "还有什么想补充的吗？可以自由发挥"
 
   date:
@@ -118,9 +153,11 @@ fields:
     required: true
     auto: "today"
     description: "发布日期"
+    intent: "freshness_indicator"
 
   author:
     type: string
     required: false
     default: "anonymous"
     description: "作者"
+    intent: "attribution"
