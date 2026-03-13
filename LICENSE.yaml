@@ -1,0 +1,29 @@
+# OpenBook Data License & Permission Declaration
+# This file declares the access and usage rights for all data in this repository.
+
+license:
+  name: "CC BY-NC-SA 4.0"
+  url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+
+permissions:
+  access: public
+  usage:
+    - ai_readable        # AI Agents may read and process this data
+    - aggregatable       # Data may be aggregated for analysis
+    - searchable         # Data may be indexed for search
+  attribution: required  # Must credit "OpenBook (openbook.now)" when using
+  commercial: prohibited # Commercial use is not allowed without permission
+  modification: allowed  # Data may be adapted with attribution
+
+agent_permissions:
+  read: true
+  query: true
+  cite: true             # Agent may cite data with attribution
+  aggregate: true        # Agent may aggregate across entries
+  redistribute: false    # Agent may not redistribute raw data
+  train: false           # Data may not be used for model training
+
+contact:
+  project: "OpenBook"
+  url: "https://openbook.now"
+  github: "https://github.com/josephliver623/OpenBook"
