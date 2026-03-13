@@ -1,0 +1,43 @@
+---
+_schema: openbook/jobs/v1
+_version: 1
+_id: 20260301-stripe-swe
+title: Stripe SWE 面经，难度较高但体验好
+company: Stripe
+position: Software Engineer
+city: San Francisco
+overall_rating: 5
+difficulty: 5
+result: reject
+salary_range: $170k-$200k base
+interview_rounds: 4
+interview_types:
+  - "phone_screen"
+  - "coding"
+  - "system_design"
+  - "behavioral"
+timeline_days: 30
+date: 2026-03-01
+author: anonymous
+_confidence: 0.9
+_source: user_report
+_verified: false
+_access: public
+_usage:
+  - "ai_readable"
+  - "aggregatable"
+_attribution: required
+---
+
+# Stripe SWE 面经，难度较高但体验好
+
+## 建议
+
+- Stripe的coding面非常注重代码质量，不只是能跑就行
+- 系统设计会深入追问，准备好trade-off分析
+- 建议了解Stripe的产品和支付领域知识
+- 即使被拒体验也很好，面试官会给详细反馈
+
+## 详细评价
+
+Stripe的面试是我经历过最专业的。4轮面试：电话筛选聊项目经历，2轮coding（一轮偏算法一轮偏工程实现），1轮系统设计（设计支付系统的某个模块）。难度确实高，coding不仅要求正确还要求代码整洁、有测试意识。虽然最终被拒了，但面试官给了很详细的反馈，说系统设计环节的trade-off分析不够深入。整体体验5分，推荐大家尝试。
