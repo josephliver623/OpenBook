@@ -1,130 +1,93 @@
-[
-  {
-    "_schema": "food",
-    "_version": 1,
-    "_id": "20260310-bashu-zhenwei-hotpot",
-    "title": "法拉盛巴蜀真味火锅，正宗川味",
-    "restaurant_name": "巴蜀真味",
-    "overall_rating": 4.5,
-    "cuisine": "川菜/火锅",
-    "city": "New York",
-    "neighborhood": "Flushing",
-    "address": "136-20 Roosevelt Ave",
-    "price_per_person": 35,
-    "taste_rating": 5,
-    "service_rating": 4,
-    "environment_rating": 3,
-    "wait_time_minutes": 20,
-    "date": "2026-03-10",
-    "author": "foodie_nyc"
-  },
-  {
-    "_schema": "housing",
-    "_version": 1,
-    "_id": "20260310-east-village-1br-quiet",
-    "title": "东村一室一厅，安静但贵",
-    "overall_rating": 4,
-    "address": "E 10th St & 1st Ave",
-    "city": "New York",
-    "neighborhood": "East Village",
-    "rent_monthly": 2500,
-    "bedrooms": 1,
-    "noise_level": 2,
-    "natural_light": 4,
-    "renovation": "good",
-    "landlord_rating": 4,
-    "amenities": [
-      "elevator",
-      "laundry",
-      "heating"
+{
+  "$schema": "https://openbook.now/schema/v1",
+  "$agent_instructions": {
+    "primary_use": "搜索海外华人生活经验（租房、餐厅、求职面试）",
+    "data_format": "Markdown files with YAML frontmatter in data/{category}/ directories",
+    "query_by": [
+      "city",
+      "category",
+      "tags",
+      "any structured field in YAML frontmatter"
     ],
-    "date": "2026-03-10",
-    "author": "anonymous"
-  },
-  {
-    "_schema": "food",
-    "_version": 1,
-    "_id": "20260308-sushi-nakazawa",
-    "title": "Sushi Nakazawa omakase，值得一试",
-    "restaurant_name": "Sushi Nakazawa",
-    "overall_rating": 5,
-    "cuisine": "日料/寿司",
-    "city": "New York",
-    "neighborhood": "West Village",
-    "address": "23 Commerce St",
-    "price_per_person": 150,
-    "taste_rating": 5,
-    "service_rating": 5,
-    "environment_rating": 5,
-    "wait_time_minutes": 0,
-    "date": "2026-03-08",
-    "author": "anonymous"
-  },
-  {
-    "_schema": "jobs",
-    "_version": 1,
-    "_id": "20260308-google-swe-l4",
-    "title": "Google SWE L4 面经，4轮技术面",
-    "company": "Google",
-    "position": "Software Engineer L4",
-    "city": "Mountain View",
-    "overall_rating": 4,
-    "difficulty": 4,
-    "result": "offer",
-    "salary_range": "$180k-$210k base + RSU",
-    "interview_rounds": 5,
-    "interview_types": [
-      "phone_screen",
-      "coding",
-      "system_design",
-      "behavioral"
+    "trust_level": "community_self_reported",
+    "freshness": "posts older than 1 year may be outdated",
+    "limitations": "data is self-reported by community members, not officially verified",
+    "how_to_use": [
+      "Each .md file in data/{category}/ is one review",
+      "YAML frontmatter contains structured, queryable fields",
+      "Markdown body contains narrative context for semantic understanding",
+      "Use frontmatter fields for precise filtering (city, rating, price, etc.)",
+      "Use markdown body for context when structured fields are insufficient",
+      "Schema definitions are in schemas/{category}.yml",
+      "Fields with 'intent' describe what the data means for decision-making",
+      "Fields with 'context' describe usage caveats"
     ],
-    "timeline_days": 45,
-    "date": "2026-03-08",
-    "author": "cs_grad_2026"
+    "available_schemas": [
+      {
+        "name": "housing",
+        "url": "openbook/housing/v1",
+        "description": "租房评价"
+      },
+      {
+        "name": "food",
+        "url": "openbook/food/v1",
+        "description": "餐厅评价"
+      },
+      {
+        "name": "jobs",
+        "url": "openbook/jobs/v1",
+        "description": "求职面经"
+      }
+    ]
   },
-  {
-    "_schema": "housing",
-    "_version": 1,
-    "_id": "20260305-soma-studio-noisy",
-    "title": "SoMa Studio，便宜但吵",
-    "overall_rating": 2.5,
-    "address": "5th St & Mission St",
-    "city": "San Francisco",
-    "neighborhood": "SoMa",
-    "rent_monthly": 1800,
-    "bedrooms": 0,
-    "noise_level": 5,
-    "natural_light": 2,
-    "renovation": "old",
-    "landlord_rating": 2,
-    "amenities": [
-      "laundry"
-    ],
-    "date": "2026-03-05",
-    "author": "sf_renter_2026"
-  },
-  {
-    "_schema": "jobs",
-    "_version": 1,
-    "_id": "20260301-stripe-swe",
-    "title": "Stripe SWE 面经，难度较高但体验好",
-    "company": "Stripe",
-    "position": "Software Engineer",
-    "city": "San Francisco",
-    "overall_rating": 5,
-    "difficulty": 5,
-    "result": "reject",
-    "salary_range": "$170k-$200k base",
-    "interview_rounds": 4,
-    "interview_types": [
-      "phone_screen",
-      "coding",
-      "system_design",
-      "behavioral"
-    ],
-    "timeline_days": 30,
-    "date": "2026-03-01",
-    "author": "anonymous"
-  }
-]
+  "posts": [
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "20260305-soma-studio-noisy",
+      "title": "SoMa Studio，便宜但吵",
+      "city": "San Francisco",
+      "date": "2026-03-05",
+      "file": "data/housing/20260305-soma-studio-noisy.md"
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "20260310-east-village-1br-quiet",
+      "title": "东村一室一厅，安静但贵",
+      "city": "New York",
+      "date": "2026-03-10",
+      "file": "data/housing/20260310-east-village-1br-quiet.md"
+    },
+    {
+      "_schema": "openbook/food/v1",
+      "_id": "20260308-sushi-nakazawa",
+      "title": "Sushi Nakazawa omakase，值得一试",
+      "city": "New York",
+      "date": "2026-03-08",
+      "file": "data/food/20260308-sushi-nakazawa.md"
+    },
+    {
+      "_schema": "openbook/food/v1",
+      "_id": "20260310-bashu-zhenwei-hotpot",
+      "title": "法拉盛巴蜀真味火锅，正宗川味",
+      "city": "New York",
+      "date": "2026-03-10",
+      "file": "data/food/20260310-bashu-zhenwei-hotpot.md"
+    },
+    {
+      "_schema": "openbook/jobs/v1",
+      "_id": "20260301-stripe-swe",
+      "title": "Stripe SWE 面经，难度较高但体验好",
+      "city": "San Francisco",
+      "date": "2026-03-01",
+      "file": "data/jobs/20260301-stripe-swe.md"
+    },
+    {
+      "_schema": "openbook/jobs/v1",
+      "_id": "20260308-google-swe-l4",
+      "title": "Google SWE L4 面经，4轮技术面",
+      "city": "Mountain View",
+      "date": "2026-03-08",
+      "file": "data/jobs/20260308-google-swe-l4.md"
+    }
+  ]
+}
