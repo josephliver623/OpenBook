@@ -1,0 +1,44 @@
+---
+_schema: openbook/jobs/v1
+_version: 1
+_id: 20260308-google-swe-l4
+title: Google SWE L4 面经，4轮技术面
+company: Google
+position: Software Engineer L4
+city: Mountain View
+overall_rating: 4
+difficulty: 4
+result: offer
+salary_range: $180k-$210k base + RSU
+interview_rounds: 5
+interview_types:
+  - "phone_screen"
+  - "coding"
+  - "system_design"
+  - "behavioral"
+timeline_days: 45
+date: 2026-03-08
+author: cs_grad_2026
+_confidence: 0.9
+_source: user_report
+_verified: false
+_access: public
+_usage:
+  - "ai_readable"
+  - "aggregatable"
+_attribution: required
+---
+
+# Google SWE L4 面经，4轮技术面
+
+## 建议
+
+- LeetCode medium 难度刷够200题基本够用
+- 系统设计推荐看 System Design Interview 这本书
+- 行为面准备好 STAR 格式的故事
+- 面试官很友好，不懂就问，他们会给提示
+- Google 流程比较慢，要有耐心
+
+## 详细评价
+
+一共5轮：1轮电话筛选 + 4轮现场面（2轮coding + 1轮系统设计 + 1轮行为面）。Coding题目是LeetCode medium到hard之间的难度，一道图相关，一道动态规划。系统设计让设计一个类似Google Docs的协作编辑系统。行为面问了团队冲突和技术决策的经历。整体体验不错，面试官都很专业。从投递到拿offer大概45天，HC审批比较慢。
