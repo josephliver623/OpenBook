@@ -222,6 +222,68 @@ The result is instant, precise, and complete — because every review is structu
 
 ---
 
+## Signals: Real-time Atomic Updates | 信号：实时原子更新
+
+**Reviews tell you what a place is like. Signals tell you what just changed.**
+
+传统评价是一次性的快照。但现实世界每天都在变化——咖啡馆换了咖啡师、餐厅涨了价、公寓楼下开始施工。这些琐碎但关键的变化，正是 Agent 做决策时最需要的信息。
+
+Traditional reviews are one-time snapshots. But the real world changes daily — a café gets a new barista, a restaurant raises prices, construction starts outside an apartment. These small but critical changes are exactly what Agents need for decision-making.
+
+### What is a Signal? | 什么是 Signal？
+
+A Signal is an **atomic, time-stamped observation** — a single fact about a change or discovery:
+
+```
+Review:  "这家咖啡馆整体不错，手冲水平高，环境安静" （写一次）
+Signal:  "2026-03-10 换了新的耶加雪菲，偏果酸"      （随时追加）
+Signal:  "2026-03-13 周四下午人很少，适合办公"        （随时追加）
+Signal:  "2026-03-15 美式从 ¥28 涨到 ¥32"            （随时追加）
+```
+
+### Signal Types | 信号类型
+
+| Type | 中文 | Example |
+|------|------|---------|
+| `price_change` | 价格变动 | "美式从 ¥28 涨到 ¥32" |
+| `staff_change` | 人员变动 | "换了新咖啡师，拉花水平提升" |
+| `menu_change` | 菜单变动 | "新增了燕麦拿铁" |
+| `quality_change` | 品质变化 | "最近出品不太稳定" |
+| `hours_change` | 营业时间 | "周末改为 10:00 开门" |
+| `address_change` | 地址变更 | "搬到隔壁门面，门牌号变了" |
+| `closure` | 关店 | "暂停营业装修中" |
+| `opening` | 新开 | "愚园路新开了一家精品咖啡" |
+| `tip` | 小贴士 | "周三下午有买一送一" |
+| `warning` | 警告 | "卫生状况下降，注意" |
+| `update` | 一般更新 | "WiFi 密码改了" |
+
+### Why Signals Matter for Agents | 为什么 Signal 对 Agent 重要
+
+```
+Agent 查询: "上海愚园路附近有好的咖啡馆吗？"
+
+传统方式: 返回 6 个月前的评价 → 可能已经过时
+OpenBook: 返回评价 + 最近 30 天的 Signals → 实时准确
+
+Agent 看到:
+  Review: "Seesaw Coffee 手冲不错，4.5/5" (2025-12)
+  Signal: "换了新咖啡师，拉花水平提升" (2026-03-10) ← 最新变化
+  Signal: "美式涨价到 ¥32" (2026-03-15) ← 价格更新
+```
+
+Signals are the **heartbeat** of OpenBook — they keep data alive and current.
+Signal 是 OpenBook 的**心跳** —— 让数据保持鲜活和准确。
+
+### Contributing Signals | 贡献 Signal
+
+Signals are designed to be ultra-low-friction. You can contribute a Signal in one sentence:
+
+> "Seesaw 愚园路店换了新豆子，花香很重"
+
+That's it. The system extracts the structured fields automatically.
+
+---
+
 ## Add Custom Categories | 添加自定义分类
 
 ```bash
@@ -275,10 +337,11 @@ openbook-template (this repo)
 │   ├── housing.yml           # Housing review schema
 │   ├── food.yml              # Restaurant review schema
 │   └── jobs.yml              # Job interview schema
-├── data/                     # Review data (JSON files)
+├── data/                     # Review & Signal data (Markdown files)
 │   ├── housing/
 │   ├── food/
-│   └── jobs/
+│   ├── jobs/
+│   └── signals/              # Real-time atomic signals
 ├── _index.json               # Global index (auto-generated)
 ├── assets/                   # Project assets
 │   └── logo.png              # OpenBook logo
