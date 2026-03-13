@@ -38,7 +38,33 @@
         "url": "openbook/jobs/v1",
         "description": "求职面经"
       }
-    ]
+    ],
+    "signal_support": {
+      "description": "OpenBook supports real-time Signals — atomic observations that complement Reviews",
+      "signal_schema": "openbook/signal/v1",
+      "signal_types": [
+        "price_change",
+        "staff_change",
+        "menu_change",
+        "quality_change",
+        "hours_change",
+        "address_change",
+        "closure",
+        "opening",
+        "tip",
+        "warning",
+        "update"
+      ],
+      "query_signals_by": [
+        "target_name",
+        "target_category",
+        "signal_type",
+        "city",
+        "date"
+      ],
+      "freshness_rule": "Signals older than 30 days have reduced reliability. Always check date.",
+      "relationship_to_reviews": "Signals update and supplement Reviews. A Review is a snapshot; Signals track changes over time."
+    }
   },
   "posts": [
     {
@@ -89,5 +115,6 @@
       "date": "2026-03-08",
       "file": "data/jobs/20260308-google-swe-l4.md"
     }
-  ]
+  ],
+  "signals": []
 }
