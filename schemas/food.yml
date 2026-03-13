@@ -2,6 +2,15 @@ name: food
 display_name: "餐厅评价"
 description: "分享你的美食体验"
 icon: "🍜"
+schema_url: "openbook/food/v1"
+version: 1
+
+agent_meta:
+  primary_use: "搜索和比较海外华人餐厅体验"
+  query_by: ["city", "cuisine", "price_per_person", "taste_rating", "overall_rating"]
+  trust_level: "community_self_reported"
+  freshness_note: "评价超过6个月可能已过时（菜单、价格可能变化）"
+  limitations: "数据为用户自行上报；价格为人均消费(USD)，不含小费"
 
 fields:
   title:
@@ -14,6 +23,7 @@ fields:
     type: string
     required: true
     description: "餐厅名称"
+    intent: "entity_identifier"
     agent_prompt: "餐厅叫什么名字？"
 
   overall_rating:
@@ -23,6 +33,8 @@ fields:
     max: 5
     step: 0.5
     description: "总体评分"
+    intent: "subjective_satisfaction_score"
+    context: "综合口味、服务、环境、性价比"
     agent_prompt: "总体打几分？1-5分"
 
   cuisine:
@@ -30,24 +42,28 @@ fields:
     required: true
     description: "菜系"
     example: "川菜"
+    intent: "cuisine_category_filter"
     agent_prompt: "什么菜系？"
 
   city:
     type: string
     required: true
     description: "城市"
+    intent: "geographic_filter"
     agent_prompt: "在哪个城市？"
 
   neighborhood:
     type: string
     required: false
     description: "区域"
+    intent: "geographic_filter"
     agent_prompt: "在哪个区域？"
 
   address:
     type: string
     required: false
     description: "地址"
+    intent: "location_identifier"
     agent_prompt: "具体地址是？"
 
   price_per_person:
@@ -55,6 +71,8 @@ fields:
     required: true
     unit: "USD"
     description: "人均消费"
+    intent: "price_filter_usd"
+    context: "人均消费(USD)，不含小费和税"
     agent_prompt: "人均大概多少钱？"
 
   taste_rating:
@@ -63,6 +81,7 @@ fields:
     min: 1
     max: 5
     description: "口味评分"
+    intent: "taste_quality_score"
     agent_prompt: "口味怎么样？1-5分"
 
   service_rating:
@@ -71,6 +90,7 @@ fields:
     min: 1
     max: 5
     description: "服务评分"
+    intent: "service_quality_score"
     agent_prompt: "服务态度怎么样？1-5分"
 
   environment_rating:
@@ -79,30 +99,37 @@ fields:
     min: 1
     max: 5
     description: "环境评分"
+    intent: "environment_quality_score"
     agent_prompt: "用餐环境怎么样？1-5分"
 
   wait_time_minutes:
     type: number
     required: false
     description: "等位时间（分钟）"
+    intent: "wait_time_indicator"
+    context: "0表示无需等位"
     agent_prompt: "需要等位吗？大概等多久？"
 
   must_try:
     type: list
     required: false
     description: "推荐菜品"
+    intent: "positive_experience_atoms"
     agent_prompt: "有什么推荐的菜吗？"
 
   avoid:
     type: list
     required: false
     description: "不推荐的菜"
+    intent: "negative_experience_atoms"
     agent_prompt: "有什么踩雷的菜吗？"
 
   review_text:
     type: text
     required: false
     description: "详细评价"
+    intent: "narrative_context"
+    context: "提供结构化字段无法覆盖的上下文信息"
     agent_prompt: "还有什么想补充的吗？"
 
   date:
@@ -110,9 +137,11 @@ fields:
     required: true
     auto: "today"
     description: "发布日期"
+    intent: "freshness_indicator"
 
   author:
     type: string
     required: false
     default: "anonymous"
     description: "作者"
+    intent: "attribution"
