@@ -198,3 +198,44 @@ To add a new review category to this OpenBook instance:
 2. Follow the format of existing schemas (see housing.yml as reference)
 3. Create the data directory: `mkdir {baseDir}/data/{name}`
 4. The skill automatically adapts to new schemas — no other changes needed.
+
+
+## Signals — Real-time Atomic Updates
+
+In addition to Reviews, OpenBook supports **Signals** — lightweight, time-stamped observations about changes.
+
+### When to use Signals (instead of Reviews)
+- A price changed
+- Staff/chef/barista changed
+- Menu updated
+- Business hours changed
+- A place closed or relocated
+- Any quick tip or warning
+
+### Signal Schema
+Signal files are stored in `data/signals/` and follow `schemas/signal.yml`.
+
+### Submitting a Signal
+To submit a signal, create a Markdown file with YAML frontmatter:
+
+```markdown
+---
+target_name: "Restaurant Name"
+target_category: food
+city: Shanghai
+signal_type: price_change
+content: "Lunch set increased from ¥45 to ¥55"
+severity: notable
+date: 2026-03-14
+---
+
+# Restaurant Name — Price Change
+
+Lunch set increased from ¥45 to ¥55.
+```
+
+### Querying Signals
+When a user asks about a place, always check for recent Signals in addition to Reviews:
+1. Search `_index.json` → `signals` array for matching `target_name` or `target_category`
+2. Prioritize signals from the last 30 days
+3. Combine Review data with Signal updates for the most current picture
