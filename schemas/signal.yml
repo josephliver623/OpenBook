@@ -1,100 +1,174 @@
-# Signal Schema — Atomic real-time experience fragments
-# Signals are lightweight, time-stamped observations that complement Reviews.
-# A Review is a comprehensive summary; a Signal is a single atomic fact.
-#
-# Schema URL: openbook/signal/v1
+# OpenBook Signal Schema v1.1
+# Lightweight, time-sensitive data fragments for Agent consumption
+# Schema URL: openbook/signal/v1.1
 
 name: signal
-display_name: "实时信号 / Real-time Signals"
-description: "原子化的实时经验碎片。比完整评价更轻量、更及时、更易贡献。"
-icon: "⚡"
-schema_url: openbook/signal/v1
-version: 1
+version: "1.1"
+description: >
+  Atomic, time-sensitive information fragments about a specific place or service.
+  Unlike Reviews (comprehensive evaluations), Signals capture real-time changes,
+  tips, and observations that help Agents make up-to-date decisions.
 
-agent_meta:
-  primary_use: "Track real-time changes and atomic observations about places and services"
-  query_by:
-    - target_name
-    - target_category
-    - signal_type
-    - city
-    - date
-  trust_level: community_reported
-  freshness_note: "Signals are time-sensitive. Prioritize recent signals (< 30 days)."
-  limitations: "Single observations, not comprehensive reviews. Cross-reference with Reviews for full picture."
+agent_instructions:
+  primary_use: "Track real-time changes and micro-observations about places"
+  query_patterns:
+    - "What changed recently at [place]?"
+    - "Any warnings about [place] in [district]?"
+    - "Latest price updates for [subcategory] in [city]"
+    - "Find [subcategory] recommendations in [district]"
+  trust_model: "community_reported, not officially verified"
+  freshness: "Signals older than 3 months should be treated with lower confidence"
 
 fields:
+  # ─── Core identification ───
   target_name:
     type: string
     required: true
-    description: "被观察的目标名称（餐厅名、公寓名、公司名等）"
-    agent_prompt: "你在说哪个地方？"
-    intent: "Identifies the subject of the observation"
-    example: "Seesaw Coffee 愚园路店"
+    description: "Full name of the place or service (brand + branch if applicable)"
+    intent: "Uniquely identify the target for cross-referencing"
+    examples: ["T9 Premium Tea 环贸IAPM店", "Seesaw Coffee 愚园路店"]
 
   target_category:
-    type: string
+    type: enum
     required: true
-    description: "目标所属分类"
-    enum: [housing, food, jobs, other]
-    labels: [租房, 美食, 求职, 其他]
-    agent_prompt: "这是关于什么类别的？"
-    intent: "Links signal to the correct review category for cross-referencing"
+    values: [housing, food, jobs, other]
+    description: "Primary category for routing"
+    intent: "Top-level classification for Agent query routing"
 
+  subcategory:
+    type: string
+    required: false
+    description: "Fine-grained category for precise matching"
+    intent: "Enable queries like 'find tea shops' or 'find hotpot restaurants'"
+    examples: ["tea", "coffee", "hotpot", "ramen", "bakery", "co-working"]
+
+  # ─── Location (multi-precision) ───
   city:
     type: string
     required: true
-    description: "城市"
-    agent_prompt: "在哪个城市？"
-    example: "Shanghai"
+    description: "City name in English"
+    intent: "Top-level geographic filter"
+    examples: ["Shanghai", "New York", "Tokyo"]
+
+  district:
+    type: string
+    required: false
+    description: "Administrative district within the city"
+    intent: "Enable district-level queries like 'in Xuhui' or 'in Jing'an'"
+    examples: ["徐汇区", "静安区", "黄浦区", "长宁区", "浦东新区"]
 
   neighborhood:
     type: string
     required: false
-    description: "具体区域/街区"
-    agent_prompt: "具体在哪个区域？"
-    example: "长宁区愚园路"
+    description: "Specific neighborhood, commercial area, or landmark"
+    intent: "Precise location context for nearby searches"
+    examples: ["淮海中路", "愚园路", "法租界", "新天地", "陆家嘴"]
 
-  signal_type:
+  address:
     type: string
+    required: false
+    description: "Full street address if known"
+    intent: "Exact location for navigation and deduplication"
+    examples: ["淮海中路999号环贸IAPM商场L1层"]
+
+  # ─── Signal content ───
+  signal_type:
+    type: enum
     required: true
-    description: "信号类型——这条信息属于什么性质"
-    enum: [price_change, staff_change, menu_change, quality_change, hours_change, address_change, closure, opening, tip, warning, update]
-    labels: [价格变动, 人员变动, 菜单/产品变动, 品质变化, 营业时间变动, 地址变更, 关店, 新开, 小贴士, 警告, 一般更新]
-    agent_prompt: "这是什么类型的变化？"
-    intent: "Categorizes the signal for precise filtering by Agents"
-    context: "Agents should use signal_type to determine relevance and urgency"
+    values: [price_change, staff_change, menu_change, quality_change, hours_change, address_change, closure, opening, tip, warning, update]
+    description: "What kind of change or observation this signal represents"
+    intent: "Filter signals by type for targeted Agent queries"
 
   content:
-    type: text
+    type: string
     required: true
-    description: "信号内容——用一两句话描述你观察到的变化"
-    agent_prompt: "具体发生了什么？"
-    intent: "The core observation in natural language"
-    example: "换了新的咖啡师，拉花水平明显提升，推荐试试dirty"
+    description: "The actual observation in natural language"
+    intent: "Human-readable description that provides full context"
 
   severity:
+    type: enum
+    required: false
+    values: [info, notable, critical]
+    default: info
+    description: "How impactful this signal is for decision-making"
+    intent: "Help Agents prioritize which signals to surface first"
+
+  # ─── Price information ───
+  price:
+    type: number
+    required: false
+    description: "Numeric price value"
+    intent: "Enable price comparison and range queries"
+    examples: [68, 35, 1450]
+
+  price_unit:
     type: string
     required: false
-    description: "影响程度"
-    enum: [info, notable, critical]
-    labels: [一般信息, 值得注意, 重要变化]
-    default: info
-    agent_prompt: "这个变化的影响大吗？"
-    intent: "Helps Agents prioritize which signals to surface"
+    description: "Currency code"
+    intent: "Disambiguate price currency for cross-city comparison"
+    examples: ["CNY", "USD", "JPY"]
+
+  price_context:
+    type: string
+    required: false
+    description: "What the price refers to"
+    intent: "Clarify price meaning for accurate comparison"
+    examples: ["per_person", "per_item", "monthly_rent", "total_bill_2_people"]
+
+  # ─── Evaluation ───
+  rating_info:
+    type: string
+    required: false
+    description: "Qualitative or quantitative rating"
+    intent: "Provide evaluation context without forcing numeric scores"
+    examples: ["味道不错，环境也好", "4/5", "highly recommended"]
+
+  recommendations:
+    type: array
+    items: string
+    required: false
+    description: "Specific items or aspects worth trying"
+    intent: "Enable 'what should I order' type queries"
+    examples: [["陈皮普洱", "桂花乌龙"], ["多宝鱼", "小炒肉"]]
+
+  warnings:
+    type: array
+    items: string
+    required: false
+    description: "Things to watch out for"
+    intent: "Proactive risk information for Agent decision-making"
+    examples: [["偏辣", "价格偏贵"], ["周末排队很长"]]
+
+  # ─── Metadata ───
+  tags:
+    type: array
+    items: string
+    required: false
+    description: "Free-form tags for flexible querying"
+    intent: "Catch-all for attributes not covered by structured fields"
 
   date:
-    type: date
-    required: true
-    description: "观察日期"
-    auto: today
-    agent_prompt: "你是什么时候注意到的？"
-    intent: "Timestamp for freshness ranking"
-    context: "Signals older than 30 days should be treated with lower confidence"
-
-  tags:
-    type: list
+    type: string
     required: false
-    description: "标签"
-    agent_prompt: "有什么关键词标签吗？"
-    example: ["咖啡", "新品", "涨价"]
+    format: "ISO 8601 datetime with timezone (YYYY-MM-DDTHH:mm:ss+HH:MM)"
+    description: "When this observation was made"
+    intent: "Time-based filtering and freshness assessment"
+
+  # ─── System metadata (auto-populated) ───
+  _confidence:
+    type: number
+    auto: true
+    description: "System-assigned confidence score (0-1)"
+    intent: "Help Agents weigh this signal against others"
+
+  _source:
+    type: string
+    auto: true
+    description: "How this signal was created"
+    values: ["user_report", "nlp_extraction", "agent_submission"]
+
+  _verified:
+    type: boolean
+    auto: true
+    default: false
+    description: "Whether this signal has been community-verified"
