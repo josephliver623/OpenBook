@@ -1,70 +1,33 @@
 {
   "$schema": "https://openbook.now/schema/v1",
   "$agent_instructions": {
-    "primary_use": "搜索海外华人生活经验（租房、餐厅、求职面试）",
-    "data_format": "Markdown files with YAML frontmatter in data/{category}/ directories",
+    "primary_use": "搜索海外华人及在华外国人的生活经验",
+    "data_types": {
+      "review": "Comprehensive evaluation of a place/service (detailed, written once)",
+      "signal": "Atomic, time-sensitive observation (lightweight, updated frequently)"
+    },
     "query_by": [
       "city",
+      "district",
       "category",
+      "subcategory",
       "tags",
-      "any structured field in YAML frontmatter"
+      "signal_type",
+      "price range",
+      "date range",
+      "meta fields"
     ],
-    "trust_level": "community_self_reported",
-    "freshness": "posts older than 1 year may be outdated",
-    "limitations": "data is self-reported by community members, not officially verified",
-    "how_to_use": [
-      "Each .md file in data/{category}/ is one review",
-      "YAML frontmatter contains structured, queryable fields",
-      "Markdown body contains narrative context for semantic understanding",
-      "Use frontmatter fields for precise filtering (city, rating, price, etc.)",
-      "Use markdown body for context when structured fields are insufficient",
-      "Schema definitions are in schemas/{category}.yml",
-      "Fields with 'intent' describe what the data means for decision-making",
-      "Fields with 'context' describe usage caveats"
+    "query_examples": [
+      "Find tea shops in Xuhui district, Shanghai",
+      "What changed recently at restaurants near 淮海中路?",
+      "Coffee shops under ¥50 per person in Jing'an",
+      "Any warnings about housing in Pudong?",
+      "Latest signals about [specific place]"
     ],
-    "available_schemas": [
-      {
-        "name": "housing",
-        "url": "openbook/housing/v1",
-        "description": "租房评价"
-      },
-      {
-        "name": "food",
-        "url": "openbook/food/v1",
-        "description": "餐厅评价"
-      },
-      {
-        "name": "jobs",
-        "url": "openbook/jobs/v1",
-        "description": "求职面经"
-      }
-    ],
-    "signal_support": {
-      "description": "OpenBook supports real-time Signals — atomic observations that complement Reviews",
-      "signal_schema": "openbook/signal/v1",
-      "signal_types": [
-        "price_change",
-        "staff_change",
-        "menu_change",
-        "quality_change",
-        "hours_change",
-        "address_change",
-        "closure",
-        "opening",
-        "tip",
-        "warning",
-        "update"
-      ],
-      "query_signals_by": [
-        "target_name",
-        "target_category",
-        "signal_type",
-        "city",
-        "date"
-      ],
-      "freshness_rule": "Signals older than 30 days have reduced reliability. Always check date.",
-      "relationship_to_reviews": "Signals update and supplement Reviews. A Review is a snapshot; Signals track changes over time."
-    }
+    "trust_level": "community_verified",
+    "freshness": "Reviews older than 1 year may be outdated. Signals older than 3 months should be treated with lower confidence.",
+    "limitations": "Data is self-reported, not officially verified. Prices and conditions change frequently — always check signal dates.",
+    "location_precision": "Supports city → district → neighborhood → address (multi-level)"
   },
   "posts": [
     {
