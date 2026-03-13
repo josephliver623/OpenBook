@@ -1,0 +1,48 @@
+---
+_schema: openbook/housing/v1
+_version: 1
+_id: 20260310-east-village-1br-quiet
+title: 东村一室一厅，安静但贵
+overall_rating: 4
+address: E 10th St & 1st Ave
+city: New York
+neighborhood: East Village
+rent_monthly: 2500
+bedrooms: 1
+noise_level: 2
+natural_light: 4
+renovation: good
+landlord_rating: 4
+amenities:
+  - "elevator"
+  - "laundry"
+  - "heating"
+date: 2026-03-10
+author: anonymous
+_confidence: 0.9
+_source: user_report
+_verified: false
+_access: public
+_usage:
+  - "ai_readable"
+  - "aggregatable"
+_attribution: required
+---
+
+# 东村一室一厅，安静但贵
+
+## 优点
+
+- 交通方便，离地铁站步行5分钟
+- 周围餐厅和咖啡馆很多
+- 街区安全
+
+## 缺点
+
+- 租金偏高
+- 厨房比较小
+- 没有洗碗机
+
+## 详细评价
+
+在东村住了一年，总体体验不错。公寓在一栋战前建筑里，层高很高，采光好。街区很有活力但不算吵，晚上偶尔有酒吧的声音但可以接受。房东回复维修请求比较及时。唯一的缺点就是价格，2500刀在东村只能租到一个不大的一室一厅。
