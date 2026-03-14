@@ -3,7 +3,7 @@
  * OpenBook MCP Server
  * ===================
  * A Model Context Protocol server for searching and publishing
- * structured community reviews in an OpenBook repository.
+ * structured community reviews AND real-time Signals in an OpenBook repository.
  *
  * Usage:
  *   npx openbook-mcp                         # auto-detect repo in cwd
@@ -22,6 +22,7 @@ import {
 import * as fs from "fs";
 import * as path from "path";
 import * as yaml from "js-yaml";
+import * as crypto from "crypto";
 
 // ─── Repo Discovery ───
 
@@ -141,10 +142,105 @@ function todayCompact(): string {
   return todayStr().replace(/-/g, "");
 }
 
+function randomId(length = 10): string {
+  return crypto.randomBytes(length).toString("base64url").slice(0, length);
+}
+
+// ─── Signal Helpers ───
+
+interface SignalEntry {
+  [key: string]: any;
+  _body?: string;
+  _filename?: string;
+}
+
+function parseSignalMd(filepath: string): SignalEntry | null {
+  try {
+    const content = fs.readFileSync(filepath, "utf-8");
+    const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)/);
+    if (!match) return null;
+
+    const meta = yaml.load(match[1]) as Record<string, any>;
+    if (!meta || typeof meta !== "object") return null;
+
+    meta._body = match[2].trim();
+    meta._filename = path.basename(filepath, ".md");
+    return meta;
+  } catch {
+    return null;
+  }
+}
+
+function loadSignals(): SignalEntry[] {
+  const signalsDir = path.join(REPO, "data", "signals");
+  if (!fs.existsSync(signalsDir)) return [];
+
+  const files = fs
+    .readdirSync(signalsDir)
+    .filter((f) => f.endsWith(".md") && f !== "README.md")
+    .sort()
+    .reverse(); // newest first
+
+  const signals: SignalEntry[] = [];
+  for (const f of files) {
+    const sig = parseSignalMd(path.join(signalsDir, f));
+    if (sig) signals.push(sig);
+  }
+  return signals;
+}
+
+function signalToMarkdown(data: Record<string, any>): string {
+  const bodyContent = data.content || "";
+  const targetName = data.target_name || "Unknown";
+  const signalType = data.signal_type || "update";
+
+  const typeLabels: Record<string, string> = {
+    update: "一般更新",
+    price_change: "价格变动",
+    closure: "关店",
+    new_opening: "新开",
+    quality_change: "品质变化",
+    warning: "警告",
+    recommendation: "推荐",
+    event: "活动/事件",
+  };
+  const typeLabel = typeLabels[signalType] || signalType;
+
+  const fm: Record<string, any> = {
+    _schema: "openbook/signal/v1",
+    _version: 1,
+    _confidence: data._confidence || 0.8,
+    _source: data._source || "user_report",
+    _verified: false,
+    _access: "public",
+    target_name: targetName,
+    target_category: data.target_category || "general",
+    city: data.city || "",
+    neighborhood: data.neighborhood || "",
+    signal_type: signalType,
+    content: bodyContent,
+    severity: data.severity || "info",
+    date: data.date || todayStr(),
+    tags: data.tags || [],
+  };
+
+  if (data.district) fm.district = data.district;
+  if (data.subcategory) fm.subcategory = data.subcategory;
+  if (data.address) fm.address = data.address;
+  if (data.price) fm.price = data.price;
+  if (data.price_unit) fm.price_unit = data.price_unit;
+  if (data.suitable_for) fm.suitable_for = data.suitable_for;
+
+  const yamlStr = yaml.dump(fm, { sortKeys: false });
+  const title = `# ${targetName} — ${typeLabel}`;
+
+  return `---\n${yamlStr}---\n${title}\n\n${bodyContent}\n`;
+}
+
 // ─── Server Setup ───
 
 const server = new Server(
-  { name: "openbook", version: "0.1.0" },
+  { name: "openbook", version: "0.2.0" },
   { capabilities: { tools: {}, resources: {} } }
 );
 
@@ -152,6 +248,7 @@ const server = new Server(
 
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
   tools: [
+    // Review tools
     {
       name: "list_categories",
       description:
@@ -253,10 +350,143 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
         required: ["category", "data"],
       },
     },
+    // Signal tools
+    {
+      name: "list_signals",
+      description:
+        "List recent Signals — real-time, lightweight updates about places and businesses. " +
+        "Signals capture time-sensitive changes: price updates, closures, new openings, quality changes. " +
+        "Think of them as a 'heartbeat' of a place, while Reviews are 'snapshots'.",
+      inputSchema: {
+        type: "object" as const,
+        properties: {
+          city: {
+            type: "string",
+            description: "Filter by city (e.g., 'Shanghai', 'New York'). Case-insensitive.",
+            default: "",
+          },
+          category: {
+            type: "string",
+            description: "Filter by target_category (e.g., 'food', 'housing', 'shopping').",
+            default: "",
+          },
+          target: {
+            type: "string",
+            description: "Filter by target_name (partial match, case-insensitive).",
+            default: "",
+          },
+          signal_type: {
+            type: "string",
+            description:
+              "Filter by type: update, price_change, closure, new_opening, quality_change, warning, recommendation, event.",
+            default: "",
+          },
+          suitable_for: {
+            type: "string",
+            description:
+              "Filter by audience: backpacker, family, kids, pets, couple, solo, business, vegetarian, halal, accessible.",
+            default: "",
+          },
+          limit: {
+            type: "number",
+            description: "Maximum number of results (default 20).",
+            default: 20,
+          },
+        },
+      },
+    },
+    {
+      name: "get_signal",
+      description: "Get the full details of a specific Signal by its ID.",
+      inputSchema: {
+        type: "object" as const,
+        properties: {
+          signal_id: {
+            type: "string",
+            description:
+              "The Signal ID (filename without .md extension, e.g., '2026-03-14-C9TcSUJR8B')",
+          },
+        },
+        required: ["signal_id"],
+      },
+    },
+    {
+      name: "publish_signal",
+      description:
+        "Publish a new Signal — a real-time, lightweight update about a place. " +
+        "Use when the user mentions a time-sensitive observation: 'this place raised prices', " +
+        "'new chef is great', 'closed for renovation'. NOT a full review.",
+      inputSchema: {
+        type: "object" as const,
+        properties: {
+          target_name: {
+            type: "string",
+            description: "Name of the place/business (e.g., 'Starbucks Reserve Roastery')",
+          },
+          content: {
+            type: "string",
+            description: "The Signal content — what happened or was observed.",
+          },
+          target_category: {
+            type: "string",
+            description: "Category: food, housing, shopping, transport, service, general.",
+            default: "general",
+          },
+          city: {
+            type: "string",
+            description: "City name (e.g., 'Shanghai', 'New York').",
+            default: "",
+          },
+          neighborhood: {
+            type: "string",
+            description: "Neighborhood or area (e.g., '愚园路', 'East Village').",
+            default: "",
+          },
+          signal_type: {
+            type: "string",
+            description:
+              "Type: update, price_change, closure, new_opening, quality_change, warning, recommendation, event.",
+            default: "update",
+          },
+          severity: {
+            type: "string",
+            description: "Importance: info, notable, important, critical.",
+            default: "info",
+          },
+          tags: {
+            type: "string",
+            description: "Comma-separated tags (e.g., 'coffee,cold brew,quiet').",
+            default: "",
+          },
+          suitable_for: {
+            type: "string",
+            description:
+              "Comma-separated audience tags: backpacker, family, kids, pets, couple, solo, business, vegetarian, halal, accessible.",
+            default: "",
+          },
+          district: {
+            type: "string",
+            description: "Administrative district (e.g., '静安区', '徐汇区').",
+            default: "",
+          },
+          price: {
+            type: "number",
+            description: "Price amount (0 = not specified).",
+            default: 0,
+          },
+          price_unit: {
+            type: "string",
+            description: "Currency unit (default: CNY).",
+            default: "CNY",
+          },
+        },
+        required: ["target_name", "content"],
+      },
+    },
     {
       name: "stats",
       description:
-        "Get statistics about this OpenBook instance — total reviews per category.",
+        "Get statistics about this OpenBook instance — total reviews per category plus Signal statistics.",
       inputSchema: { type: "object" as const, properties: {} },
     },
   ],
@@ -518,6 +748,171 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       };
     }
 
+    // ─── Signal Tools ───
+
+    case "list_signals": {
+      const a = (args || {}) as any;
+      const city = a.city || "";
+      const category = a.category || "";
+      const target = a.target || "";
+      const signalType = a.signal_type || "";
+      const suitableFor = a.suitable_for || "";
+      const limit = a.limit || 20;
+
+      const allSignals = loadSignals();
+      const results: SignalEntry[] = [];
+
+      for (const sig of allSignals) {
+        if (city && !(sig.city || "").toLowerCase().includes(city.toLowerCase())) continue;
+        if (category && (sig.target_category || "").toLowerCase() !== category.toLowerCase()) continue;
+        if (target && !(sig.target_name || "").toLowerCase().includes(target.toLowerCase())) continue;
+        if (signalType && (sig.signal_type || "").toLowerCase() !== signalType.toLowerCase()) continue;
+        if (suitableFor) {
+          const sigSuitable = sig.suitable_for || [];
+          if (Array.isArray(sigSuitable) && !sigSuitable.map((s: string) => s.toLowerCase()).includes(suitableFor.toLowerCase())) continue;
+        }
+        results.push(sig);
+        if (results.length >= limit) break;
+      }
+
+      if (results.length === 0) {
+        return { content: [{ type: "text", text: "No Signals found matching your criteria." }] };
+      }
+
+      const sevEmoji: Record<string, string> = { info: "ℹ️", notable: "📌", important: "⚠️", critical: "🚨" };
+      const typeEmoji: Record<string, string> = {
+        update: "🔄", price_change: "💰", closure: "🚫",
+        new_opening: "🆕", quality_change: "📊", warning: "⚠️",
+        recommendation: "👍", event: "🎉",
+      };
+
+      const lines = [`# Signals (${results.length} found)\n`];
+      for (const sig of results) {
+        const sigName = sig.target_name || "Unknown";
+        const sigDate = sig.date || "?";
+        const stype = sig.signal_type || "update";
+        const severity = sig.severity || "info";
+        const cityVal = sig.city || "";
+        const neighborhood = sig.neighborhood || "";
+        const location = neighborhood ? `${neighborhood}, ${cityVal}` : cityVal;
+        const content = sig.content || "";
+        const filename = sig._filename || "";
+
+        const te = typeEmoji[stype] || "📝";
+        const se = sevEmoji[severity] || "";
+
+        lines.push(`### ${te} ${sigName} ${se}`);
+        lines.push(`**Date:** ${sigDate} | **Type:** ${stype} | **Location:** ${location}`);
+
+        if (sig.suitable_for && Array.isArray(sig.suitable_for) && sig.suitable_for.length > 0) {
+          lines.push(`**Suitable for:** ${sig.suitable_for.join(", ")}`);
+        }
+        if (sig.price) {
+          const unit = sig.price_unit || "CNY";
+          lines.push(`**Price:** ${sig.price} ${unit}`);
+        }
+
+        lines.push(`${content}`);
+        if (sig.tags && Array.isArray(sig.tags) && sig.tags.length > 0) {
+          lines.push(`**Tags:** ${sig.tags.slice(0, 5).join(", ")}`);
+        }
+        lines.push(`**ID:** ${filename}`);
+        lines.push("");
+      }
+
+      return { content: [{ type: "text", text: lines.join("\n") }] };
+    }
+
+    case "get_signal": {
+      const a = args as any;
+      const signalId = a.signal_id as string;
+      const filePath = path.join(REPO, "data", "signals", `${signalId}.md`);
+
+      if (!fs.existsSync(filePath)) {
+        return { content: [{ type: "text", text: `Signal not found: ${signalId}` }] };
+      }
+
+      const sig = parseSignalMd(filePath);
+      if (!sig) {
+        return { content: [{ type: "text", text: `Error parsing Signal: ${signalId}` }] };
+      }
+
+      const lines = [`# Signal: ${sig.target_name || "Unknown"}\n`];
+      const skipKeys = new Set(["_body", "_filename"]);
+      for (const [key, value] of Object.entries(sig)) {
+        if (skipKeys.has(key)) continue;
+        const display = Array.isArray(value) ? value.join(", ") : value;
+        lines.push(`**${key}:** ${display}`);
+      }
+      lines.push(`\n---\n${sig._body || ""}`);
+
+      return { content: [{ type: "text", text: lines.join("\n") }] };
+    }
+
+    case "publish_signal": {
+      const a = (args || {}) as any;
+      const targetName = a.target_name as string;
+      const content = a.content as string;
+
+      if (!targetName || !content) {
+        return {
+          content: [{ type: "text", text: "Error: target_name and content are required." }],
+          isError: true,
+        };
+      }
+
+      const sigData: Record<string, any> = {
+        target_name: targetName,
+        content: content,
+        target_category: a.target_category || "general",
+        city: a.city || "",
+        neighborhood: a.neighborhood || "",
+        signal_type: a.signal_type || "update",
+        severity: a.severity || "info",
+        date: todayStr(),
+        tags: a.tags ? a.tags.split(",").map((t: string) => t.trim()).filter(Boolean) : [],
+        _confidence: 0.8,
+        _source: "user_report",
+      };
+
+      if (a.suitable_for) {
+        sigData.suitable_for = a.suitable_for.split(",").map((s: string) => s.trim()).filter(Boolean);
+      }
+      if (a.district) sigData.district = a.district;
+      if (a.price && a.price > 0) {
+        sigData.price = a.price;
+        sigData.price_unit = a.price_unit || "CNY";
+      }
+
+      const sigId = `${todayStr()}-${randomId()}`;
+      const mdContent = signalToMarkdown(sigData);
+
+      const signalsDir = path.join(REPO, "data", "signals");
+      fs.mkdirSync(signalsDir, { recursive: true });
+      const filePath = path.join(signalsDir, `${sigId}.md`);
+      fs.writeFileSync(filePath, mdContent, "utf-8");
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: [
+              "Signal published successfully!",
+              `- **File:** data/signals/${sigId}.md`,
+              `- **Target:** ${targetName}`,
+              `- **Type:** ${sigData.signal_type}`,
+              `- **City:** ${sigData.city}`,
+              "",
+              "To share with the community, commit and push:",
+              "```",
+              `git add data/signals/ && git commit -m 'Signal: ${targetName} (${sigData.signal_type})' && git push`,
+              "```",
+            ].join("\n"),
+          },
+        ],
+      };
+    }
+
     case "stats": {
       const schemas = loadSchemas();
       const lines = ["# OpenBook Statistics\n"];
@@ -527,9 +922,43 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         total += reviews.length;
         const display = schema.display_name || sName;
         const icon = schema.icon || "";
-        lines.push(`- ${icon} **${display}** (${sName}): ${reviews.length} reviews`);
+        lines.push(
+          `- ${icon} **${display}** (${sName}): ${reviews.length} reviews`
+        );
       }
-      lines.splice(1, 0, `**Total reviews:** ${total}\n`);
+
+      // Signal stats
+      const signals = loadSignals();
+      const signalCount = signals.length;
+      total += signalCount;
+
+      const typeCounts: Record<string, number> = {};
+      const cityCounts: Record<string, number> = {};
+      for (const sig of signals) {
+        const stype = sig.signal_type || "update";
+        typeCounts[stype] = (typeCounts[stype] || 0) + 1;
+        const cityVal = sig.city || "Unknown";
+        if (cityVal) cityCounts[cityVal] = (cityCounts[cityVal] || 0) + 1;
+      }
+
+      lines.push(`- ⚡ **Signals**: ${signalCount} signals`);
+      if (Object.keys(typeCounts).length > 0) {
+        const typeStr = Object.entries(typeCounts)
+          .sort((a, b) => b[1] - a[1])
+          .map(([k, v]) => `${k}: ${v}`)
+          .join(", ");
+        lines.push(`  - By type: ${typeStr}`);
+      }
+      if (Object.keys(cityCounts).length > 0) {
+        const cityStr = Object.entries(cityCounts)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 5)
+          .map(([k, v]) => `${k}: ${v}`)
+          .join(", ");
+        lines.push(`  - By city: ${cityStr}`);
+      }
+
+      lines.splice(1, 0, `**Total entries:** ${total} (${total - signalCount} reviews + ${signalCount} signals)\n`);
       return { content: [{ type: "text", text: lines.join("\n") }] };
     }
 
@@ -556,6 +985,12 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => ({
       name: "OpenBook Schemas",
       description: "All category schemas in one document",
       mimeType: "text/yaml",
+    },
+    {
+      uri: "openbook://signals",
+      name: "OpenBook Signals",
+      description: "All Signals as a JSON array for programmatic access",
+      mimeType: "application/json",
     },
   ],
 }));
@@ -589,6 +1024,23 @@ server.setRequestHandler(ReadResourceRequestSchema, async (request) => {
     };
   }
 
+  if (uri === "openbook://signals") {
+    const signals = loadSignals();
+    const clean = signals.map((sig) => {
+      const { _body, ...rest } = sig;
+      return rest;
+    });
+    return {
+      contents: [
+        {
+          uri,
+          mimeType: "application/json",
+          text: JSON.stringify(clean, null, 2),
+        },
+      ],
+    };
+  }
+
   return { contents: [] };
 });
 
@@ -598,6 +1050,7 @@ async function main() {
   console.error("OpenBook MCP Server starting...");
   console.error(`Repository: ${REPO}`);
   console.error(`Schemas: ${Object.keys(loadSchemas()).join(", ")}`);
+  console.error(`Signals: ${loadSignals().length}`);
 
   const transport = new StdioServerTransport();
   await server.connect(transport);
