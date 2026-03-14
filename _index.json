@@ -140,6 +140,30 @@
         "采光好",
         "座位舒服"
       ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-Cp296Siy1B",
+      "target_name": "阿元来了",
+      "target_category": "food",
+      "signal_type": "update",
+      "city": "Shanghai",
+      "date": "2026-03-14",
+      "severity": "info",
+      "content": "我今天在世纪汇吃了一家叫做阿元来了的台湾菜，他的三杯鸡不是特别嫩，建议不用点，总的来说味道一般。炒花蛤还不错。",
+      "file": "data/signals/2026-03-14-Cp296Siy1B.md",
+      "subcategory": "restaurant",
+      "district": "浦东新区",
+      "neighborhood": "世纪汇",
+      "address": "世纪汇广场",
+      "tags": [
+        "台湾菜",
+        "三杯鸡",
+        "世纪汇",
+        "味道一般",
+        "不推荐",
+        "炒花蛤"
+      ]
     }
   ]
 }
