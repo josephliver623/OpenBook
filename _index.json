@@ -91,6 +91,27 @@
       "severity": "info",
       "content": "今天在环贸IAPM喝了一个t9的陈皮普洱，价格68，味道还不错，环境也还不错。",
       "file": "data/signals/2026-03-13-KzVuF0e0Uw.md"
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-67WAHyIIUY",
+      "target_name": "bw缤物咖啡",
+      "target_category": "food",
+      "signal_type": "update",
+      "city": "Shanghai",
+      "date": "2026-03-14",
+      "severity": "info",
+      "content": "今天在愚园路的bw缤物咖啡喝了一杯冷萃，味道非常不错，推荐",
+      "file": "data/signals/2026-03-14-67WAHyIIUY.md",
+      "neighborhood": "愚园路",
+      "tags": [
+        "bw缤物咖啡",
+        "冷萃",
+        "愚园路",
+        "咖啡",
+        "推荐",
+        "味道不错"
+      ]
     }
   ]
 }
