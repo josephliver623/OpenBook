@@ -1,0 +1,188 @@
+name: Auto Review Signal/Review PR
+
+on:
+  pull_request:
+    types: [opened]
+    branches: [main]
+    paths:
+      - 'data/**'
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  auto-review:
+    runs-on: ubuntu-latest
+    if: startsWith(github.head_ref, 'submit/')
+    
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 2
+
+      - name: Get changed files
+        id: changed
+        run: |
+          FILES=$(git diff --name-only HEAD~1 HEAD -- 'data/' || echo "")
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+          echo "Changed files: $FILES"
+
+      - name: Validate YAML frontmatter
+        id: validate
+        run: |
+          ERRORS=""
+          for file in ${{ steps.changed.outputs.files }}; do
+            if [[ ! "$file" == *.md ]]; then
+              continue
+            fi
+            
+            echo "Validating: $file"
+            
+            # Check file exists
+            if [[ ! -f "$file" ]]; then
+              ERRORS="${ERRORS}File not found: $file\n"
+              continue
+            fi
+            
+            # Check YAML frontmatter exists
+            if ! head -1 "$file" | grep -q "^---$"; then
+              ERRORS="${ERRORS}Missing YAML frontmatter in $file\n"
+              continue
+            fi
+            
+            # Extract frontmatter
+            FRONTMATTER=$(sed -n '/^---$/,/^---$/p' "$file" | sed '1d;$d')
+            
+            # Check for required fields based on path
+            if [[ "$file" == data/signals/* ]]; then
+              # Signal: check required fields
+              for field in target_name target_category city signal_type content; do
+                if ! echo "$FRONTMATTER" | grep -q "^${field}:"; then
+                  ERRORS="${ERRORS}Missing required field '$field' in $file\n"
+                fi
+              done
+              
+              # Validate signal_type
+              SIGNAL_TYPE=$(echo "$FRONTMATTER" | grep "^signal_type:" | sed 's/signal_type: *//')
+              VALID_TYPES="price_change staff_change menu_change quality_change hours_change address_change closure opening tip warning update"
+              if [[ -n "$SIGNAL_TYPE" ]] && ! echo "$VALID_TYPES" | grep -qw "$SIGNAL_TYPE"; then
+                ERRORS="${ERRORS}Invalid signal_type '$SIGNAL_TYPE' in $file\n"
+              fi
+              
+              # Validate severity
+              SEVERITY=$(echo "$FRONTMATTER" | grep "^severity:" | sed 's/severity: *//')
+              if [[ -n "$SEVERITY" ]] && [[ "$SEVERITY" != "info" ]] && [[ "$SEVERITY" != "notable" ]] && [[ "$SEVERITY" != "critical" ]]; then
+                ERRORS="${ERRORS}Invalid severity '$SEVERITY' in $file\n"
+              fi
+              
+            elif [[ "$file" == data/housing/* ]] || [[ "$file" == data/food/* ]] || [[ "$file" == data/jobs/* ]]; then
+              # Review: check _schema exists
+              if ! echo "$FRONTMATTER" | grep -q "^_schema:"; then
+                ERRORS="${ERRORS}Missing _schema in $file\n"
+              fi
+            fi
+          done
+          
+          if [[ -n "$ERRORS" ]]; then
+            echo "validation_passed=false" >> $GITHUB_OUTPUT
+            echo "errors<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$ERRORS" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo "Validation errors found:"
+            echo -e "$ERRORS"
+          else
+            echo "validation_passed=true" >> $GITHUB_OUTPUT
+            echo "All validations passed"
+          fi
+
+      - name: Content quality check
+        id: quality
+        if: steps.validate.outputs.validation_passed == 'true'
+        run: |
+          ISSUES=""
+          for file in ${{ steps.changed.outputs.files }}; do
+            if [[ ! "$file" == *.md ]] || [[ ! -f "$file" ]]; then
+              continue
+            fi
+            
+            CONTENT=$(cat "$file")
+            BODY=$(echo "$CONTENT" | sed -n '/^---$/,/^---$/!p' | tail -n +1)
+            FRONTMATTER=$(sed -n '/^---$/,/^---$/p' "$file" | sed '1d;$d')
+            
+            # Check content is not too short (likely spam)
+            CONTENT_FIELD=$(echo "$FRONTMATTER" | grep "^content:" | sed 's/content: *//')
+            if [[ ${#CONTENT_FIELD} -lt 5 ]]; then
+              ISSUES="${ISSUES}Content too short in $file (${#CONTENT_FIELD} chars)\n"
+            fi
+            
+            # Check for obvious spam patterns
+            SPAM_PATTERNS="http[s]?://[^ ]*\.(xyz|tk|ml|ga|cf|gq|top|click|loan|work) casino poker gambling viagra cialis"
+            for pattern in $SPAM_PATTERNS; do
+              if echo "$CONTENT" | grep -iq "$pattern"; then
+                ISSUES="${ISSUES}Potential spam detected in $file (pattern: $pattern)\n"
+              fi
+            done
+            
+            # Check for excessive repetition (spam indicator)
+            UNIQUE_WORDS=$(echo "$CONTENT" | tr ' ' '\n' | sort -u | wc -l)
+            TOTAL_WORDS=$(echo "$CONTENT" | wc -w)
+            if [[ $TOTAL_WORDS -gt 20 ]] && [[ $UNIQUE_WORDS -lt $(($TOTAL_WORDS / 5)) ]]; then
+              ISSUES="${ISSUES}Excessive word repetition in $file (possible spam)\n"
+            fi
+          done
+          
+          if [[ -n "$ISSUES" ]]; then
+            echo "quality_passed=false" >> $GITHUB_OUTPUT
+            echo "issues<<EOF" >> $GITHUB_OUTPUT
+            echo -e "$ISSUES" >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+            echo "Quality issues found:"
+            echo -e "$ISSUES"
+          else
+            echo "quality_passed=true" >> $GITHUB_OUTPUT
+            echo "Content quality check passed"
+          fi
+
+      - name: Auto-merge if all checks pass
+        if: steps.validate.outputs.validation_passed == 'true' && steps.quality.outputs.quality_passed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "All checks passed. Auto-merging PR #${{ github.event.pull_request.number }}..."
+          
+          # Approve the PR
+          gh pr review ${{ github.event.pull_request.number }} --approve --body "✅ Auto-approved: format validation and content quality checks passed."
+          
+          # Merge the PR
+          gh pr merge ${{ github.event.pull_request.number }} --squash --delete-branch --body "Auto-merged by OpenBook review bot"
+          
+          echo "PR merged successfully!"
+
+      - name: Flag for manual review if checks fail
+        if: steps.validate.outputs.validation_passed == 'false' || steps.quality.outputs.quality_passed == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          COMMENT="## ⚠️ Auto-Review: Issues Found\n\nThis submission needs manual review.\n\n"
+          
+          if [[ "${{ steps.validate.outputs.validation_passed }}" == "false" ]]; then
+            COMMENT="${COMMENT}### Format Validation Errors\n\`\`\`\n${{ steps.validate.outputs.errors }}\n\`\`\`\n\n"
+          fi
+          
+          if [[ "${{ steps.quality.outputs.quality_passed }}" == "false" ]]; then
+            COMMENT="${COMMENT}### Content Quality Issues\n\`\`\`\n${{ steps.quality.outputs.issues }}\n\`\`\`\n\n"
+          fi
+          
+          COMMENT="${COMMENT}Please review manually and merge if appropriate."
+          
+          # Add comment
+          echo -e "$COMMENT" | gh pr comment ${{ github.event.pull_request.number }} --body-file -
+          
+          # Add label
+          gh pr edit ${{ github.event.pull_request.number }} --add-label "needs-review" || true
+          
+          echo "PR flagged for manual review"
