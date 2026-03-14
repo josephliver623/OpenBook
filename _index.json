@@ -164,6 +164,27 @@
         "不推荐",
         "炒花蛤"
       ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-C9TcSUJR8B",
+      "target_name": "前滩太古里",
+      "target_category": "food",
+      "signal_type": "closure",
+      "city": "Shanghai",
+      "date": "2026-03-14",
+      "severity": "notable",
+      "content": "今天去了前滩太古里，但太古里的很多店都关掉了，之前在负一楼的brunch店也不见了，现在换成了红茶公司charlie town了",
+      "file": "data/signals/2026-03-14-C9TcSUJR8B.md",
+      "neighborhood": "前滩",
+      "tags": [
+        "前滩太古里",
+        "商场",
+        "关店",
+        "brunch",
+        "红茶公司charlie",
+        "新开"
+      ]
     }
   ]
 }
