@@ -112,6 +112,34 @@
         "推荐",
         "味道不错"
       ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-y7ikO4gqdX",
+      "target_name": "星巴克",
+      "target_category": "food",
+      "signal_type": "update",
+      "city": "Shanghai",
+      "date": "2026-03-14",
+      "severity": "info",
+      "content": "今天在gala mall的星巴克喝了冷萃，这边的环境不错，价格大概35元。巴斯克蛋糕也不错，采光座位都很舒服。",
+      "file": "data/signals/2026-03-14-y7ikO4gqdX.md",
+      "subcategory": "coffee",
+      "district": "浦东新区",
+      "neighborhood": "陆家嘴",
+      "address": "浦东新区陆家嘴世纪大道88号金茂大厦Gala Mall",
+      "price": 35,
+      "price_unit": "CNY",
+      "tags": [
+        "星巴克",
+        "冷萃",
+        "Gala Mall",
+        "环境不错",
+        "咖啡",
+        "巴斯克蛋糕",
+        "采光好",
+        "座位舒服"
+      ]
     }
   ]
 }
