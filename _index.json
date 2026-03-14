@@ -89,7 +89,7 @@
       "city": "Shanghai",
       "date": "2026-03-13T12:00:00.000Z",
       "severity": "info",
-      "content": "环贸IAPM，t9陈皮普洱，68元。味道与环境均佳。",
+      "content": "环贸IAPM的t9陈皮普洱，68元。味道和环境都挺不错的。",
       "file": "data/signals/2026-03-13-KzVuF0e0Uw.md"
     },
     {
@@ -101,7 +101,7 @@
       "city": "Shanghai",
       "date": "2026-03-14T12:00:00.000Z",
       "severity": "info",
-      "content": "愚园路bw缤物咖啡冷萃口感极佳，推荐。",
+      "content": "愚园路bw缤物咖啡的冷萃口感挺好，推荐。",
       "file": "data/signals/2026-03-14-67WAHyIIUY.md",
       "neighborhood": "愚园路",
       "tags": [
@@ -122,7 +122,7 @@
       "city": "Shanghai",
       "date": "2026-03-14T12:00:00.000Z",
       "severity": "info",
-      "content": "Gala Mall星巴克冷萃35元，环境好。巴斯克蛋糕可口，采光佳，座位舒适。",
+      "content": "Gala Mall星巴克冷萃35元，环境挺好。巴斯克蛋糕不错，采光好，座位也舒服。",
       "file": "data/signals/2026-03-14-y7ikO4gqdX.md",
       "subcategory": "coffee",
       "district": "浦东新区",
@@ -150,7 +150,7 @@
       "city": "Shanghai",
       "date": "2026-03-14T12:00:00.000Z",
       "severity": "info",
-      "content": "世纪汇阿元来了：三杯鸡肉质不嫩，不推荐；炒花蛤味道不错。整体口味一般。",
+      "content": "世纪汇阿元：三杯鸡肉质不嫩，不推荐；炒花蛤味道不错。整体口味一般。",
       "file": "data/signals/2026-03-14-Cp296Siy1B.md",
       "subcategory": "restaurant",
       "district": "浦东新区",
@@ -174,7 +174,7 @@
       "city": "Shanghai",
       "date": "2026-03-14T12:00:00.000Z",
       "severity": "notable",
-      "content": "前滩太古里多家店铺关闭，负一楼原brunch店已由红茶公司Charlie Town取代。",
+      "content": "前滩太古里好几家店关了，负一楼之前那家brunch店，现在变成红茶公司Charlie Town了。",
       "file": "data/signals/2026-03-14-C9TcSUJR8B.md",
       "neighborhood": "前滩",
       "tags": [
