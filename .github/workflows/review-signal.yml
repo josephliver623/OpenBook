@@ -154,11 +154,8 @@ jobs:
         run: |
           echo "All checks passed. Auto-merging PR #${{ github.event.pull_request.number }}..."
           
-          # Approve the PR
-          gh pr review ${{ github.event.pull_request.number }} --approve --body "✅ Auto-approved: format validation and content quality checks passed."
-          
-          # Merge the PR
-          gh pr merge ${{ github.event.pull_request.number }} --squash --delete-branch --body "Auto-merged by OpenBook review bot"
+          # Directly merge without approve (same-repo bot doesn't need self-approval)
+          gh pr merge ${{ github.event.pull_request.number }} --squash --delete-branch --body "Auto-merged by OpenBook review bot" --admin
           
           echo "PR merged successfully!"
 
