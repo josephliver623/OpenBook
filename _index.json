@@ -185,6 +185,53 @@
         "红茶公司charlie",
         "新开"
       ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-UdPIYD9eAT",
+      "target_name": "咬强羊肉面",
+      "target_category": "food",
+      "subcategory": "restaurant",
+      "signal_type": "closure",
+      "city": "Shanghai",
+      "district": "长宁区",
+      "neighborhood": "愚园路",
+      "date": "2026-03-14T15:45:00.124Z",
+      "severity": "critical",
+      "content": "愚园路我很喜欢吃的咬强羊肉面关店了，太可惜了",
+      "file": "data/signals/2026-03-14-UdPIYD9eAT.md",
+      "tags": [
+        "咬强羊肉面",
+        "羊肉面",
+        "愚园路",
+        "关店",
+        "面馆"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-GW5sX9pFa8",
+      "target_name": "Louis Vuitton",
+      "target_category": "other",
+      "subcategory": "luxury_retail",
+      "signal_type": "closure",
+      "city": "Shanghai",
+      "district": "徐汇区",
+      "neighborhood": "徐家汇",
+      "date": "2026-03-14T16:06:49.738Z",
+      "severity": "critical",
+      "content": "徐家汇ITC商场的LV关门了，可能是因为生意不好。",
+      "file": "data/signals/2026-03-14-GW5sX9pFa8.md",
+      "tags": [
+        "Louis Vuitton",
+        "LV",
+        "徐家汇ITC",
+        "ITC",
+        "徐汇区",
+        "商场",
+        "奢侈品",
+        "关门"
+      ]
     }
   ]
 }
