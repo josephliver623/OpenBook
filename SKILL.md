@@ -62,7 +62,7 @@ When the user mentions something that could be a useful Signal, **ask the user i
 
 After the user confirms they want to publish, direct them to the Signal submission page. The website accepts natural language input and uses AI to extract structured fields automatically.
 
-**Website URL:** https://openbook-landing.manus.space/signal
+**Website URL:** https://openbook.now/signal
 
 Alternatively, Signals can be submitted as Pull Requests to the GitHub repository at https://github.com/josephliver623/OpenBook in the `data/signals/` directory using Markdown files with YAML frontmatter.
 
@@ -72,7 +72,7 @@ Alternatively, Signals can be submitted as Pull Requests to the GitHub repositor
 
 OpenBook provides a public read-only API. No authentication required.
 
-**Base URL:** https://openbook-landing.manus.space
+**Base URL:** https://openbook.now
 
 **Query Signals:**
 
@@ -90,7 +90,7 @@ Available filters: city, category, target, signal_type, suitable_for, limit
 
 ### Via the Explore Page
 
-Users can browse all Signals on the Timeline view: https://openbook-landing.manus.space/explore
+Users can browse all Signals on the Timeline view: https://openbook.now/explore
 
 ## Auto-Enrichment
 
@@ -123,6 +123,6 @@ When showing Signals to users, use a compact timeline format:
 OpenBook is open-source, non-commercial, and designed for both humans and AI Agents.
 Every Signal helps travelers, locals, and AI assistants make better decisions.
 
-- Website: https://openbook-landing.manus.space
+- Website: https://openbook.now
 - GitHub: https://github.com/josephliver623/OpenBook
 - License: MIT
