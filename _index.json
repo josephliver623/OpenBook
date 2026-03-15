@@ -82,15 +82,96 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-13-KzVuF0e0Uw",
-      "target_name": "t9",
-      "target_category": "food",
-      "signal_type": "tip",
+      "_id": "signals/2026-03-14-DtGDIr7HHO",
+      "target_name": "MUJI",
+      "target_category": "other",
+      "signal_type": "closure",
       "city": "Shanghai",
-      "date": "2026-03-13T12:00:00.000Z",
-      "severity": "info",
-      "content": "环贸IAPM的t9陈皮普洱，68元。味道和环境都挺不错的。",
-      "file": "data/signals/2026-03-13-KzVuF0e0Uw.md"
+      "district": "徐汇区",
+      "neighborhood": "淮海中路",
+      "address": "淮海中路",
+      "date": "2026-03-14T17:22:52.914Z",
+      "severity": "critical",
+      "content": "淮海中路MUJI要闭店了",
+      "file": "data/signals/2026-03-14-DtGDIr7HHO.md",
+      "tags": [
+        "MUJI",
+        "淮海中路",
+        "闭店",
+        "零售"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-VBF9vbN7VM",
+      "target_name": "FILA",
+      "target_category": "other",
+      "signal_type": "closure",
+      "city": "Shanghai",
+      "district": "黄浦区",
+      "neighborhood": "淮海中路",
+      "address": "淮海中路",
+      "date": "2026-03-14T17:22:21.830Z",
+      "severity": "critical",
+      "content": "淮海中路FILA闭店了",
+      "file": "data/signals/2026-03-14-VBF9vbN7VM.md",
+      "tags": [
+        "FILA",
+        "淮海中路",
+        "闭店",
+        "零售",
+        "运动品牌"
+      ],
+      "warnings": [
+        "闭店"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-GW5sX9pFa8",
+      "target_name": "Louis Vuitton",
+      "target_category": "other",
+      "subcategory": "luxury_retail",
+      "signal_type": "closure",
+      "city": "Shanghai",
+      "district": "徐汇区",
+      "neighborhood": "徐家汇",
+      "date": "2026-03-14T16:06:49.738Z",
+      "severity": "critical",
+      "content": "徐家汇ITC商场的LV关门了，可能是因为生意不好。",
+      "file": "data/signals/2026-03-14-GW5sX9pFa8.md",
+      "tags": [
+        "Louis Vuitton",
+        "LV",
+        "徐家汇ITC",
+        "ITC",
+        "徐汇区",
+        "商场",
+        "奢侈品",
+        "关门"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-UdPIYD9eAT",
+      "target_name": "咬强羊肉面",
+      "target_category": "food",
+      "subcategory": "restaurant",
+      "signal_type": "closure",
+      "city": "Shanghai",
+      "district": "长宁区",
+      "neighborhood": "愚园路",
+      "date": "2026-03-14T15:45:00.124Z",
+      "severity": "critical",
+      "content": "愚园路我很喜欢吃的咬强羊肉面关店了，太可惜了",
+      "file": "data/signals/2026-03-14-UdPIYD9eAT.md",
+      "tags": [
+        "咬强羊肉面",
+        "羊肉面",
+        "愚园路",
+        "关店",
+        "面馆"
+      ]
     },
     {
       "_schema": "openbook/signal/v1",
@@ -188,50 +269,15 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-14-UdPIYD9eAT",
-      "target_name": "咬强羊肉面",
+      "_id": "signals/2026-03-13-KzVuF0e0Uw",
+      "target_name": "t9",
       "target_category": "food",
-      "subcategory": "restaurant",
-      "signal_type": "closure",
+      "signal_type": "tip",
       "city": "Shanghai",
-      "district": "长宁区",
-      "neighborhood": "愚园路",
-      "date": "2026-03-14T15:45:00.124Z",
-      "severity": "critical",
-      "content": "愚园路我很喜欢吃的咬强羊肉面关店了，太可惜了",
-      "file": "data/signals/2026-03-14-UdPIYD9eAT.md",
-      "tags": [
-        "咬强羊肉面",
-        "羊肉面",
-        "愚园路",
-        "关店",
-        "面馆"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-14-GW5sX9pFa8",
-      "target_name": "Louis Vuitton",
-      "target_category": "other",
-      "subcategory": "luxury_retail",
-      "signal_type": "closure",
-      "city": "Shanghai",
-      "district": "徐汇区",
-      "neighborhood": "徐家汇",
-      "date": "2026-03-14T16:06:49.738Z",
-      "severity": "critical",
-      "content": "徐家汇ITC商场的LV关门了，可能是因为生意不好。",
-      "file": "data/signals/2026-03-14-GW5sX9pFa8.md",
-      "tags": [
-        "Louis Vuitton",
-        "LV",
-        "徐家汇ITC",
-        "ITC",
-        "徐汇区",
-        "商场",
-        "奢侈品",
-        "关门"
-      ]
+      "date": "2026-03-13T12:00:00.000Z",
+      "severity": "info",
+      "content": "环贸IAPM的t9陈皮普洱，68元。味道和环境都挺不错的。",
+      "file": "data/signals/2026-03-13-KzVuF0e0Uw.md"
     }
   ]
 }
