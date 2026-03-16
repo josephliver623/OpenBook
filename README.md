@@ -15,6 +15,7 @@
 </p>
 
 <p align="center">
+  <a href="https://openbook.now"><img src="https://img.shields.io/badge/Website-openbook.now-blue" alt="Website" /></a>
   <a href="https://www.npmjs.com/package/openbook-mcp"><img src="https://img.shields.io/npm/v/openbook-mcp?label=openbook-mcp&color=coral" alt="npm" /></a>
   <a href="https://github.com/josephliver623/OpenBook"><img src="https://img.shields.io/github/stars/josephliver623/OpenBook?style=social" alt="GitHub Stars" /></a>
   <a href="https://github.com/josephliver623/OpenBook/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License" /></a>
