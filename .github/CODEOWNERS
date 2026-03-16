@@ -1,0 +1,26 @@
+# ──────────────────────────────────────────────────────────────
+# OpenBook Distributed Governance — CODEOWNERS
+# ──────────────────────────────────────────────────────────────
+#
+# Each community has full editorial authority over its own data.
+# Maintainer teams are created per community and granted review
+# and merge permissions for their respective directories.
+#
+# To add a new community:
+# 1. Create a GitHub Team (e.g., @josephliver623/mit-maintainers)
+# 2. Create the data directory (e.g., data/mit/)
+# 3. Add a CODEOWNERS rule below
+# ──────────────────────────────────────────────────────────────
+
+# ── Global schemas and scripts require core team review ──
+/schemas/               @josephliver623
+/scripts/               @josephliver623
+/SKILL.md               @josephliver623
+
+# ── Community-owned data directories ──
+# (Add new communities here as they join)
+
+# /data/mit/            @josephliver623/mit-maintainers
+# /data/stanford/       @josephliver623/stanford-maintainers
+# /data/seattle/        @josephliver623/seattle-maintainers
+# /data/nyc/            @josephliver623/nyc-maintainers

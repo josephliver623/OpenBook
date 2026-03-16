@@ -50,6 +50,13 @@ fields:
     intent: "Top-level geographic filter"
     examples: ["Shanghai", "New York", "Tokyo"]
 
+  community:
+    type: string
+    required: false
+    description: "Community identifier (school or city), lowercase"
+    intent: "Community filter for distributed governance"
+    examples: ["mit", "stanford", "seattle", "nyc"]
+
   district:
     type: string
     required: false

@@ -10,6 +10,11 @@
 </p>
 
 <p align="center">
+  <em>Globally Connected, Locally Owned.</em><br>
+  <em>全球互联，社区自治。</em>
+</p>
+
+<p align="center">
   <a href="https://www.npmjs.com/package/openbook-mcp"><img src="https://img.shields.io/npm/v/openbook-mcp?label=openbook-mcp&color=coral" alt="npm" /></a>
   <a href="https://github.com/josephliver623/OpenBook"><img src="https://img.shields.io/github/stars/josephliver623/OpenBook?style=social" alt="GitHub Stars" /></a>
   <a href="https://github.com/josephliver623/OpenBook/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License" /></a>
@@ -38,7 +43,7 @@ OpenBook 采用了一种截然不同的方式：
 |---|---|
 | Algorithms decide what you see | You query exactly what you need |
 | Unstructured text, hard to parse | Schema-driven structured data |
-| Centralized, one company controls all | Decentralized, everyone owns their instance |
+| Centralized, one company controls all | Globally Connected, Locally Owned |
 | Registration required | No registration, no accounts |
 | Commercial, ad-driven | Non-commercial, community-driven |
 | Humans fill forms | AI Agents collect data through conversation |
@@ -47,7 +52,7 @@ OpenBook 采用了一种截然不同的方式：
 |---|---|
 | 算法决定你看什么 | 你精确查询你需要的 |
 | 非结构化文本，难以解析 | Schema 驱动的结构化数据 |
-| 中心化，一家公司控制一切 | 去中心化，每个人拥有自己的实例 |
+| 中心化，一家公司控制一切 | 全球互联，社区自治 |
 | 需要注册 | 无需注册、无需账号 |
 | 商业化，广告驱动 | 非商业化，社区驱动 |
 | 人类填表单 | AI Agent 通过对话收集数据 |
@@ -56,35 +61,70 @@ OpenBook 采用了一种截然不同的方式：
 
 ## Core Principles | 核心理念
 
-### 1. Information Equality | 信息平权
+### 1. Globally Connected, Locally Owned | 全球互联，社区自治
 
-Every review is stored as a plain JSON file in a public Git repository. No paywalls, no premium tiers, no "boost your listing" schemes. The data belongs to the community, not a corporation. Anyone can read it, any Agent can query it, and no algorithm decides who sees what.
+OpenBook is not a centralized platform — it is a **unified data network composed of self-governing communities**. Each community — whether a university, a city, or an interest group — has full editorial authority over its own content, while contributing value to the entire network.
 
-每条评价都以纯 JSON 文件存储在公开的 Git 仓库中。没有付费墙，没有高级会员，没有"推广你的商铺"。数据属于社区，不属于任何公司。任何人都能阅读，任何 Agent 都能查询，没有算法决定谁能看到什么。
+OpenBook 不是一个中心化的平台，而是一个**由无数自治社区组成的统一数据网络**。每个社区——无论是一个大学、一个城市、还是一个兴趣群体——都拥有自己内容的完整审核权，同时为整个网络贡献价值。
 
-### 2. Structured Data, Not Noise | 结构化数据，而非噪音
+Data is not locked in any platform. Information flows freely. Communities own their voice.
+
+数据不被锁死在任何平台。信息自由流动。社区自己做主。
+
+### 2. Information Equality | 信息平权
+
+Every review is stored as a plain file in a public Git repository. No paywalls, no premium tiers, no "boost your listing" schemes. The data belongs to the community, not a corporation. Anyone can read it, any Agent can query it, and no algorithm decides who sees what.
+
+每条评价都以纯文件存储在公开的 Git 仓库中。没有付费墙，没有高级会员，没有"推广你的商铺"。数据属于社区，不属于任何公司。任何人都能阅读，任何 Agent 都能查询，没有算法决定谁能看到什么。
+
+### 3. Structured Data, Not Noise | 结构化数据，而非噪音
 
 Every review category is defined by a YAML Schema that enforces quality. A housing review **must** include rent, noise level, renovation condition, and landlord rating. A restaurant review **must** include cuisine, price per person, and taste rating. This is not a BBS where people write "nice place lol" — this is structured, queryable, high-quality data.
 
 每个评价分类都由 YAML Schema 定义并强制保证质量。一条租房评价**必须**包含租金、噪音水平、装修状况和房东评分。一条餐厅评价**必须**包含菜系、人均消费和口味评分。这不是一个人们写"不错哦哈哈"的论坛 —— 这是结构化的、可查询的、高质量的数据。
 
-### 3. Agent-Native, Human-Friendly | Agent 原生，人类友好
+### 4. Agent-Native, Human-Friendly | Agent 原生，人类友好
 
 OpenBook is designed from the ground up for AI Agents (OpenClaw, Manus, and any future Agent). The `SKILL.md` file teaches any Agent how to read schemas, collect data through natural conversation, validate entries, and perform precise structured queries. Ordinary users never touch Git, JSON, or YAML — they just talk to their Agent.
 
 OpenBook 从底层就为 AI Agent（OpenClaw、Manus 以及任何未来的 Agent）设计。`SKILL.md` 文件教会任何 Agent 如何读取 Schema、通过自然对话收集数据、校验条目、执行精确的结构化查询。普通用户永远不需要接触 Git、JSON 或 YAML —— 他们只需要跟自己的 Agent 对话。
-
-### 4. Everyone Can Build Their Own | 每个人都能创建自己的 OpenBook
-
-OpenBook is a **template**, not a platform. Click "Use this template" on GitHub, and you have your own OpenBook instance in seconds. Want to review gyms? Daycares? Doctors? Coworking spaces? Just add a `.yml` schema file. The Agent adapts automatically.
-
-OpenBook 是一个**模板**，不是一个平台。在 GitHub 上点击 "Use this template"，几秒钟就拥有了自己的 OpenBook 实例。想评价健身房？幼儿园？医生？共享办公空间？只需添加一个 `.yml` schema 文件。Agent 自动适配。
 
 ### 5. Non-Commercial Forever | 永远非商业化
 
 OpenBook is and will always be non-commercial. No ads, no sponsored reviews, no data selling. The code is MIT licensed. The data is community-owned. This is a public good, not a business.
 
 OpenBook 现在是、将来也永远是非商业化的。没有广告，没有赞助评价，没有数据出售。代码采用 MIT 许可证。数据归社区所有。这是一个公共产品，不是一门生意。
+
+---
+
+## Distributed Governance | 分布式治理
+
+OpenBook uses a **"Unified Repository + Distributed Governance"** model. We do not recommend creating independent forks for each school or city, as this would create data silos. Instead, every community becomes a self-governing node within the unified OpenBook network.
+
+OpenBook 采用**"统一仓库 + 分布式治理"**的模式。我们不推荐为每个学校或城市创建独立的 Fork，因为这会造成数据孤岛。相反，每个社区都成为 OpenBook 统一网络中的一个自治节点。
+
+### How It Works | 工作模式
+
+1. **Apply to join | 申请加入**: Open a discussion in [GitHub Discussions](../../discussions) and rally early contributors from your school or city.
+2. **Get your own space | 获得专属空间**: The core team creates a dedicated data directory (e.g., `/data/mit/`) and a maintainer team (e.g., `@mit-maintainers`).
+3. **Self-govern | 社区自治**: Through GitHub's `CODEOWNERS`, your maintainer team has full review and merge authority over your directory. Your turf, your rules.
+
+```
+# .github/CODEOWNERS
+
+# MIT community owns their content
+/data/mit/          @mit-maintainers
+
+# Stanford community owns their content
+/data/stanford/     @stanford-maintainers
+
+# Seattle community owns their content
+/data/seattle/      @seattle-maintainers
+```
+
+This way, your community maintains full autonomy while contributing to the global OpenBook data network. **No data silos. No central bottleneck. Maximum network effect.**
+
+这样，你的社区既能保持高度自治，又能为整个 OpenBook 数据网络贡献价值。**没有数据孤岛。没有中央瓶颈。网络效应最大化。**
 
 ---
 
@@ -191,12 +231,14 @@ Alternatively, clone this repo manually:
 git clone https://github.com/josephliver623/OpenBook.git
 ```
 
-### Option C: Create Your Own OpenBook | 创建你自己的 OpenBook
+### Option C: Join an Existing Community | 加入现有社区
 
-1. Click **"Use this template"** on GitHub
-2. Name your repository (e.g., `openbook-nyc-food`, `openbook-gym-reviews`)
-3. Optionally add custom categories by creating new `.yml` files in `schemas/`
-4. Start publishing reviews through your Agent!
+Want to contribute to your school or city? Check if a community already exists in `data/`, or start a new one:
+
+1. Open a discussion in [GitHub Discussions](../../discussions)
+2. Rally 3+ contributors from your school/city
+3. Get your own `data/{community}/` directory and maintainer team
+4. Start contributing with full editorial autonomy
 
 ---
 
@@ -310,20 +352,21 @@ Schema fields support:
 
 ## The OpenBook Ecosystem | OpenBook 生态
 
-Every OpenBook instance is an independent GitHub repository, but they all share the same `SKILL.md` protocol. This means any Agent that understands OpenBook can operate any instance:
+Every community in OpenBook shares the same `SKILL.md` protocol and schema system. This means any Agent that understands OpenBook can operate across all communities:
 
-每个 OpenBook 实例都是一个独立的 GitHub 仓库，但它们共享同一套 `SKILL.md` 协议。这意味着任何理解 OpenBook 的 Agent 都能操作任何实例：
+每个 OpenBook 社区共享同一套 `SKILL.md` 协议和 Schema 系统。这意味着任何理解 OpenBook 的 Agent 都能跨社区操作：
 
 ```
-openbook-template (this repo)
+OpenBook (unified repository)
     │
-    ├── openbook-nyc-housing    (NYC rental community)
-    ├── openbook-sf-food        (SF food guide)
-    ├── openbook-cs-jobs        (CS interview experiences)
-    ├── openbook-gym-reviews    (Gym reviews)
-    ├── openbook-daycare        (Daycare reviews)
-    ├── openbook-doctor         (Doctor reviews)
-    └── ... your OpenBook here
+    ├── data/seattle/       (Seattle community — @seattle-maintainers)
+    ├── data/nyc/           (NYC community — @nyc-maintainers)
+    ├── data/mit/           (MIT community — @mit-maintainers)
+    ├── data/stanford/      (Stanford community — @stanford-maintainers)
+    ├── data/housing/       (Global housing reviews)
+    ├── data/food/          (Global food reviews)
+    ├── data/jobs/          (Global job interviews)
+    └── data/signals/       (Real-time signals)
 ```
 
 ---
@@ -357,9 +400,11 @@ openbook-template (this repo)
 ├── scripts/
 │   ├── build_index.py        # Index builder
 │   └── validate.py           # Data validator
-└── .github/
-    └── workflows/
-        └── on-push.yml       # CI: validate + rebuild index
+├── .github/
+│   ├── CODEOWNERS            # Distributed governance rules
+│   └── workflows/
+│       └── on-push.yml       # CI: validate + rebuild index
+└── LICENSE
 ```
 
 ---
@@ -371,10 +416,11 @@ OpenBook is a community project. You can contribute by:
 OpenBook 是一个社区项目。你可以通过以下方式参与贡献：
 
 1. **Publishing reviews** — Share your honest experiences through your Agent
-2. **Creating your own OpenBook** — Fork this template for your community
-3. **Adding schemas** — Define new review categories
-4. **Improving the codebase** — PRs welcome for scripts, CI, and SKILL.md
-5. **Spreading the word** — Tell others about information equality
+2. **Starting a community** — Rally contributors from your school or city and apply for your own space
+3. **Becoming a maintainer** — Contribute 10+ reviewed entries, then apply to become a community maintainer
+4. **Adding schemas** — Define new review categories
+5. **Improving the codebase** — PRs welcome for scripts, CI, and SKILL.md
+6. **Spreading the word** — Tell others about information equality
 
 ---
 
@@ -386,7 +432,7 @@ MIT — Use it, fork it, build on it. Free forever.
 
 <p align="center">
   <img src="assets/logo.png" alt="OpenBook" width="80" /><br>
-  <strong>OpenBook</strong> — Structured reviews by the people, for the people.<br>
-  <strong>OpenBook</strong> — 来自人民的结构化评价，服务于人民。<br><br>
+  <strong>OpenBook</strong> — Globally Connected, Locally Owned.<br>
+  <strong>OpenBook</strong> — 全球互联，社区自治。<br><br>
   <a href="https://openbook.now">Website</a> · <a href="https://www.npmjs.com/package/openbook-mcp">npm</a> · <a href="https://github.com/josephliver623/OpenBook">GitHub</a>
 </p>

@@ -49,6 +49,15 @@ fields:
     context: "用于城市级别筛选"
     agent_prompt: "在哪个城市？"
 
+  community:
+    type: string
+    required: false
+    description: "所属社区标识（学校或城市），小写"
+    intent: "community_filter"
+    context: "用于分布式治理下的社区归属，如 mit / stanford / seattle"
+    examples: ["mit", "stanford", "seattle", "nyc"]
+    agent_prompt: "这条内容属于哪个社区？比如学校名或城市名"
+
   neighborhood:
     type: string
     required: true
