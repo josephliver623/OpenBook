@@ -37,27 +37,46 @@
 
 The answer lies in a structural shift that happened over the last century: **the collapse of the reputation economy**.
 
+答案在于过去一个世纪发生的一场结构性转变：**声誉经济的崩塌**。
+
 In a village, your reputation was your most valuable asset. Cheat someone on wages, and tomorrow the whole village knows — your children can't hold their heads up. The social cost of bad behavior was immediate, visible, and inescapable. This wasn't morality; it was **accountability enforced by information density**.
+
+在村子里，声誉是你最宝贵的资产。拖欠工资，明天全村都知道——你的孩子都抬不起头。不良行为的社会代价是即时的、可见的、无处可逃的。这不是道德，而是**由信息密度强制执行的问责机制**。
 
 Urbanization destroyed this. In a city of millions, strangers transact with strangers. Reputation costs approach zero. A landlord who steals deposits moves to the next tenant. An employer who exploits workers hires the next batch. A professor who abuses power finds the next student.
 
+城市化摧毁了这一切。在数百万人的城市里，陌生人与陌生人交易，声誉成本趋近于零。克扣押金的房东转身找下一个租客，剥削员工的雇主继续招下一批人，滥用权力的导师找到下一个学生。
+
 The legal system was supposed to replace the village network. Contracts, labor arbitration, consumer protection laws — on paper, these are progress. But the **execution layer is hollow**. The hidden costs of enforcement — time, energy, psychological toll, and the grim reality of "winning a judgment you can't collect" — are too high for ordinary people. Bad actors have done the math:
 
+法律体系本应取代熟人网络。合同、劳动仲裁、消费者保护法——在纸面上，这些是进步。但**执行端是空的**。维权的隐性成本——时间、精力、心理压力，以及"赢了官司执行不了"的现实——对普通人来说太高了。坏人算过这笔账：
+
+> **违规的预期收益 > 被惩罚的概率 × 惩罚力度**
 > **Expected gain from violation > (Probability of punishment × Severity of punishment)**
 
-So they keep violating.
+So they keep violating. Public opinion fills the gap, but it's fragile. Attention is scarce; outrage lasts three days. It can be manipulated and redirected. It only punishes the *dramatic* bad actors — the daily, mundane wrongs never trend.
 
-Public opinion fills the gap, but it's fragile. Attention is scarce; outrage lasts three days. It can be manipulated and redirected. It only punishes the *dramatic* bad actors — the daily, mundane wrongs never trend.
+所以他们继续违规。舆论填补了执法的空缺，但舆论很脆弱。注意力稀缺，热度三天就过去了。它可以被操控和转移，只能惩罚"够戏剧性"的坏人——日常的、平凡的恶行根本上不了热搜。
 
 This is not inevitable, but it has structural causes. Every society in transition goes through this phase: the old constraints (village morality) have dissolved, the new constraints (rule of law enforcement) haven't solidified yet. The problem is this "transition period" can last a very long time.
 
+这不是必然，但有结构性原因。每个社会转型期几乎都会经历这个阶段：旧的约束（熟人道德）瓦解了，新的约束（法治执行）还没建立起来。问题是，这个"过渡期"可以很长。
+
 **OpenBook is our answer to this problem.**
+
+**OpenBook 是我们对这个问题的回答。**
 
 We cannot increase the severity of punishment. We cannot make courts faster. But we can do something the village did naturally: **make information about behavior persistent, searchable, and impossible to erase**.
 
+我们无法加重惩罚力度，也无法让法院提速。但我们可以做一件村子里本来就会自然发生的事：**让行为信息持久存在、可被搜索、无法抹除**。
+
 When a landlord's history of deposit theft is permanently recorded and findable by the next tenant — the expected gain from violation drops. When a professor's pattern of coercion is documented and verifiable — the next student can make an informed choice. When a company's interview deception is public — the next candidate is protected.
 
+当一个房东克扣押金的历史被永久记录、下一个租客可以查到——违规的预期收益就下降了。当一个导师施压的模式被记录在案、可被验证——下一个学生就能做出知情的选择。当一家公司的面试欺骗行为被公开——下一个求职者就受到了保护。
+
 This is not a platform. This is **infrastructure for reputation in the age of strangers**.
+
+这不是一个平台，这是**陌生人时代的声誉基础设施**。
 
 ---
 
