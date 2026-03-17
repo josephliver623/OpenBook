@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenBook — Evidence Hash Demo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      color: #1a1a2e;
+      padding: 2rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    p.subtitle { color: #666; margin-bottom: 2rem; font-size: 0.95rem; }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .card h2 { font-size: 1rem; margin-bottom: 1rem; color: #333; }
+
+    .drop-zone {
+      border: 2px dashed #ccc;
+      border-radius: 8px;
+      padding: 2rem;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      color: #888;
+    }
+    .drop-zone.dragover { border-color: #6c63ff; background: #f0eeff; }
+    .drop-zone input[type="file"] { display: none; }
+
+    .result-block {
+      background: #f4f4f8;
+      border-radius: 8px;
+      padding: 1rem;
+      font-family: 'Courier New', monospace;
+      font-size: 0.8rem;
+      word-break: break-all;
+      margin-top: 1rem;
+      display: none;
+    }
+    .result-block.visible { display: block; }
+
+    .label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #6c63ff;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+    .value { color: #1a1a2e; margin-bottom: 0.75rem; }
+
+    .btn {
+      background: #6c63ff;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #5a52d5; }
+    .btn:disabled { background: #ccc; cursor: not-allowed; }
+
+    .status {
+      font-size: 0.85rem;
+      margin-top: 0.75rem;
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      display: none;
+    }
+    .status.info    { background: #e8f4fd; color: #1565c0; display: block; }
+    .status.success { background: #e8f5e9; color: #2e7d32; display: block; }
+    .status.error   { background: #fce4ec; color: #c62828; display: block; }
+
+    .yaml-output {
+      background: #1e1e2e;
+      color: #cdd6f4;
+      border-radius: 8px;
+      padding: 1rem;
+      font-family: 'Courier New', monospace;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      white-space: pre;
+      overflow-x: auto;
+      display: none;
+    }
+    .yaml-output.visible { display: block; }
+
+    .copy-btn {
+      background: transparent;
+      border: 1px solid #6c63ff;
+      color: #6c63ff;
+      border-radius: 6px;
+      padding: 0.3rem 0.7rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      margin-left: 0.5rem;
+    }
+    .copy-btn:hover { background: #f0eeff; }
+
+    /* Verify section */
+    .verify-row { display: flex; gap: 0.75rem; align-items: flex-start; flex-wrap: wrap; }
+    .verify-row input[type="text"] {
+      flex: 1;
+      min-width: 200px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🔐 OpenBook Evidence Hash</h1>
+<p class="subtitle">
+  Compute a SHA-256 hash of your evidence file and anchor it to the Bitcoin blockchain
+  via OpenTimestamps — all in your browser. Your file never leaves your device.
+</p>
+
+<!-- Step 1: Hash & Stamp -->
+<div class="card">
+  <h2>Step 1 — Select Evidence File</h2>
+  <div class="drop-zone" id="dropZone">
+    <input type="file" id="fileInput" />
+    <p>📎 Drop a file here, or <strong>click to browse</strong></p>
+    <p style="font-size:0.8rem;margin-top:0.5rem;color:#aaa">
+      Screenshots, PDFs, chat exports — any file works.<br>
+      The file is hashed locally and never uploaded.
+    </p>
+  </div>
+
+  <div id="hashResult" class="result-block">
+    <div class="label">File Name</div>
+    <div class="value" id="fileName">—</div>
+    <div class="label">SHA-256 Hash</div>
+    <div class="value" id="hashValue">—</div>
+  </div>
+
+  <button class="btn" id="stampBtn" disabled>
+    ⛓ Anchor to Bitcoin Blockchain (OpenTimestamps)
+  </button>
+  <div class="status" id="stampStatus"></div>
+
+  <div id="otsResult" class="result-block">
+    <div class="label">Pending Calendars</div>
+    <div class="value" id="calendarUrls">—</div>
+    <div class="label">.ots Proof (base64)</div>
+    <div class="value" id="otsBase64">—</div>
+  </div>
+</div>
+
+<!-- Step 2: YAML Output -->
+<div class="card">
+  <h2>Step 2 — Copy to Signal YAML
+    <button class="copy-btn" id="copyYamlBtn" style="display:none">Copy</button>
+  </h2>
+  <p style="font-size:0.85rem;color:#666;margin-bottom:0.5rem">
+    Paste this into the <code>evidence:</code> block of your Signal's YAML frontmatter.
+  </p>
+  <div class="yaml-output" id="yamlOutput"></div>
+</div>
+
+<!-- Step 3: Verify -->
+<div class="card">
+  <h2>Step 3 — Verify a File Against a Stored Hash</h2>
+  <p style="font-size:0.85rem;color:#666;margin-bottom:1rem">
+    Anyone can verify that a file matches a stored hash — no network request needed.
+  </p>
+  <div class="verify-row">
+    <input type="text" id="verifyHashInput" placeholder="sha256:a3f2b8c1d4e5..." />
+    <label class="btn" for="verifyFileInput" style="display:inline-block;margin-top:0">
+      📂 Select File
+    </label>
+    <input type="file" id="verifyFileInput" style="display:none" />
+  </div>
+  <div class="status" id="verifyStatus"></div>
+</div>
+
+<script type="module">
+  // ── Inline the core functions so this demo works without a bundler ──────
+
+  async function hashFile(input) {
+    let buffer;
+    if (input instanceof ArrayBuffer) {
+      buffer = input;
+    } else if (input instanceof File || input instanceof Blob) {
+      buffer = await input.arrayBuffer();
+    } else {
+      throw new TypeError('hashFile: input must be a File, Blob, or ArrayBuffer');
+    }
+    const hashBuffer = await crypto.subtle.digest('SHA-256', buffer);
+    const hashArray  = Array.from(new Uint8Array(hashBuffer));
+    return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+
+  const DEFAULT_CALENDARS = [
+    'https://alice.btc.calendar.opentimestamps.org',
+    'https://bob.btc.calendar.opentimestamps.org',
+    'https://finney.calendar.eternitywall.com',
+  ];
+
+  async function stampHash(hexHash) {
+    const hashBytes = new Uint8Array(
+      hexHash.match(/.{2}/g).map(byte => parseInt(byte, 16))
+    );
+    const pendingUrls = [];
+    const calendarResponses = await Promise.allSettled(
+      DEFAULT_CALENDARS.map(async (calendarUrl) => {
+        const response = await fetch(`${calendarUrl}/digest`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/octet-stream' },
+          body: hashBytes,
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const pendingBytes = new Uint8Array(await response.arrayBuffer());
+        pendingUrls.push(calendarUrl);
+        return { calendarUrl, pendingBytes };
+      })
+    );
+    const successful = calendarResponses
+      .filter(r => r.status === 'fulfilled')
+      .map(r => r.value);
+    if (successful.length === 0) throw new Error('All calendar servers failed.');
+
+    // Minimal .ots envelope
+    const OTS_MAGIC = new Uint8Array([
+      0x00,0x4f,0x70,0x65,0x6e,0x54,0x69,0x6d,
+      0x65,0x73,0x74,0x61,0x6d,0x70,0x73,0x00,
+      0x00,0x50,0x72,0x6f,0x6f,0x66,0x00,0xbf,
+      0x89,0xe2,0xe8,0x84,0xe8,0x92,0x94,0x01,
+    ]);
+    const SHA256_TAG = new Uint8Array([0x08]);
+
+    function encodeVarint(n) {
+      const bytes = [];
+      while (n > 0x7f) { bytes.push((n & 0x7f) | 0x80); n >>= 7; }
+      bytes.push(n);
+      return new Uint8Array(bytes);
+    }
+    function encodePending(url) {
+      const MAGIC = new Uint8Array([0x83,0xdf,0xe3,0x0d,0x2e,0xf9,0x0c,0x8e]);
+      const urlBytes = new TextEncoder().encode(url);
+      return concat([MAGIC, encodeVarint(urlBytes.length), urlBytes]);
+    }
+    function concat(arrays) {
+      const total = arrays.reduce((s,a) => s + a.length, 0);
+      const r = new Uint8Array(total); let off = 0;
+      for (const a of arrays) { r.set(a, off); off += a.length; }
+      return r;
+    }
+
+    const otsBytes = concat([
+      OTS_MAGIC, SHA256_TAG, hashBytes,
+      ...successful.map(({calendarUrl}) => encodePending(calendarUrl)),
+    ]);
+    const otsBase64 = btoa(String.fromCharCode(...otsBytes));
+    return { otsBase64, pendingUrls };
+  }
+
+  async function verifyFileHash(input, storedHash) {
+    const hexHash = await hashFile(input);
+    return hexHash === storedHash.replace(/^sha256:/, '');
+  }
+
+  // ── UI wiring ────────────────────────────────────────────────────────────
+
+  let currentHash = null;
+  let currentFileName = null;
+
+  const dropZone    = document.getElementById('dropZone');
+  const fileInput   = document.getElementById('fileInput');
+  const hashResult  = document.getElementById('hashResult');
+  const fileNameEl  = document.getElementById('fileName');
+  const hashValueEl = document.getElementById('hashValue');
+  const stampBtn    = document.getElementById('stampBtn');
+  const stampStatus = document.getElementById('stampStatus');
+  const otsResult   = document.getElementById('otsResult');
+  const calendarEl  = document.getElementById('calendarUrls');
+  const otsBase64El = document.getElementById('otsBase64');
+  const yamlOutput  = document.getElementById('yamlOutput');
+  const copyYamlBtn = document.getElementById('copyYamlBtn');
+
+  dropZone.addEventListener('click', () => fileInput.click());
+  dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('dragover'); });
+  dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+  dropZone.addEventListener('drop', e => {
+    e.preventDefault(); dropZone.classList.remove('dragover');
+    if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]);
+  });
+  fileInput.addEventListener('change', () => { if (fileInput.files[0]) handleFile(fileInput.files[0]); });
+
+  async function handleFile(file) {
+    currentFileName = file.name;
+    fileNameEl.textContent = file.name;
+    hashValueEl.textContent = 'Computing…';
+    hashResult.classList.add('visible');
+    stampBtn.disabled = true;
+
+    try {
+      currentHash = await hashFile(file);
+      hashValueEl.textContent = `sha256:${currentHash}`;
+      stampBtn.disabled = false;
+    } catch(e) {
+      hashValueEl.textContent = `Error: ${e.message}`;
+    }
+  }
+
+  stampBtn.addEventListener('click', async () => {
+    if (!currentHash) return;
+    stampBtn.disabled = true;
+    setStatus(stampStatus, 'info', '⏳ Submitting to OpenTimestamps calendar servers (Alice, Bob, Finney)…');
+
+    try {
+      const { otsBase64, pendingUrls } = await stampHash(currentHash);
+      calendarEl.textContent = pendingUrls.join('\n');
+      otsBase64El.textContent = otsBase64.slice(0, 80) + '…';
+      otsResult.classList.add('visible');
+
+      const yaml = buildYaml(currentHash, otsBase64, pendingUrls);
+      yamlOutput.textContent = yaml;
+      yamlOutput.classList.add('visible');
+      copyYamlBtn.style.display = 'inline-block';
+
+      setStatus(stampStatus, 'success',
+        `✅ Hash anchored to ${pendingUrls.length} calendar server(s). ` +
+        `The .ots proof will be fully confirmed after ~1 Bitcoin block (~1 hour).`
+      );
+    } catch(e) {
+      setStatus(stampStatus, 'error', `❌ ${e.message}`);
+      stampBtn.disabled = false;
+    }
+  });
+
+  copyYamlBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(yamlOutput.textContent).then(() => {
+      copyYamlBtn.textContent = 'Copied!';
+      setTimeout(() => { copyYamlBtn.textContent = 'Copy'; }, 2000);
+    });
+  });
+
+  function buildYaml(hexHash, otsBase64, pendingUrls) {
+    const note = currentFileName
+      ? `Evidence file: ${currentFileName}`
+      : 'Evidence file hash';
+    return `evidence:
+  hash: "sha256:${hexHash}"
+  algorithm: "sha256"
+  timestamp_proof: "ots:${otsBase64.slice(0, 40)}…"
+  pending_calendars:
+${pendingUrls.map(u => `    - "${u}"`).join('\n')}
+  note: "${note}"`;
+  }
+
+  // Verify section
+  const verifyHashInput = document.getElementById('verifyHashInput');
+  const verifyFileInput = document.getElementById('verifyFileInput');
+  const verifyStatus    = document.getElementById('verifyStatus');
+
+  verifyFileInput.addEventListener('change', async () => {
+    const file = verifyFileInput.files[0];
+    const storedHash = verifyHashInput.value.trim();
+    if (!file || !storedHash) {
+      setStatus(verifyStatus, 'info', 'Please provide both a file and a stored hash.');
+      return;
+    }
+    setStatus(verifyStatus, 'info', '⏳ Verifying…');
+    try {
+      const match = await verifyFileHash(file, storedHash);
+      if (match) {
+        setStatus(verifyStatus, 'success', `✅ Match! The file "${file.name}" matches the stored hash.`);
+      } else {
+        setStatus(verifyStatus, 'error', `❌ Mismatch. The file does not match the stored hash.`);
+      }
+    } catch(e) {
+      setStatus(verifyStatus, 'error', `Error: ${e.message}`);
+    }
+  });
+
+  function setStatus(el, type, msg) {
+    el.className = `status ${type}`;
+    el.textContent = msg;
+  }
+</script>
+
+</body>
+</html>
