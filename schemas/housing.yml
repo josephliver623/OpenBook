@@ -113,6 +113,14 @@ fields:
     intent: "condition_category"
     agent_prompt: "装修情况怎么样？全新/较新/一般/较旧/很差"
 
+  landlord_entity:
+    type: string
+    required: false
+    description: "关联的房东主体ID"
+    example: "landlord-zhangsan-123"
+    intent: "entity_relation"
+    agent_prompt: "这个房东有没有在OpenBook里建过档案？有的话ID是什么？"
+
   landlord_rating:
     type: number
     required: true
@@ -163,6 +171,35 @@ fields:
     auto: "today"
     description: "发布日期"
     intent: "freshness_indicator"
+
+  evidence:
+    type: object
+    required: false
+    description: "证据哈希，用于验证信息的真实性"
+    intent: "verifiability_enhancement"
+    context: "文件本身不上传，只记录哈希值和可选的区块链时间戳"
+    agent_prompt: "有没有聊天记录、合同截图之类的证据？有的话请提供文件，我会计算哈希值。"
+    fields:
+      hash:
+        type: string
+        required: true
+        description: "文件哈希值 (sha256)"
+        example: "sha256:a3f2b8c1d4e5..."
+      algorithm:
+        type: string
+        required: true
+        default: "sha256"
+        description: "哈希算法"
+      timestamp_proof:
+        type: string
+        required: false
+        description: "可选的区块链时间戳证明URL"
+        example: "https://opentimestamps.org/..."
+      note:
+        type: string
+        required: false
+        description: "证据描述，不含敏感内容"
+        example: "微信聊天截图，显示房东拒绝退还押金"
 
   author:
     type: string

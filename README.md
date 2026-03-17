@@ -129,6 +129,22 @@ This way, your community maintains full autonomy while contributing to the globa
 
 ---
 
+## Core Concepts
+
+### Signal: A Timestamped Observation
+
+A Signal is a single, structured observation about a place, a person, or an event. It's the basic unit of data in OpenBook. Each Signal is a Markdown file with a YAML frontmatter, containing structured data like ratings, location, and other relevant fields.
+
+### Entity: A Profile for People, Places, and Organizations
+
+An Entity is a profile that aggregates multiple Signals related to a single person (e.g., a landlord), organization (e.g., a company), or place. This allows us to build a longitudinal history of behavior and reputation over time. For example, all signals related to a specific landlord are linked to their Entity profile, creating a verifiable track record.
+
+### Evidence Hash: Verifiable Proof
+
+To enhance the credibility of Signals, especially for sensitive claims like a landlord withholding a deposit, we introduce the concept of an Evidence Hash. Instead of uploading sensitive documents (like chat screenshots or contracts), users can provide a cryptographic hash (e.g., SHA-256) of the evidence file. This hash is stored publicly with the Signal, while the file itself remains private. This allows for future verification without compromising user privacy.
+
+---
+
 ## How It Works | 工作原理
 
 ```
