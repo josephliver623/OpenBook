@@ -1,0 +1,43 @@
+name: entity
+display_name: "主体档案"
+description: "记录一个人、一个组织或一个地点的档案，用于关联多个信号"
+icon: "👤"
+schema_url: "openbook/entity/v1"
+version: 1
+
+fields:
+  name:
+    type: string
+    required: true
+    description: "主体名称"
+    example: "张三（房东）"
+
+  type:
+    type: string
+    required: true
+    enum: ["person", "organization", "place"]
+    description: "主体类型"
+
+  aliases:
+    type: list
+    required: false
+    description: "别名或曾用名"
+
+  contact:
+    type: object
+    required: false
+    description: "联系方式（仅记录公开信息）"
+    fields:
+      phone: { type: string }
+      email: { type: string }
+      website: { type: string }
+
+  summary:
+    type: text
+    required: false
+    description: "主体简介"
+
+  related_signals:
+    type: list
+    required: false
+    description: "关联的信号ID列表"
