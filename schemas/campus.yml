@@ -1,0 +1,61 @@
+---
+_schema: openbook/schema/v1
+id: campus
+title: Campus Life Signal
+description: Signals related to campus life, including course reviews, professor feedback, and other academic experiences.
+fields:
+  - id: institution
+    type: string
+    title: Institution
+    description: The unique identifier for the institution (e.g., mit, stanford).
+
+  - id: department
+    type: string
+    title: Department
+    description: The academic department related to the signal.
+
+  - id: course_code
+    type: string
+    title: Course Code
+    description: The official code for the course (e.g., 6.006, CS101).
+    optional: true
+
+  - id: professor_entity
+    type: string
+    title: Professor Entity ID
+    description: The unique ID of the professor's entity profile.
+    optional: true
+
+  - id: type
+    type: string
+    title: Signal Type
+    description: The type of campus signal (e.g., course_review, incident_report).
+
+  - id: incident_date
+    type: date
+    title: Incident Date
+    description: The date the reported incident occurred.
+    optional: true
+
+  - id: summary
+    type: string
+    title: Summary
+    description: A one-sentence summary of the signal.
+
+  - id: behavior_tags
+    type: list
+    title: Behavior Tags
+    description: Tags describing specific behaviors observed.
+    optional: true
+
+  - id: evidence
+    type: object
+    title: Evidence Hash
+    description: Cryptographic hash of the evidence file for verification.
+    optional: true
+
+  - id: response
+    type: string
+    title: Official Response
+    description: Link to the official response file from the involved entity.
+    optional: true
