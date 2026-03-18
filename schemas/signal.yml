@@ -147,6 +147,27 @@ fields:
     examples: [["偏辣", "价格偏贵"], ["周末排队很长"]]
 
   # ─── Metadata ───
+  housing_meta:
+    type: object
+    required: false
+    description: "Housing-specific metadata for advanced filtering"
+    intent: "Enable queries like 'find apartments with bad soundproofing'"
+    fields:
+      noise_level:
+        type: number
+        min: 1
+        max: 5
+        description: "Noise level (1=very quiet, 5=very noisy)"
+      noise_sources:
+        type: array
+        items: string
+        description: "Specific sources of noise"
+        examples: [["upstairs_footsteps", "traffic", "construction"]]
+      sentiment:
+        type: enum
+        values: [positive, negative, neutral]
+        description: "Overall sentiment of the signal"
+
   tags:
     type: array
     items: string

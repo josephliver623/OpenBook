@@ -1,4 +1,5 @@
 ---
+_schema: openbook/housing/v1
 schema: housing
 version: 1
 title: "万科中央花园"

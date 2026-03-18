@@ -1,0 +1,30 @@
+---
+_schema: openbook/signal/v1
+_version: 1
+_confidence: 0.6
+_source: nlp_extraction
+_verified: false
+_access: public
+target_name: "理想城"
+target_category: housing
+city: Hangzhou
+district: "转塘"
+signal_type: warning
+content: "理想城被提及，具体隔音情况未详细说明。"
+severity: info
+date: 2026-03-16T12:00:00+08:00
+housing_meta:
+  noise_level: 3
+  sentiment: unknown
+  noise_sources:
+    - "未知"
+tags:
+  - hangzhou
+  - soundproofing
+  - 未知
+---
+# 理想城 — 避雷 🟡
+
+理想城被提及，具体隔音情况未详细说明。
+
+**来源**: [小红书帖子](https://www.xiaohongshu.com/explore/69b74b350000000020038e9e)
