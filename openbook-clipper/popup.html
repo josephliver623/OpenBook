@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenBook Clipper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <!-- ── State: Not on XHS ── -->
+  <div id="state-not-xhs" class="state hidden">
+    <div class="header">
+      <div class="logo">OB</div>
+      <h1>OpenBook Clipper</h1>
+    </div>
+    <div class="empty-state">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="1.5">
+        <circle cx="12" cy="12" r="10"/>
+        <path d="M8 15s1.5 2 4 2 4-2 4-2"/>
+        <line x1="9" y1="9" x2="9.01" y2="9"/>
+        <line x1="15" y1="9" x2="15.01" y2="9"/>
+      </svg>
+      <p>请先打开一篇小红书帖子</p>
+      <span class="hint">支持 xiaohongshu.com/explore/... 页面</span>
+    </div>
+  </div>
+
+  <!-- ── State: Extracting ── -->
+  <div id="state-extracting" class="state hidden">
+    <div class="header">
+      <div class="logo">OB</div>
+      <h1>正在提取...</h1>
+    </div>
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>正在读取帖子内容和评论区</p>
+    </div>
+  </div>
+
+  <!-- ── State: Editing ── -->
+  <div id="state-editing" class="state hidden">
+    <div class="header">
+      <div class="logo">OB</div>
+      <h1>OpenBook Clipper</h1>
+    </div>
+
+    <!-- Extracted preview -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-icon">📋</span>
+        <span>提取结果</span>
+        <span class="badge" id="badge-status">已提取</span>
+      </div>
+      <div class="preview-card">
+        <div class="preview-title" id="preview-title"></div>
+        <div class="preview-author" id="preview-author"></div>
+        <div class="preview-content" id="preview-content"></div>
+        <div class="preview-stats">
+          <span id="preview-comments-count"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Evidence Hash -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-icon">🔒</span>
+        <span>证据哈希 (SHA-256)</span>
+      </div>
+      <div class="hash-display" id="evidence-hash"></div>
+      <div class="hash-hint">此哈希基于帖子原始内容生成，可用于验证数据未被篡改</div>
+    </div>
+
+    <!-- Metadata form -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-icon">✏️</span>
+        <span>补充信息</span>
+      </div>
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="input-title">标题</label>
+          <input type="text" id="input-title" placeholder="为这条记录起个标题">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="input-city">城市</label>
+            <input type="text" id="input-city" placeholder="如：Shanghai">
+          </div>
+          <div class="form-group">
+            <label for="input-area">区域</label>
+            <input type="text" id="input-area" placeholder="如：浦东">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="input-category">分类</label>
+          <select id="input-category">
+            <option value="housing">租房 (Housing)</option>
+            <option value="dining">餐饮 (Dining)</option>
+            <option value="work">工作 (Work)</option>
+            <option value="education">教育 (Education)</option>
+            <option value="service">服务 (Service)</option>
+            <option value="other">其他 (Other)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="input-tags">标签</label>
+          <input type="text" id="input-tags" placeholder="用逗号分隔，如：noise, bad-soundproofing">
+        </div>
+        <div class="form-group">
+          <label for="input-note">你的补充说明（可选）</label>
+          <textarea id="input-note" rows="3" placeholder="你可以在这里补充自己的经历或看法..."></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comment selection -->
+    <div class="section" id="comments-section">
+      <div class="section-header">
+        <span class="section-icon">💬</span>
+        <span>评论区 <span id="comments-total"></span></span>
+        <button class="btn-text" id="btn-select-all">全选</button>
+      </div>
+      <div id="comments-list" class="comments-list"></div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button class="btn btn-secondary" id="btn-preview">预览 Markdown</button>
+      <button class="btn btn-primary" id="btn-copy">复制到剪贴板</button>
+    </div>
+    <div class="actions">
+      <button class="btn btn-download" id="btn-download">下载 .md 文件</button>
+    </div>
+  </div>
+
+  <!-- ── State: Preview ── -->
+  <div id="state-preview" class="state hidden">
+    <div class="header">
+      <div class="logo">OB</div>
+      <h1>Markdown 预览</h1>
+    </div>
+    <pre id="markdown-preview" class="markdown-preview"></pre>
+    <div class="actions">
+      <button class="btn btn-secondary" id="btn-back">返回编辑</button>
+      <button class="btn btn-primary" id="btn-copy-md">复制 Markdown</button>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
