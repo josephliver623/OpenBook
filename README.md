@@ -30,29 +30,17 @@
 
 ## The Problem We're Solving
 
-> *Why do we have more rules than ever, yet bad actors face lower consequences than ever?*
+**In short: in today's anonymous society, the cost of bad behavior is too low.**
 
-The answer lies in a structural shift that happened over the last century: **the collapse of the reputation economy**.
+In a close-knit community, reputation is an invisible constraint. But in a city of millions, a lack of trust between strangers allows landlords, employers, and businesses to act maliciously and escape consequences. The cost of legal action is high, and public outrage lasts only three days.
 
-In a village, your reputation was your most valuable asset. Cheat someone on wages, and tomorrow the whole village knows — your children can't hold their heads up. The social cost of bad behavior was immediate, visible, and inescapable. This wasn't morality; it was **accountability enforced by information density**.
+OpenBook's answer isn't another exposure platform, but rather **rebuilding the reputation infrastructure for an anonymous society**.
 
-Urbanization destroyed this. In a city of millions, strangers transact with strangers. Reputation costs approach zero. A landlord who steals deposits moves to the next tenant. An employer who exploits workers hires the next batch. A professor who abuses power finds the next student.
+We can't change the law, but we can **make information about behavior persistent, searchable, and immutable**. When a person's negative record can be easily found, the expected gain from misconduct drops significantly.
 
-The legal system was supposed to replace the village network. Contracts, labor arbitration, consumer protection laws — on paper, these are progress. But the **execution layer is hollow**. The hidden costs of enforcement — time, energy, psychological toll, and the grim reality of "winning a judgment you can't collect" — are too high for ordinary people. Bad actors have done the math:
+To ensure the credibility of information, we introduce the **Evidence Hash**. Users don't need to upload private chat logs or contracts; they simply submit the SHA-256 hash of the file. This hash is permanently recorded on the blockchain, allowing anyone to independently verify the authenticity and timestamp of the evidence, while the original file remains in the user's hands, protecting their privacy.
 
-> **Expected gain from violation > (Probability of punishment × Severity of punishment)**
-
-So they keep violating. Public opinion fills the gap, but it's fragile. Attention is scarce; outrage lasts three days. It can be manipulated and redirected. It only punishes the *dramatic* bad actors — the daily, mundane wrongs never trend.
-
-This is not inevitable, but it has structural causes. Every society in transition goes through this phase: the old constraints (village morality) have dissolved, the new constraints (rule of law enforcement) haven't solidified yet. The problem is this "transition period" can last a very long time.
-
-**OpenBook is our answer to this problem.**
-
-We cannot increase the severity of punishment. We cannot make courts faster. But we can do something the village did naturally: **make information about behavior persistent, searchable, and impossible to erase**.
-
-When a landlord's history of deposit theft is permanently recorded and findable by the next tenant — the expected gain from violation drops. When a professor's pattern of coercion is documented and verifiable — the next student can make an informed choice. When a company's interview deception is public — the next candidate is protected.
-
-This is not a platform. This is **infrastructure for reputation in the age of strangers**.
+This is the core of OpenBook: **a decentralized reputation system based on verifiable evidence.**
 
 ---
 
