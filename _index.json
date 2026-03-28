@@ -82,12 +82,1530 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28--3MODSgqle",
+      "target_name": "凯德锦绣",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "顶层无楼上噪音干扰；顶层上方有机房",
+      "file": "data/signals/2026-03-28--3MODSgqle.md",
+      "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "顶层",
+        "隔音好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28--Cc1fg7pH_",
+      "target_name": "海淀区小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "该区域小区普遍存在练琴、儿童吵闹、多人口家庭夜间活动噪音等问题",
+      "file": "data/signals/2026-03-28--Cc1fg7pH_.md",
+      "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "噪音",
+        "练琴",
+        "家庭噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-1iZurvS71y",
+      "target_name": "万达大湖公馆",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "居住人口少，电梯使用频率低，噪音极少；户型大，可能存在多个房本，购房需注意名额占用问题",
+      "file": "data/signals/2026-03-28-1iZurvS71y.md",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "人少",
+        "购房限制"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-1kgOSADjzB",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "邻居的素质和生活习惯是决定居住噪音水平的主要因素",
+      "file": "data/signals/2026-03-28-1kgOSADjzB.md",
+      "tags": [
+        "soundproofing",
+        "邻里关系",
+        "噪音源"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-3UyEId3OnD",
+      "target_name": "翠城",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "隔音效果特别好，属于经济适用房；另隔音效果不佳，不同区域的隔音差异大",
+      "file": "data/signals/2026-03-28-3UyEId3OnD.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音",
+        "经济适用房",
+        "区域差异"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-4rGbwbosqp",
+      "target_name": "50年代灰砖楼 (老式楼房)",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "采用实心砖墙结构；隔音效果极佳；建筑结构坚固；楼层高 (3米多)；冬暖夏凉；价格相对便宜；多为机关单位房或苏联专家楼",
+      "file": "data/signals/2026-03-28-4rGbwbosqp.md",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "老旧",
+        "砖混结构",
+        "高质量",
+        "性价比"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-4s0DBgAz-X",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "板楼通常比塔楼在隔音方面表现更好，因为住户密度较低",
+      "file": "data/signals/2026-03-28-4s0DBgAz-X.md",
+      "tags": [
+        "soundproofing",
+        "板楼",
+        "塔楼",
+        "建筑类型"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-50hnLuCoN1",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "北京地区，部委大院、大学或军队周边（如军队干休所附近）的房屋通常环境安静，即使外部喧嚣，院内也保持宁静，但户型可能较为特殊。",
+      "file": "data/signals/2026-03-28-50hnLuCoN1.md",
+      "tags": [
+        "soundproofing",
+        "选址",
+        "安静",
+        "特殊房产"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-66o8KLhYHi",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "检查楼板厚度是评估房屋隔音性能的一个重要指标",
+      "file": "data/signals/2026-03-28-66o8KLhYHi.md",
+      "tags": [
+        "soundproofing",
+        "楼板",
+        "建筑结构"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-6DRwLv3ey9",
+      "target_name": "万科如园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "隔音效果不佳；容易听到邻居噪音",
+      "file": "data/signals/2026-03-28-6DRwLv3ey9.md",
+      "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-6PLwbtHEvM",
+      "target_name": "火星园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "隔音较好，邻居弹钢琴在家里听不到，仅在电梯间可闻；也邻里噪音问题严重，曾因争吵引发报警；居住体验尚可；部分人不喜欢中央空调设计",
+      "file": "data/signals/2026-03-28-6PLwbtHEvM.md",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "隔音差",
+        "噪音",
+        "邻里关系",
+        "隔音",
+        "中央空调"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-6mXMSK4v66",
+      "target_name": "乐成公馆",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "房子质量不错，隔音效果好，居住人群素质高；另隔音效果不佳；附近有国际学校，可能存在学乐器儿童带来的噪音；有用户提及该小区",
+      "file": "data/signals/2026-03-28-6mXMSK4v66.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音",
+        "乐器噪音",
+        "国际学校",
+        "考察"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-7I908GGZoP",
+      "target_name": "恒基天汇",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "楼板厚度达27厘米；隔音效果可媲美写字楼；总价数千万元",
+      "file": "data/signals/2026-03-28-7I908GGZoP.md",
+      "tags": [
+        "soundproofing",
+        "豪宅",
+        "隔音好",
+        "厚楼板",
+        "高价"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-9OX13TLuvD",
+      "target_name": "华侨公寓",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "位于西三环花园桥边，属于住宅性质；其隔音效果好",
+      "file": "data/signals/2026-03-28-9OX13TLuvD.md",
+      "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "隔音",
+        "住宅"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-9RDdRbCjvX",
+      "target_name": "柏林爱乐",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "一梯两户的板楼户型居住体验几乎无噪音",
+      "file": "data/signals/2026-03-28-9RDdRbCjvX.md",
+      "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "板楼",
+        "一梯两户",
+        "隔音",
+        "低噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-AlpYc8vq-J",
+      "target_name": "京华玖序",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "作为新房项目，可能隔音效果较好",
+      "file": "data/signals/2026-03-28-AlpYc8vq-J.md",
+      "tags": [
+        "soundproofing",
+        "新房",
+        "隔音好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-Bnqyy_a3Gu",
+      "target_name": "中信城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "多方反馈隔音效果差；能听到楼上说话声、邻居开灯声、甚至隔壁家庭争吵声；其隔音不如其他小区；隔音效果差，能听到邻居上厕所的声音；隔音效果相对较好",
+      "file": "data/signals/2026-03-28-Bnqyy_a3Gu.md",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "噪音问题",
+        "楼板薄",
+        "隔音尚可"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-F5SOfnJWT8",
+      "target_name": "三里河",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "其居住环境虽然非别墅级安静，但日常噪音不影响正常生活",
+      "file": "data/signals/2026-03-28-F5SOfnJWT8.md",
+      "district": "西城区",
+      "tags": [
+        "soundproofing",
+        "隔音",
+        "生活品质"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-FPCCbm8Pkr",
+      "target_name": "次渠嘉园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "多位住户一致认为隔音效果非常好；邻里关系和谐",
+      "file": "data/signals/2026-03-28-FPCCbm8Pkr.md",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "邻里关系好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-FqJjZ6pIX1",
+      "target_name": "太阳公元",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "靠近城市主干道，交通噪音明显；靠近电梯的户型，电梯运行噪音清晰；整体隔音效果极差，门外能清楚听到室内对话；楼上电视声、高跟鞋声清晰可闻；楼上邻居不定时晚间电话会议、游戏或看比赛，噪音扰民；曾发生楼上邻里纠纷，细节清晰可闻；小区品质与高昂价格（均价12万）不符，不如泛海等小区；品质仅略好于回迁房，不如一般中高端小区；价格主要受学区因素影响；北区居住体验不佳，南区相对较好；6号楼西边户隔音较好，能避免京承高速噪音，且视野不错；小区内包含回迁房；朝阳区学区优势不明显，当时仅外国语和80中较好",
+      "file": "data/signals/2026-03-28-FqJjZ6pIX1.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "噪音大",
+        "品质差",
+        "高价",
+        "学区房",
+        "电梯噪音",
+        "交通噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-G9QRTiHFil",
+      "target_name": "双泉嘉苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "位于北四环的回迁房，居住环境安静，邻里噪音少",
+      "file": "data/signals/2026-03-28-G9QRTiHFil.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "回迁房",
+        "安静",
+        "隔音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-GvLzmDxOAq",
+      "target_name": "万科大都会滨江",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音效果极佳，从未听到邻居声音；两梯一户",
+      "file": "data/signals/2026-03-28-GvLzmDxOAq.md",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "一梯两户",
+        "高档小区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-HieYpU3VGv",
+      "target_name": "中信沁园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "居住两年后认为隔音效果很差",
+      "file": "data/signals/2026-03-28-HieYpU3VGv.md",
+      "tags": [
+        "soundproofing",
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-HpiUyeiB2A",
+      "target_name": "富力又一城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音效果极差，甚至能听到楼上邻居打喷嚏的声音",
+      "file": "data/signals/2026-03-28-HpiUyeiB2A.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-Jt59QIVE_L",
+      "target_name": "风度柏林",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "获得鲁班奖；德式建筑；建筑质量好",
+      "file": "data/signals/2026-03-28-Jt59QIVE_L.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "高质量",
+        "德式建筑"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-K2_PAE8MqS",
+      "target_name": "长安6号",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "社区讨论中未提及具体的隔音信息",
+      "file": "data/signals/2026-03-28-K2_PAE8MqS.md",
+      "tags": [
+        "soundproofing",
+        "待验证"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-LQHVyu_hA7",
+      "target_name": "草桥欣园四区风景club",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "隔音好坏取决于邻居，有住户因孩子跑动噪音与邻居争吵；曾有住户抱怨楼上孩子半夜跑动噪音大；偶尔能听到邻里争吵声",
+      "file": "data/signals/2026-03-28-LQHVyu_hA7.md",
+      "tags": [
+        "soundproofing",
+        "隔音一般",
+        "噪音",
+        "邻里关系"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-MZN8xeIKvj",
+      "target_name": "益辰欣园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "小众小区，大户型，一梯两户板楼；隔音效果很好，除非邻居故意制造噪音；有住户在此居住20年，楼下未因孩子跑跳投诉，认为楼板质量好；属于商品房",
+      "file": "data/signals/2026-03-28-MZN8xeIKvj.md",
+      "district": "丰台区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "板楼",
+        "大户型",
+        "商品房"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-NNI6Z1g0R9",
+      "target_name": "中粮祥云国际生活区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "该小区整体评价较好，房子质量不错，楼板厚实，环境整洁；位于顺义区；靠近祥云小镇，周末儿童活动噪音可能较多；窗户可更换以改善隔音效果",
+      "file": "data/signals/2026-03-28-NNI6Z1g0R9.md",
+      "district": "顺义区",
+      "tags": [
+        "soundproofing",
+        "隔音",
+        "楼板厚",
+        "窗户",
+        "儿童噪音",
+        "环境"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-NXph4MJSSz",
+      "target_name": "芍药居五号院10号楼",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "所有墙体均为20公分厚的承重墙；属于五建公房，原为特定人群建造；公摊面积小，户型设计优秀，结构坚固；该特点仅限于10号楼",
+      "file": "data/signals/2026-03-28-NXph4MJSSz.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "承重墙",
+        "隔音",
+        "公房",
+        "户型",
+        "公摊"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-NiOyXSWzlv",
+      "target_name": "华府",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "隔音效果不如万柳书院；社区密度较低；业主之间存在纠纷",
+      "file": "data/signals/2026-03-28-NiOyXSWzlv.md",
+      "tags": [
+        "soundproofing",
+        "隔音一般",
+        "密度低",
+        "社区问题"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-NkceERTQCE",
+      "target_name": "老公房",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "部分老公房隔音极差，能听到邻里对话内容",
+      "file": "data/signals/2026-03-28-NkceERTQCE.md",
+      "tags": [
+        "soundproofing",
+        "老旧小区",
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-NlhT3t3FvU",
+      "target_name": "美林花园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "周边环境好；墙体感觉薄，风大时楼体有摇晃感",
+      "file": "data/signals/2026-03-28-NlhT3t3FvU.md",
+      "tags": [
+        "soundproofing",
+        "墙体薄",
+        "结构感受"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-NsqOqFnZzW",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "购买前在不同时间段多次实地考察小区，了解真实噪音情况",
+      "file": "data/signals/2026-03-28-NsqOqFnZzW.md",
+      "tags": [
+        "soundproofing",
+        "看房",
+        "实地考察"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-OsM3cgp3jr",
+      "target_name": "丽都壹号",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音效果差，能清晰听到隔壁说话",
+      "file": "data/signals/2026-03-28-OsM3cgp3jr.md",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-OzytrxY0dV",
+      "target_name": "锋尚",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "墙体较厚，隔音不错；有用户明确表示隔音效果差并因此出售",
+      "file": "data/signals/2026-03-28-OzytrxY0dV.md",
+      "tags": [
+        "soundproofing",
+        "隔音争议",
+        "厚墙体"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-QkG5d9rPvA",
+      "target_name": "老破小学区房",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "楼板隔音效果好，楼上楼下噪音不明显；偶尔能听到隔壁辅导作业的微弱声音",
+      "file": "data/signals/2026-03-28-QkG5d9rPvA.md",
+      "tags": [
+        "soundproofing",
+        "隔音",
+        "老旧小区",
+        "学区房"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-SSc-aBeNwL",
+      "target_name": "富力山",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "由12栋别墅组成；作为独栋住宅，安静程度通常较好",
+      "file": "data/signals/2026-03-28-SSc-aBeNwL.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "独栋",
+        "别墅",
+        "安静"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-Sx1thWYJBd",
+      "target_name": "芳城园三区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "一室一厅户型（非开间）被认为隔音效果较好",
+      "file": "data/signals/2026-03-28-Sx1thWYJBd.md",
+      "district": "丰台区",
+      "tags": [
+        "soundproofing",
+        "户型",
+        "隔音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-TSt8uJSIm4",
+      "target_name": "2003-2008年城八区板楼",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "部分板楼隔音差，能清楚听到邻居活动声（如崇文区2004年小区）",
+      "file": "data/signals/2026-03-28-TSt8uJSIm4.md",
+      "district": "东城区",
+      "tags": [
+        "soundproofing",
+        "老旧小区",
+        "板楼",
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-TYY99Dp8Jr",
+      "target_name": "紫辰院",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "居住体验显示隔音效果极佳；其隔音完美；可能得益于较大的空间、较高的层高和厚实的墙体",
+      "file": "data/signals/2026-03-28-TYY99Dp8Jr.md",
+      "district": "丰台区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "高层高",
+        "墙体厚",
+        "空间大"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-TfryyMBxBB",
+      "target_name": "西城老楼房",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "墙体隔音差；容易听到楼上活动噪音；容易听到邻居说话和乐器声",
+      "file": "data/signals/2026-03-28-TfryyMBxBB.md",
+      "district": "西城区",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "老旧",
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-Up8dpB1yOU",
+      "target_name": "公园大道",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "被认为是美国建造，建筑质量好，楼板和墙体厚实，隔音效果佳；小区环境良好；户型设计不符合国人习惯，存在大量奇葩户型（近千户中有一百多个不规整户型）；考察该小区",
+      "file": "data/signals/2026-03-28-Up8dpB1yOU.md",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "墙体厚",
+        "楼板厚",
+        "户型奇葩",
+        "美式建筑",
+        "环境好",
+        "考察"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-V7no1IUFd3",
+      "target_name": "金茂府",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "窗户无法打开，暗示隔音或密封性好",
+      "file": "data/signals/2026-03-28-V7no1IUFd3.md",
+      "tags": [
+        "soundproofing",
+        "隔音",
+        "高档小区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-W15tKoDhiU",
+      "target_name": "紫玉山庄",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "作为独栋住宅，居住体验和安静程度通常较好",
+      "file": "data/signals/2026-03-28-W15tKoDhiU.md",
+      "tags": [
+        "soundproofing",
+        "独栋",
+        "豪宅",
+        "安静"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-XRD68tzKSa",
+      "target_name": "广渠路金茂府",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音效果极佳；楼内噪音不易传播至邻居",
+      "file": "data/signals/2026-03-28-XRD68tzKSa.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "豪宅"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-XcMJRHVrO-",
+      "target_name": "安苑东里一区9号楼",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "楼栋整体安静；周末偶有儿童或宠物噪音",
+      "file": "data/signals/2026-03-28-XcMJRHVrO-.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "安静",
+        "周末噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-XlJYpr9uFx",
+      "target_name": "puyue璞悦",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "社区成员对该小区隔音效果有疑问，寻求反馈",
+      "file": "data/signals/2026-03-28-XlJYpr9uFx.md",
+      "tags": [
+        "soundproofing",
+        "待确认"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-YeDtdlYvgu",
+      "target_name": "真武家园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "位于木樨地附近，滨河路；房屋层高约4米；建造质量极佳，隔音效果好；有业主表示不舍得出售",
+      "file": "data/signals/2026-03-28-YeDtdlYvgu.md",
+      "district": "西城区",
+      "tags": [
+        "soundproofing",
+        "老房",
+        "隔音好",
+        "高层高",
+        "建设质量高"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-ZTMEvXAhmS",
+      "target_name": "万柳书院",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "采用双层楼板结构，内含两层美国雷帝隔音垫，隔音效果极佳；隔音效果可媲美写字楼；租金每月不低于8万元；户型设计、层高和采光被认为不佳；卫生间隔音效果有争议；社区密度高于华府",
+      "file": "data/signals/2026-03-28-ZTMEvXAhmS.md",
+      "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "豪宅",
+        "隔音好",
+        "双层楼板",
+        "隔音垫",
+        "高价",
+        "设计争议"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-ZjZ74SjVQC",
+      "target_name": "时代庄园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "复式和连体别墅的隔音效果不佳；下叠住户能听到上叠客厅走动声及一楼厨房做饭声；独栋别墅房源稀少",
+      "file": "data/signals/2026-03-28-ZjZ74SjVQC.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "别墅",
+        "隔音差",
+        "复式",
+        "连体"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-_rkkqLXUe-",
+      "target_name": "大屯路风格派小区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "墙体厚实；隔音效果好；保温效果好",
+      "file": "data/signals/2026-03-28-_rkkqLXUe-.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "墙体厚"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-b2QE-RqvX7",
+      "target_name": "甘露园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "1985年建造的老旧小区，隔音效果非常好；墙体坚固，打孔困难；甘露园南里一区被提及隔音尚可",
+      "file": "data/signals/2026-03-28-b2QE-RqvX7.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "老小区",
+        "隔音好",
+        "墙体厚"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-c5NtLWC-s1",
+      "target_name": "百旺家苑东区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "小区环境安静，隔音效果中等偏上",
+      "file": "data/signals/2026-03-28-c5NtLWC-s1.md",
+      "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "安静"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-cmdNdrd60u",
+      "target_name": "金顶街五区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "隔音效果非常好；被认为是首钢建设质量的体现",
+      "file": "data/signals/2026-03-28-cmdNdrd60u.md",
+      "district": "石景山区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "建筑质量"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-dT9f4PmHqf",
+      "target_name": "富力十号",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "富力旗下房产隔音效果普遍一般；有知名运动员居住",
+      "file": "data/signals/2026-03-28-dT9f4PmHqf.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音一般",
+        "名人居所"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-eAajDlxUee",
+      "target_name": "中信国安府",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "作为新房项目，可能隔音效果较好；住户多为富裕家庭；有观点认为其隔音效果能达到楼上楼下互不干扰的程度",
+      "file": "data/signals/2026-03-28-eAajDlxUee.md",
+      "tags": [
+        "soundproofing",
+        "新房",
+        "豪宅",
+        "隔音好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-enu-aMaTy5",
+      "target_name": "朱雀门",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "有住户的同事反馈其隔音效果比中信城还差；楼板被形容为“纸糊的”",
+      "file": "data/signals/2026-03-28-enu-aMaTy5.md",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "楼板薄"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-fGHSwLVXjs",
+      "target_name": "望京朝庭",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "楼上噪音不明显；朝小区方向的单元安静；朝街方向的单元开窗有噪音；隔音可能与地板和地暖设计有关",
+      "file": "data/signals/2026-03-28-fGHSwLVXjs.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "安静",
+        "噪音源"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-fIYSAkV4-1",
+      "target_name": "阳光丽景",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "房价相对稳定（特指二期），但隔音效果差，能清晰听到楼上小孩弹琴等声音",
+      "file": "data/signals/2026-03-28-fIYSAkV4-1.md",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "乐器噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-hME8iSGqpX",
+      "target_name": "观林园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音效果极差，6楼的争吵声3楼能听到；楼上打电话的内容可以清晰听到",
+      "file": "data/signals/2026-03-28-hME8iSGqpX.md",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-izBZkJW_xN",
+      "target_name": "天坛府",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "作为新房项目，可能隔音效果较好",
+      "file": "data/signals/2026-03-28-izBZkJW_xN.md",
+      "district": "东城区",
+      "tags": [
+        "soundproofing",
+        "新房",
+        "隔音好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-j8IrTowqwi",
+      "target_name": "滨河花园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "高楼隔音效果差，不推荐居住；矮楼板房的隔音效果可以接受",
+      "file": "data/signals/2026-03-28-j8IrTowqwi.md",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "高层",
+        "板房",
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-je6WFUhqO3",
+      "target_name": "东花市北里",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "部分“老板楼”（中区六层两居）被认为隔音效果好，且无电梯；隔音效果不佳，能清晰听到邻居声音；该小区部分楼栋为唐山地震后建造，建筑质量好，楼板加厚",
+      "file": "data/signals/2026-03-28-je6WFUhqO3.md",
+      "district": "东城区",
+      "tags": [
+        "soundproofing",
+        "隔音",
+        "无电梯",
+        "老旧小区",
+        "建筑质量"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-kRv1BDKRP7",
+      "target_name": "艺水芳园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "隔音效果不错，未听到过邻居声音",
+      "file": "data/signals/2026-03-28-kRv1BDKRP7.md",
+      "tags": [
+        "soundproofing",
+        "隔音好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-lAzhQhOfRO",
+      "target_name": "玉兰湾",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "隔音效果很好，边户住户表示对门弹琴关上门后听不见",
+      "file": "data/signals/2026-03-28-lAzhQhOfRO.md",
+      "district": "通州区",
+      "tags": [
+        "soundproofing",
+        "隔音好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-l_v_BOltLT",
+      "target_name": "光明中街",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "隔音效果非常好；居住期间极少听到邻居噪音",
+      "file": "data/signals/2026-03-28-l_v_BOltLT.md",
+      "district": "东城区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "安静"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-ltaZ0ZrIhG",
+      "target_name": "西城老破小",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音普遍较差，常有儿童打闹、乐器演奏等噪音；多为学区房，居住家庭多带孩子",
+      "file": "data/signals/2026-03-28-ltaZ0ZrIhG.md",
+      "district": "西城区",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "噪音",
+        "学区房",
+        "老小区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-nRVJ08IURF",
+      "target_name": "二里庄小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音效果极差；容易听到楼上细微声音",
+      "file": "data/signals/2026-03-28-nRVJ08IURF.md",
+      "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-oKuOK_bj--",
+      "target_name": "炫特嘉园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音效果存在巨大争议；有住户称隔音很好，但更多住户反映隔音极差，能听到邻居洗手、手机振动、电梯口对话等细微声音",
+      "file": "data/signals/2026-03-28-oKuOK_bj--.md",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "争议大"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-pEt-_UyH6w",
+      "target_name": "泛海国际",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "有传言称隔音效果好，但未经验证",
+      "file": "data/signals/2026-03-28-pEt-_UyH6w.md",
+      "tags": [
+        "soundproofing",
+        "待验证"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-pGItX9jy3Z",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "2000年至2010年左右建造的房屋，其隔音质量可能相对较好。",
+      "file": "data/signals/2026-03-28-pGItX9jy3Z.md",
+      "tags": [
+        "soundproofing",
+        "建筑年代",
+        "隔音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-qtG2iY8D0J",
+      "target_name": "机关家属院板楼",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "顶层板楼非常安静，尤其邻居多为老年人时",
+      "file": "data/signals/2026-03-28-qtG2iY8D0J.md",
+      "tags": [
+        "soundproofing",
+        "顶楼",
+        "板楼",
+        "安静"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-seLm_icV4s",
+      "target_name": "凤凰城",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "未发现邻居噪音干扰；社区内无噪音投诉记录",
+      "file": "data/signals/2026-03-28-seLm_icV4s.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "安静"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-sk0U3RFYWp",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "高价小区不一定保证好的隔音效果",
+      "file": "data/signals/2026-03-28-sk0U3RFYWp.md",
+      "tags": [
+        "soundproofing",
+        "价格",
+        "隔音质量"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-uCS-eTM9Mv",
+      "target_name": "北京像素",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "社区成员对其隔音效果存疑，未形成明确共识",
+      "file": "data/signals/2026-03-28-uCS-eTM9Mv.md",
+      "tags": [
+        "soundproofing",
+        "待确认"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-v6bEgyKDOb",
+      "target_name": "芳古园二区白楼",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "外部及邻里噪音隔绝好；走廊噪音清晰可闻",
+      "file": "data/signals/2026-03-28-v6bEgyKDOb.md",
+      "district": "丰台区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "走廊噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-vhvv9lo4cB",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "回迁房普遍存在隔音效果不佳的问题。",
+      "file": "data/signals/2026-03-28-vhvv9lo4cB.md",
+      "tags": [
+        "soundproofing",
+        "房屋类型",
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-wEcK8neR-c",
+      "target_name": "裕祥花园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "隔音效果好，三年内仅一次听到较大噪音；建于1980年代；无电梯",
+      "file": "data/signals/2026-03-28-wEcK8neR-c.md",
+      "district": "顺义区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "老旧小区",
+        "无电梯"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-yMByB4Sghb",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "噪音传播途径多样，不仅限于楼板，还包括卫生间管道、通过窗户的空气传播以及墙壁施工缝隙等。",
+      "file": "data/signals/2026-03-28-yMByB4Sghb.md",
+      "tags": [
+        "soundproofing",
+        "噪音源",
+        "物理原理"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-ycC8HTyyMJ",
+      "target_name": "Beijing housing 经验",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "info",
+      "content": "建议选择多层、2000年至2008年建造、四环以外、红砖钢筋混凝土结构、承重墙多的房屋，这类房屋隔音可能较好。",
+      "file": "data/signals/2026-03-28-ycC8HTyyMJ.md",
+      "tags": [
+        "soundproofing",
+        "建筑类型",
+        "建筑年代",
+        "建筑结构",
+        "区域选择"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-z8cNV6Lnc3",
+      "target_name": "国瑞城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "critical",
+      "content": "多方反馈隔音效果差，能清楚听到邻里争吵声；有住户因噪音问题选择搬离；避开回迁房区域；小区租金和房价较高",
+      "file": "data/signals/2026-03-28-z8cNV6Lnc3.md",
+      "district": "东城区",
+      "tags": [
+        "soundproofing",
+        "隔音差",
+        "回迁房",
+        "噪音问题",
+        "价格高"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-28-zPbquo3v56",
+      "target_name": "果岭里class",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-28T00:00:00.000Z",
+      "severity": "notable",
+      "content": "复式户型隔音效果好；居住环境安静",
+      "file": "data/signals/2026-03-28-zPbquo3v56.md",
+      "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "隔音好",
+        "复式"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-0w5qBCeACB",
       "target_name": "阳光城悦云邸",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "阳光城悦云邸隔音差，业主评价差。",
       "file": "data/signals/2026-03-16-0w5qBCeACB.md",
@@ -102,32 +1620,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-1z3roHyUqb",
-      "target_name": "馥香园",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "馥香园隔音较差，楼上拖椅子走路声明显。",
-      "file": "data/signals/2026-03-16-1z3roHyUqb.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "绿城",
-        "拖椅子声",
-        "楼上脚步声"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-13YFsIO6gl",
       "target_name": "西溪北苑北区",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "西溪北苑北区隔音差，拖椅子声和装修噪音频繁，业主神经衰弱准备搬家。",
       "file": "data/signals/2026-03-16-13YFsIO6gl.md",
@@ -142,60 +1640,42 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-3Jfa9Acnpe",
-      "target_name": "良渚白洋港城一期",
+      "_id": "signals/2026-03-16-1z3roHyUqb",
+      "target_name": "馥香园",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "良渚白洋港城一期隔音极差，楼下打哈欠声都能听见。",
-      "file": "data/signals/2026-03-16-3Jfa9Acnpe.md",
-      "district": "余杭区",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "打哈欠声",
-        "邻居声音"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-94A8Tzkg19",
-      "target_name": "观逸景亭",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
-      "content": "观逸景亭隔音较差，楼上说话楼下都能听见。",
-      "file": "data/signals/2026-03-16-94A8Tzkg19.md",
-      "district": "大关",
+      "content": "馥香园隔音较差，楼上拖椅子走路声明显。",
+      "file": "data/signals/2026-03-16-1z3roHyUqb.md",
       "tags": [
         "hangzhou",
         "soundproofing",
         "warning",
-        "说话声"
+        "绿城",
+        "拖椅子声",
+        "楼上脚步声"
       ]
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-BeJEufTYwX",
-      "target_name": "滨天耀城",
+      "_id": "signals/2026-03-16-2I4u2Bq4g3",
+      "target_name": "合景天峻",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "滨天耀城隔音差，业主受害严重，纷纷搬走。",
-      "file": "data/signals/2026-03-16-BeJEufTYwX.md",
-      "district": "滨江区",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "合景天峻隔音较差，楼上说话和上厕所声清晰。",
+      "file": "data/signals/2026-03-16-2I4u2Bq4g3.md",
       "tags": [
         "hangzhou",
         "soundproofing",
         "warning",
-        "隔音差"
+        "合景",
+        "说话声",
+        "上厕所声"
       ]
     },
     {
@@ -205,7 +1685,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "春江花月隔音差，楼上楼下声音清晰，窗户隔音也不好。",
       "file": "data/signals/2026-03-16-2gi4TbinQV.md",
@@ -221,12 +1701,32 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-3Jfa9Acnpe",
+      "target_name": "良渚白洋港城一期",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "良渚白洋港城一期隔音极差，楼下打哈欠声都能听见。",
+      "file": "data/signals/2026-03-16-3Jfa9Acnpe.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "打哈欠声",
+        "邻居声音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-3gamBVGmuN",
       "target_name": "万科中央花园",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "万科中央花园隔音极差，楼上拖椅子声如雷。",
       "file": "data/signals/2026-03-16-3gamBVGmuN.md",
@@ -245,7 +1745,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "风雅钱塘隔音不行，靠近地铁和装修噪音大。",
       "file": "data/signals/2026-03-16-3oPlXBOiYq.md",
@@ -259,41 +1759,21 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-BaqxKXeHvP",
-      "target_name": "昆仑橡树园",
+      "_id": "signals/2026-03-16-94A8Tzkg19",
+      "target_name": "观逸景亭",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
-      "content": "昆仑橡树园隔音差，邻居说话声清晰，户型设计不合理。",
-      "file": "data/signals/2026-03-16-BaqxKXeHvP.md",
+      "content": "观逸景亭隔音较差，楼上说话楼下都能听见。",
+      "file": "data/signals/2026-03-16-94A8Tzkg19.md",
+      "district": "大关",
       "tags": [
         "hangzhou",
         "soundproofing",
         "warning",
-        "隔音差",
-        "邻居说话声"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-2I4u2Bq4g3",
-      "target_name": "合景天峻",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "合景天峻隔音较差，楼上说话和上厕所声清晰。",
-      "file": "data/signals/2026-03-16-2I4u2Bq4g3.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "合景",
-        "说话声",
-        "上厕所声"
+        "说话声"
       ]
     },
     {
@@ -303,7 +1783,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "白荻苑隔音极差，凌晨洗衣机声和砸墙声清晰，邻居说话声能听见。",
       "file": "data/signals/2026-03-16-9r7vVjUKx1.md",
@@ -318,12 +1798,50 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-BaqxKXeHvP",
+      "target_name": "昆仑橡树园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "昆仑橡树园隔音差，邻居说话声清晰，户型设计不合理。",
+      "file": "data/signals/2026-03-16-BaqxKXeHvP.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "隔音差",
+        "邻居说话声"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-BeJEufTYwX",
+      "target_name": "滨天耀城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "滨天耀城隔音差，业主受害严重，纷纷搬走。",
+      "file": "data/signals/2026-03-16-BeJEufTYwX.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-CTVSyTOAUT",
       "target_name": "万家名城",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "万家名城隔音较差，能听见邻居说话和走动声。",
       "file": "data/signals/2026-03-16-CTVSyTOAUT.md",
@@ -342,7 +1860,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "昱泊名府被提及，具体隔音情况未详细说明。",
       "file": "data/signals/2026-03-16-CgeNmW6iW9.md",
@@ -359,7 +1877,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "万科星潮映象府隔音极差，业主避雷。",
       "file": "data/signals/2026-03-16-DnUQ5FmsbN.md",
@@ -378,7 +1896,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "万科白鹭郡南隔音极差，业主避雷。",
       "file": "data/signals/2026-03-16-FZ5QaY1qpe.md",
@@ -393,48 +1911,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-HdvQkQ1Bn8",
-      "target_name": "星合映公寓",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "星合映公寓隔音极差，早上5:30能听到别人的闹铃声。",
-      "file": "data/signals/2026-03-16-HdvQkQ1Bn8.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "早晨闹铃声"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-GhNX0gFaml",
-      "target_name": "同人广场",
-      "target_category": "housing",
-      "signal_type": "tip",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "info",
-      "content": "同人广场公寓隔音很好，住了两年未听到邻居动静。",
-      "file": "data/signals/2026-03-16-GhNX0gFaml.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "recommended",
-        "无邻居噪音"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-FkeGX1gP9I",
       "target_name": "良渚万科北宸之光",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "良渚万科北宸之光隔音极差，楼上声音清晰传入，业主避雷。",
       "file": "data/signals/2026-03-16-FkeGX1gP9I.md",
@@ -451,30 +1933,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-Hi18OQ5lSZ",
-      "target_name": "新中南家园",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "新中南家园能听到高铁声音，隔音一般。",
-      "file": "data/signals/2026-03-16-Hi18OQ5lSZ.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "高铁噪音"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-GBvESXeUwK",
       "target_name": "傲旋城",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "傲旋城隔音极差，邻居喊叫和击打声清晰，业主投诉无果。",
       "file": "data/signals/2026-03-16-GBvESXeUwK.md",
@@ -488,12 +1952,66 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-GhNX0gFaml",
+      "target_name": "同人广场",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "info",
+      "content": "同人广场公寓隔音很好，住了两年未听到邻居动静。",
+      "file": "data/signals/2026-03-16-GhNX0gFaml.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "无邻居噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-HdvQkQ1Bn8",
+      "target_name": "星合映公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "星合映公寓隔音极差，早上5:30能听到别人的闹铃声。",
+      "file": "data/signals/2026-03-16-HdvQkQ1Bn8.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "早晨闹铃声"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-Hi18OQ5lSZ",
+      "target_name": "新中南家园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "新中南家园能听到高铁声音，隔音一般。",
+      "file": "data/signals/2026-03-16-Hi18OQ5lSZ.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "高铁噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-JiAG51XXiN",
       "target_name": "戈雅公寓",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "戈雅公寓楼下打呼噜声清晰，隔音较差。",
       "file": "data/signals/2026-03-16-JiAG51XXiN.md",
@@ -506,12 +2024,33 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-K4WqayNfSy",
+      "target_name": "翠揽云境",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "翠揽云境隔音极差，楼上冲水、关灯、拖鞋声清晰，居民因噪音报警。",
+      "file": "data/signals/2026-03-16-K4WqayNfSy.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "报警噪音",
+        "楼上冲水声",
+        "关灯声",
+        "拖鞋声"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-KOOh3OViu3",
       "target_name": "明怡东方轩",
       "target_category": "housing",
       "signal_type": "tip",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "info",
       "content": "明怡东方轩回迁房隔音好，物业好，楼层隔音好，装修时除外。",
       "file": "data/signals/2026-03-16-KOOh3OViu3.md",
@@ -530,7 +2069,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "欣盛东方郡隔音极差，楼上小孩和孕妇吵闹，走路声清晰，业主后悔。",
       "file": "data/signals/2026-03-16-LGM6xdpBhh.md",
@@ -545,50 +2084,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-NYkMsXHXfb",
-      "target_name": "理想城",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "info",
-      "content": "理想城被提及，具体隔音情况未详细说明。",
-      "file": "data/signals/2026-03-16-NYkMsXHXfb.md",
-      "district": "转塘",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "未知"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-LWhbUsNLoh",
-      "target_name": "临平绿荷叠翠轩",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "临平绿荷叠翠轩隔音较差，能听见邻居闹钟和洗澡防水声。",
-      "file": "data/signals/2026-03-16-LWhbUsNLoh.md",
-      "district": "临平区",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "闹钟声",
-        "洗澡防水声"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-LUx7F8bCUM",
       "target_name": "新和嘉苑",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "新和嘉苑隔音极差，楼上关灯声、垃圾车声频繁，影响睡眠。",
       "file": "data/signals/2026-03-16-LUx7F8bCUM.md",
@@ -603,12 +2104,32 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-LWhbUsNLoh",
+      "target_name": "临平绿荷叠翠轩",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "临平绿荷叠翠轩隔音较差，能听见邻居闹钟和洗澡防水声。",
+      "file": "data/signals/2026-03-16-LWhbUsNLoh.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "闹钟声",
+        "洗澡防水声"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-MgXBBcICQn",
       "target_name": "萧山云上府",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "萧山云上府隔音极差，楼上主播噪音严重，物业无效。",
       "file": "data/signals/2026-03-16-MgXBBcICQn.md",
@@ -624,12 +2145,30 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-NYkMsXHXfb",
+      "target_name": "理想城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "info",
+      "content": "理想城被提及，具体隔音情况未详细说明。",
+      "file": "data/signals/2026-03-16-NYkMsXHXfb.md",
+      "district": "转塘",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "未知"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-OEw5uVKEzq",
       "target_name": "滨江金色黎明",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "滨江金色黎明隔音较差，楼上小孩跑动声、空调共振及邻居说话打呼噜声明显。",
       "file": "data/signals/2026-03-16-OEw5uVKEzq.md",
@@ -646,12 +2185,31 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-PTqYGPRAxw",
+      "target_name": "春熙上和湾",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "春熙上和湾楼板薄，隔音差。",
+      "file": "data/signals/2026-03-16-PTqYGPRAxw.md",
+      "district": "三塘",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "楼板薄"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-Qr2aUq0z5A",
       "target_name": "万科溪谷澜湾",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "万科溪谷澜湾隔音极差，业主避雷。",
       "file": "data/signals/2026-03-16-Qr2aUq0z5A.md",
@@ -666,50 +2224,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-PTqYGPRAxw",
-      "target_name": "春熙上和湾",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "春熙上和湾楼板薄，隔音差。",
-      "file": "data/signals/2026-03-16-PTqYGPRAxw.md",
-      "district": "三塘",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "楼板薄"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-S9x80qB7w5",
-      "target_name": "海上海",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "海上海毛坯出售，业主自行装修破坏保温层，隔音较差。",
-      "file": "data/signals/2026-03-16-S9x80qB7w5.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "装修噪音",
-        "地面保温层敲除"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-RzpTAD2Rqu",
       "target_name": "滨江望涛月明",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "滨江望涛月明隔音极差，能听见楼上走路、开关灯、厕所冲水及叫床声。",
       "file": "data/signals/2026-03-16-RzpTAD2Rqu.md",
@@ -726,12 +2246,31 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-S9x80qB7w5",
+      "target_name": "海上海",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "海上海毛坯出售，业主自行装修破坏保温层，隔音较差。",
+      "file": "data/signals/2026-03-16-S9x80qB7w5.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "装修噪音",
+        "地面保温层敲除"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-SEuoxo3WTD",
       "target_name": "仓溢绿苑",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "仓溢绿苑被提及隔音情况不佳。",
       "file": "data/signals/2026-03-16-SEuoxo3WTD.md",
@@ -745,33 +2284,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-K4WqayNfSy",
-      "target_name": "翠揽云境",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "翠揽云境隔音极差，楼上冲水、关灯、拖鞋声清晰，居民因噪音报警。",
-      "file": "data/signals/2026-03-16-K4WqayNfSy.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "报警噪音",
-        "楼上冲水声",
-        "关灯声",
-        "拖鞋声"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-SqMVFHfRRD",
       "target_name": "瑞立东方花城",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "瑞立东方花城隔音差，楼上早起和敲击声影响业主休息。",
       "file": "data/signals/2026-03-16-SqMVFHfRRD.md",
@@ -785,31 +2303,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-U24SZh8TVN",
-      "target_name": "谷丰公寓",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "谷丰公寓隔音极差，正常说话声清晰，业主避雷。",
-      "file": "data/signals/2026-03-16-U24SZh8TVN.md",
-      "district": "滨江区",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "说话声"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-SxkStQgAQi",
       "target_name": "臻珹幸福里",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "臻珹幸福里隔音极差，楼上说话声清晰，业主不满。",
       "file": "data/signals/2026-03-16-SxkStQgAQi.md",
@@ -823,12 +2322,49 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-U24SZh8TVN",
+      "target_name": "谷丰公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "谷丰公寓隔音极差，正常说话声清晰，业主避雷。",
+      "file": "data/signals/2026-03-16-U24SZh8TVN.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "说话声"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-U60a7Wvpje",
+      "target_name": "和光尘樾",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "和光尘樾隔音差，业主因隔音问题卖房。",
+      "file": "data/signals/2026-03-16-U60a7Wvpje.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-V0wyaBDsPl",
       "target_name": "良渚星洲翠谷",
       "target_category": "housing",
       "signal_type": "tip",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "info",
       "content": "良渚星洲翠谷隔音很好，红砖墙体，邻居声音听不到。",
       "file": "data/signals/2026-03-16-V0wyaBDsPl.md",
@@ -842,30 +2378,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-U60a7Wvpje",
-      "target_name": "和光尘樾",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "和光尘樾隔音差，业主因隔音问题卖房。",
-      "file": "data/signals/2026-03-16-U60a7Wvpje.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "隔音差"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-X01jp1Q4VN",
       "target_name": "西溪花园",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "西溪花园隔音较差，能听到对面冲马桶声。",
       "file": "data/signals/2026-03-16-X01jp1Q4VN.md",
@@ -878,30 +2396,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-YJ0pft9H7Z",
-      "target_name": "临平康城国际",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "临平康城国际被提及，具体隔音情况未详细说明。",
-      "file": "data/signals/2026-03-16-YJ0pft9H7Z.md",
-      "district": "临平区",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "未知"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-XJuWFUHqCR",
       "target_name": "燕语春风居",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "燕语春风居隔音较差，邻居稍有动静就会被投诉。",
       "file": "data/signals/2026-03-16-XJuWFUHqCR.md",
@@ -916,12 +2416,70 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-YJ0pft9H7Z",
+      "target_name": "临平康城国际",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "临平康城国际被提及，具体隔音情况未详细说明。",
+      "file": "data/signals/2026-03-16-YJ0pft9H7Z.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "未知"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-amTJDGUb6v",
+      "target_name": "运河万科中心",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "运河万科中心隔音极差，邻居吵闹声和打呼噜声清晰，物业态度差。",
+      "file": "data/signals/2026-03-16-amTJDGUb6v.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "万科",
+        "邻居吵闹声",
+        "打呼噜声"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-bTDZyGM6Vo",
+      "target_name": "大华海派风范",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "info",
+      "content": "大华海派风范隔音很好，墙体厚，得房率高，物业稳定。",
+      "file": "data/signals/2026-03-16-bTDZyGM6Vo.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "墙体厚",
+        "隔音好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-dvHg7J4woA",
       "target_name": "万科天空之城",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "万科天空之城隔音极差，楼上开关灯、脚步声、摔门声清晰，业主避雷。",
       "file": "data/signals/2026-03-16-dvHg7J4woA.md",
@@ -938,22 +2496,39 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-amTJDGUb6v",
-      "target_name": "运河万科中心",
+      "_id": "signals/2026-03-16-eiFRVFuEeY",
+      "target_name": "萧山广德小区",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "运河万科中心隔音极差，邻居吵闹声和打呼噜声清晰，物业态度差。",
-      "file": "data/signals/2026-03-16-amTJDGUb6v.md",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "萧山广德小区木地板导致声音放大，隔音较差。",
+      "file": "data/signals/2026-03-16-eiFRVFuEeY.md",
+      "district": "萧山区",
       "tags": [
         "hangzhou",
         "soundproofing",
         "warning",
-        "万科",
-        "邻居吵闹声",
-        "打呼噜声"
+        "木地板脚步声"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-hlA31M5Yp8",
+      "target_name": "竹海水韵",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "info",
+      "content": "竹海水韵隔音较好，业主未被噪音困扰。",
+      "file": "data/signals/2026-03-16-hlA31M5Yp8.md",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "无明显噪音"
       ]
     },
     {
@@ -963,7 +2538,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "富阳桂语新月里楼板薄，隔音差，物业偏向业主。",
       "file": "data/signals/2026-03-16-jafJNLEWDT.md",
@@ -978,69 +2553,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-hlA31M5Yp8",
-      "target_name": "竹海水韵",
-      "target_category": "housing",
-      "signal_type": "tip",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "info",
-      "content": "竹海水韵隔音较好，业主未被噪音困扰。",
-      "file": "data/signals/2026-03-16-hlA31M5Yp8.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "recommended",
-        "无明显噪音"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-bTDZyGM6Vo",
-      "target_name": "大华海派风范",
-      "target_category": "housing",
-      "signal_type": "tip",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "info",
-      "content": "大华海派风范隔音很好，墙体厚，得房率高，物业稳定。",
-      "file": "data/signals/2026-03-16-bTDZyGM6Vo.md",
-      "district": "余杭区",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "recommended",
-        "墙体厚",
-        "隔音好"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-eiFRVFuEeY",
-      "target_name": "萧山广德小区",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "萧山广德小区木地板导致声音放大，隔音较差。",
-      "file": "data/signals/2026-03-16-eiFRVFuEeY.md",
-      "district": "萧山区",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "木地板脚步声"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-kniNXF68Rj",
       "target_name": "合景映月台",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "合景映月台隔音较差，楼上说话和上厕所声清晰。",
       "file": "data/signals/2026-03-16-kniNXF68Rj.md",
@@ -1060,7 +2578,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "融创河滨之城雨澜轩邻居噪音较明显，非交通噪音。",
       "file": "data/signals/2026-03-16-ku4UtBChNa.md",
@@ -1079,7 +2597,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "名城公寓隔音极差，业主避雷。",
       "file": "data/signals/2026-03-16-kxijpxWf9F.md",
@@ -1097,7 +2615,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "新白马公寓隔音极差，楼上脚步声近乎耳边。",
       "file": "data/signals/2026-03-16-lKDlzuedk3.md",
@@ -1110,21 +2628,20 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-oQsaw3L2Ia",
-      "target_name": "瑞立中央花城",
+      "_id": "signals/2026-03-16-md4Z9nxdNN",
+      "target_name": "丽晶居",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "瑞立中央花城隔音不行，楼上夫妻凌晨吵架，小孩吵闹声清晰。",
-      "file": "data/signals/2026-03-16-oQsaw3L2Ia.md",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "丽晶居隔音特差，业主建议避雷。",
+      "file": "data/signals/2026-03-16-md4Z9nxdNN.md",
       "tags": [
         "hangzhou",
         "soundproofing",
         "warning",
-        "夫妻吵架声",
-        "小孩吵闹声"
+        "隔音差"
       ]
     },
     {
@@ -1134,7 +2651,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "天空之城隔音极差，楼上脚步声、关灯声、上厕所声清晰，业主避雷。",
       "file": "data/signals/2026-03-16-neycDhs23J.md",
@@ -1156,7 +2673,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "万科金草公寓隔音极差，楼上打呼噜声清晰。",
       "file": "data/signals/2026-03-16-nyNcsNki0I.md",
@@ -1170,21 +2687,21 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-rTh5Z65mcM",
-      "target_name": "万科未来城二期",
+      "_id": "signals/2026-03-16-oQsaw3L2Ia",
+      "target_name": "瑞立中央花城",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
-      "content": "万科未来城二期隔音不行。",
-      "file": "data/signals/2026-03-16-rTh5Z65mcM.md",
+      "content": "瑞立中央花城隔音不行，楼上夫妻凌晨吵架，小孩吵闹声清晰。",
+      "file": "data/signals/2026-03-16-oQsaw3L2Ia.md",
       "tags": [
         "hangzhou",
         "soundproofing",
         "warning",
-        "万科",
-        "隔音差"
+        "夫妻吵架声",
+        "小孩吵闹声"
       ]
     },
     {
@@ -1194,7 +2711,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "三墩颐景园隔音较差，错层楼栋邻居打呼噜声清晰。",
       "file": "data/signals/2026-03-16-oai5gSpQWL.md",
@@ -1212,7 +2729,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "星翠澜庭隔音较差，楼上走路声和共墙噪音明显。",
       "file": "data/signals/2026-03-16-qz3AVCDQgR.md",
@@ -1226,20 +2743,43 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-md4Z9nxdNN",
-      "target_name": "丽晶居",
+      "_id": "signals/2026-03-16-rTh5Z65mcM",
+      "target_name": "万科未来城二期",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "丽晶居隔音特差，业主建议避雷。",
-      "file": "data/signals/2026-03-16-md4Z9nxdNN.md",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "万科未来城二期隔音不行。",
+      "file": "data/signals/2026-03-16-rTh5Z65mcM.md",
       "tags": [
         "hangzhou",
         "soundproofing",
         "warning",
+        "万科",
         "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-16-tue7fNJZy9",
+      "target_name": "仓溢东苑",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "critical",
+      "content": "仓溢东苑隔音极差，楼上走路声、邻居打电话声、洗澡水声和呼噜声清晰，业主神经衰弱。",
+      "file": "data/signals/2026-03-16-tue7fNJZy9.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "楼上走路声",
+        "邻居打电话声",
+        "洗澡水声",
+        "呼噜声"
       ]
     },
     {
@@ -1249,7 +2789,7 @@
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "notable",
       "content": "龙湖西溪天街附近公寓隔音差，老旧公寓噪音问题严重。",
       "file": "data/signals/2026-03-16-uiBLLHdtzm.md",
@@ -1265,30 +2805,12 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-xGYFrIY5mr",
-      "target_name": "杨柳郡",
-      "target_category": "housing",
-      "signal_type": "warning",
-      "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "notable",
-      "content": "杨柳郡隔音不好。",
-      "file": "data/signals/2026-03-16-xGYFrIY5mr.md",
-      "tags": [
-        "hangzhou",
-        "soundproofing",
-        "warning",
-        "隔音不好"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-wWTs51UGdB",
       "target_name": "锦尚和品府",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
+      "date": "2026-03-16T04:00:00.000Z",
       "severity": "critical",
       "content": "锦尚和品府隔音差，业主建议避雷。",
       "file": "data/signals/2026-03-16-wWTs51UGdB.md",
@@ -1301,24 +2823,20 @@
     },
     {
       "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-16-tue7fNJZy9",
-      "target_name": "仓溢东苑",
+      "_id": "signals/2026-03-16-xGYFrIY5mr",
+      "target_name": "杨柳郡",
       "target_category": "housing",
       "signal_type": "warning",
       "city": "Hangzhou",
-      "date": "2026-03-16T12:00:00+08:00",
-      "severity": "critical",
-      "content": "仓溢东苑隔音极差，楼上走路声、邻居打电话声、洗澡水声和呼噜声清晰，业主神经衰弱。",
-      "file": "data/signals/2026-03-16-tue7fNJZy9.md",
-      "district": "余杭区",
+      "date": "2026-03-16T04:00:00.000Z",
+      "severity": "notable",
+      "content": "杨柳郡隔音不好。",
+      "file": "data/signals/2026-03-16-xGYFrIY5mr.md",
       "tags": [
         "hangzhou",
         "soundproofing",
         "warning",
-        "楼上走路声",
-        "邻居打电话声",
-        "洗澡水声",
-        "呼噜声"
+        "隔音不好"
       ]
     },
     {
@@ -1358,15 +2876,15 @@
       "district": "Huangpu District",
       "neighborhood": "Huaihai Middle Road",
       "address": "淮海中路",
+      "warnings": [
+        "闭店"
+      ],
       "tags": [
         "FILA",
         "淮海中路",
         "闭店",
         "零售",
         "运动品牌"
-      ],
-      "warnings": [
-        "闭店"
       ]
     },
     {
@@ -1384,6 +2902,9 @@
       "district": "徐汇区",
       "neighborhood": "徐家汇",
       "address": "华山路1901号徐家汇ITC商场",
+      "warnings": [
+        "生意不好"
+      ],
       "tags": [
         "Louis Vuitton",
         "LV",
@@ -1393,9 +2914,6 @@
         "商场",
         "奢侈品",
         "关门"
-      ],
-      "warnings": [
-        "生意不好"
       ]
     },
     {
@@ -1413,46 +2931,15 @@
       "district": "Changning District",
       "neighborhood": "愚园路",
       "rating_info": "我很喜欢吃",
+      "warnings": [
+        "已关店"
+      ],
       "tags": [
         "咬强羊肉面",
         "羊肉面",
         "愚园路",
         "关店",
         "面馆"
-      ],
-      "warnings": [
-        "已关店"
-      ]
-    },
-    {
-      "_schema": "openbook/signal/v1",
-      "_id": "signals/2026-03-14-Cp296Siy1B",
-      "target_name": "阿元来了",
-      "target_category": "food",
-      "signal_type": "update",
-      "city": "Shanghai",
-      "date": "2026-03-14T12:00:00.000Z",
-      "severity": "info",
-      "content": "世纪汇阿元：三杯鸡肉质不嫩，不推荐；炒花蛤味道不错。整体口味一般。",
-      "file": "data/signals/2026-03-14-Cp296Siy1B.md",
-      "subcategory": "restaurant",
-      "district": "浦东新区",
-      "neighborhood": "世纪汇",
-      "address": "世纪汇广场",
-      "rating_info": "总的来说味道一般",
-      "tags": [
-        "台湾菜",
-        "三杯鸡",
-        "世纪汇",
-        "味道一般",
-        "不推荐",
-        "炒花蛤"
-      ],
-      "warnings": [
-        "三杯鸡不是特别嫩，建议不用点"
-      ],
-      "recommendations": [
-        "炒花蛤还不错"
       ]
     },
     {
@@ -1499,6 +2986,37 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-14-Cp296Siy1B",
+      "target_name": "阿元来了",
+      "target_category": "food",
+      "signal_type": "update",
+      "city": "Shanghai",
+      "date": "2026-03-14T12:00:00.000Z",
+      "severity": "info",
+      "content": "世纪汇阿元：三杯鸡肉质不嫩，不推荐；炒花蛤味道不错。整体口味一般。",
+      "file": "data/signals/2026-03-14-Cp296Siy1B.md",
+      "subcategory": "restaurant",
+      "district": "浦东新区",
+      "neighborhood": "世纪汇",
+      "address": "世纪汇广场",
+      "rating_info": "总的来说味道一般",
+      "recommendations": [
+        "炒花蛤还不错"
+      ],
+      "warnings": [
+        "三杯鸡不是特别嫩，建议不用点"
+      ],
+      "tags": [
+        "台湾菜",
+        "三杯鸡",
+        "世纪汇",
+        "味道一般",
+        "不推荐",
+        "炒花蛤"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-14-y7ikO4gqdX",
       "target_name": "星巴克",
       "target_category": "food",
@@ -1512,9 +3030,13 @@
       "district": "浦东新区",
       "neighborhood": "陆家嘴",
       "address": "浦东新区陆家嘴世纪大道88号金茂大厦Gala Mall",
+      "price": 35,
       "price_unit": "CNY",
       "price_context": "single_item",
       "rating_info": "环境不错, 采光座位都很舒服",
+      "recommendations": [
+        "巴斯克蛋糕"
+      ],
       "tags": [
         "星巴克",
         "冷萃",
@@ -1524,11 +3046,7 @@
         "巴斯克蛋糕",
         "采光好",
         "座位舒服"
-      ],
-      "recommendations": [
-        "巴斯克蛋糕"
-      ],
-      "price": 35.0
+      ]
     },
     {
       "_schema": "openbook/signal/v1",
