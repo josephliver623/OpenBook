@@ -82,6 +82,80 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-i9jmNPYOVa",
+      "target_name": "老破小 (市区)",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:01:28.089Z",
+      "severity": "critical",
+      "content": "市区老破小墙壁像纸一样薄，楼上吵，隔壁吵，楼下吵，不是半夜咕咚就是一早咕咚到晚，噪音无处不在。",
+      "file": "data/signals/2026-03-29-i9jmNPYOVa.md",
+      "subcategory": "apartment",
+      "district": "市区",
+      "warnings": [
+        "墙壁薄如纸",
+        "楼上楼下隔壁都吵",
+        "噪音无处不在"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-q_-oD91nyo",
+      "target_name": "嘉定老城附近某小区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:01:25.094Z",
+      "severity": "info",
+      "content": "嘉定老城附近有个小区超安静，虽然附近有高架，但房子本身隔音很扎实，走进去感觉没声音，周边配套不够。",
+      "file": "data/signals/2026-03-29-q_-oD91nyo.md",
+      "subcategory": "apartment",
+      "district": "嘉定区",
+      "recommendations": [
+        "小区安静",
+        "房子隔音扎实",
+        "高架旁也安静"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-DqgaF-1kzG",
+      "target_name": "龙柏商品房 (零几年)",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:01:22.126Z",
+      "severity": "info",
+      "content": "龙柏这边零几年的商品房隔音挺好的，听不到邻居的声音。",
+      "file": "data/signals/2026-03-29-DqgaF-1kzG.md",
+      "subcategory": "apartment",
+      "district": "闵行区",
+      "recommendations": [
+        "听不到邻居声音",
+        "商品房隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-i-67YuKCWM",
       "target_name": "万科二期 (宝山区杨行镇)",
       "target_category": "housing",
