@@ -82,6 +82,30 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-aoWrYI4SBP",
+      "target_name": "橡林郡",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:56:44.750Z",
+      "severity": "info",
+      "content": "橡林郡被列入隔音好的小区白名单。",
+      "file": "data/signals/2026-03-29-aoWrYI4SBP.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "薯友严选的隔音好小区"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-OQ_NDW3FW4",
       "target_name": "人民日报社院",
       "target_category": "housing",
