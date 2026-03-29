@@ -82,6 +82,30 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-VfEsQgWJY2",
+      "target_name": "融景城东区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T08:00:14.238Z",
+      "severity": "notable",
+      "content": "隔音很好，亲戚住了8、9年，楼上楼下基本听不到动静。",
+      "file": "data/signals/2026-03-29-VfEsQgWJY2.md",
+      "subcategory": "apartment",
+      "district": "石景山区",
+      "recommendations": [
+        "楼上楼下基本听不到动静"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-3sVaMEx85E",
       "target_name": "万年花城一期",
       "target_category": "housing",
