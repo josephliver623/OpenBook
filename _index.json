@@ -82,6 +82,53 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-PMPYS9JLJS",
+      "target_name": "双龙南里",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:57:25.932Z",
+      "severity": "info",
+      "content": "双龙南里隔音还行，没有听到过隔壁楼上楼下说话，但也可能与邻居素质高有关。",
+      "file": "data/signals/2026-03-29-PMPYS9JLJS.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "没听到过邻居声音"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-gzHI8wPFn6",
+      "target_name": "农光里",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:57:22.726Z",
+      "severity": "critical",
+      "content": "农光里隔音非常差，楼上正常走路听得一清二楚，隔壁打电话能直播，挪动洗脚盆都有巨大动静，严重影响正常起居。",
+      "file": "data/signals/2026-03-29-gzHI8wPFn6.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "楼上正常走路听得一清二楚",
+        "隔壁打电话能直播",
+        "正常起居都会影响"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-crvgeK7JTA",
       "target_name": "国瑞城中区",
       "target_category": "housing",
