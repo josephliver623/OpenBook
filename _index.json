@@ -82,6 +82,32 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-FB_jfElNb7",
+      "target_name": "太阳宫新纪家园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:08.268Z",
+      "severity": "notable",
+      "content": "住了一年，楼上楼下邻居0动静。合租时，隔一堵墙和两个卧室的门，卧室之间互相听不到声音，是实体墙隔音的功劳。",
+      "file": "data/signals/2026-03-29-FB_jfElNb7.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "楼上楼下无噪音",
+        "卧室间隔音好",
+        "实体墙隔音效果佳"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-4IBO0KGJDT",
       "target_name": "华贸城",
       "target_category": "housing",
