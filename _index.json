@@ -82,6 +82,30 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-KoUvOlclMz",
+      "target_name": "天恒",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:00:53.177Z",
+      "severity": "info",
+      "content": "天恒小区的房屋质量不错，可能也暗示了其隔音效果良好。",
+      "file": "data/signals/2026-03-29-KoUvOlclMz.md",
+      "subcategory": "apartment",
+      "district": "闵行区",
+      "recommendations": [
+        "房屋质量不错"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-1p0H0uwHAV",
       "target_name": "好世凤凰城",
       "target_category": "housing",
