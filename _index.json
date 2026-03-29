@@ -82,6 +82,74 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-IdpXTCkEEL",
+      "target_name": "松榆北路七号院",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:24.003Z",
+      "severity": "critical",
+      "content": "松榆北路七号院（除建业苑外）隔音巨差，小卧室能听到隔壁打呼噜且墙壁震动，楼上吵架内容可以听清。需开大风扇才能盖住噪音。",
+      "file": "data/signals/2026-03-29-IdpXTCkEEL.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "隔壁打呼噜墙震动",
+        "楼上吵架内容听清"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-UG1yiIeHQU",
+      "target_name": "惠康嘉园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:21.095Z",
+      "severity": "info",
+      "content": "隔音差，躺在床上能听到楼上说话声。",
+      "file": "data/signals/2026-03-29-UG1yiIeHQU.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "隔音差",
+        "能听到楼上说话声"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-oKzXimBFWD",
+      "target_name": "慈云寺小区北区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:17.915Z",
+      "severity": "critical",
+      "content": "隔音很差。能听到楼上走路、跳绳声音，楼上两口子吵架内容，隔壁打喷嚏、看电视声音都一清二楚。甚至有人用震楼机。",
+      "file": "data/signals/2026-03-29-oKzXimBFWD.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "楼上噪音大",
+        "能听到隔壁声音",
+        "有震楼机问题",
+        "隔音极差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-mi88GO-CH1",
       "target_name": "郭公庄幸福家园",
       "target_category": "housing",
