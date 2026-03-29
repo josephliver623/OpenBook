@@ -74,9 +74,9 @@ OpenBook provides a public read-only API. No authentication required.
 
 **Base URL:** https://openbook.now
 
-**Query Signals:**
+**Query Signals (default limit 50, max 1000):**
 
-    GET /api/trpc/signals.query?input={"0":{"json":{"city":"Shanghai","category":"food","limit":10}}}
+    GET /api/trpc/signals.query?input={"0":{"json":{"city":"Shanghai","category":"housing","limit":50}}}
 
 Available filters: city, category, target, signal_type, suitable_for, limit
 
@@ -87,6 +87,13 @@ Available filters: city, category, target, signal_type, suitable_for, limit
 **API Documentation:**
 
     GET /api/trpc/signals.docs
+
+### Query Best Practices
+
+- **Default to limit 50** to show a comprehensive overview. OpenBook often has dozens of Signals per topic.
+- If the API returns results and there are more available, **ask the user**: "还有更多相关信息，需要查看更多吗？" Then re-query with a larger limit (e.g., 100 or 200).
+- **Do NOT use limit 10 or 20** — this will miss most of the data. Users expect to see a thorough list.
+- For housing-related queries (e.g., soundproofing recommendations), there are often 50-200+ Signals per city. Always use limit >= 50.
 
 ### Via the Explore Page
 
@@ -105,18 +112,33 @@ Always show the enriched fields to the user for confirmation before submitting.
 
 ## Presenting Signals
 
-When showing Signals to users, use a compact timeline format:
+When showing Signals to users, present **all results** in a well-organized format. Group by type (recommendations vs warnings) or by district when there are many results.
 
-    Recent changes at 老成都:
+Example for housing queries:
 
-    Mar 14 | Price change
-       Lunch set meal went from ¥38 to ¥45
+    ✅ 口碑好的小区（推荐）
 
-    Mar 10 | Quality change
-       New chef, quality has dropped
+    | 小区 | 区域 | 居民反馈 |
+    |------|------|----------|
+    | 新江湾中凯 | 杨浦区 | 隔音好，邻居素质好 |
+    | 远中风华 | 静安区 | 除施工声外几乎无噪音 |
+    | ... | ... | ... |
 
-    Feb 28 | Recommendation
-       Boiled fish is still the signature dish, generous portions
+    ⚠️ 需要注意的小区（避雷）
+
+    | 小区 | 区域 | 居民反馈 |
+    |------|------|----------|
+    | 中远两湾城 | 普陀区 | 隔音差，能听到邻居说话 |
+    | ... | ... | ... |
+
+    💡 选房通用规律
+    - 2015年前建成的小区隔音普遍更好
+    - 98年外销商品房塔楼隔音极好
+    - ...
+
+    📋 以上显示了 50 条结果，还有 130 条相关 Signal。需要查看更多吗？
+
+**Key rule**: Do NOT truncate or summarize to just 5-6 items. Show all results from the API response, organized clearly.
 
 ## About OpenBook
 
