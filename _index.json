@@ -82,6 +82,51 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-XuQDR1PfoT",
+      "target_name": "五月华庭",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:36.745Z",
+      "severity": "critical",
+      "content": "五月华庭隔音差，夜里能清楚听到邻居的悄悄话。",
+      "file": "data/signals/2026-03-29-XuQDR1PfoT.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "夜里能听到邻居讲悄悄话"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-gLEvn21pBU",
+      "target_name": "怡海花园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:33.806Z",
+      "severity": "info",
+      "content": "怡海花园隔音效果可以，值得推荐。",
+      "file": "data/signals/2026-03-29-gLEvn21pBU.md",
+      "subcategory": "apartment",
+      "district": "丰台区",
+      "recommendations": [
+        "隔音效果好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-HH-gPvrwk8",
       "target_name": "橡树湾一期",
       "target_category": "housing",
