@@ -82,6 +82,30 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-UEP6vmF_2q",
+      "target_name": "国浩长风汇都",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:00:47.025Z",
+      "severity": "info",
+      "content": "用户表示非常喜欢现在租住的小区国浩长风汇都，暗示其居住体验良好。",
+      "file": "data/signals/2026-03-29-UEP6vmF_2q.md",
+      "subcategory": "apartment",
+      "district": "普陀区",
+      "recommendations": [
+        "用户对小区整体满意，可能包括隔音方面。"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-EbgiCx0udQ",
       "target_name": "翠海明苑",
       "target_category": "housing",
