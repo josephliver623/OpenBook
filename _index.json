@@ -839,6 +839,30 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-uGj4LRXhcr",
+      "target_name": "西黄城根南街一区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T08:00:24.043Z",
+      "severity": "info",
+      "content": "隔音不错。",
+      "file": "data/signals/2026-03-29-uGj4LRXhcr.md",
+      "subcategory": "apartment",
+      "district": "西城区",
+      "recommendations": [
+        "隔音不错"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-9ynYePcCXo",
       "target_name": "公园懿府",
       "target_category": "housing",
@@ -915,6 +939,30 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-uNugPGf3rW",
+      "target_name": "金泰先锋北区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T08:00:11.301Z",
+      "severity": "notable",
+      "content": "隔音很好，基本没听见过周边邻居的声音。",
+      "file": "data/signals/2026-03-29-uNugPGf3rW.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "基本听不见邻居声音"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-3sVaMEx85E",
       "target_name": "万年花城一期",
       "target_category": "housing",
@@ -935,6 +983,29 @@
       "tags": [
         "soundproofing",
         "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-TU0060zXAR",
+      "target_name": "新源西里",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T08:00:04.465Z",
+      "severity": "notable",
+      "content": "小区隔音不好，能听到楼下小孩跑跳的声音。；新源西里（新东路西侧的那个）隔音不好。",
+      "file": "data/signals/2026-03-29-TU0060zXAR.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "楼下噪音大",
+        "小孩跑跳声",
+        "隔音不好"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
       ]
     },
     {
@@ -1120,6 +1191,27 @@
       "tags": [
         "soundproofing",
         "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-4uBTiMzqWW",
+      "target_name": "橡树湾二期",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:30.800Z",
+      "severity": "critical",
+      "content": "橡树湾二期隔音极差，四面八方的声音都能听到，强烈避雷。",
+      "file": "data/signals/2026-03-29-4uBTiMzqWW.md",
+      "subcategory": "apartment",
+      "district": "海淀区",
+      "warnings": [
+        "四面八方的声音都能听到"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
       ]
     },
     {
