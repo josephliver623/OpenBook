@@ -82,6 +82,51 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-piauPS6Rwp",
+      "target_name": "西二旗领秀新硅谷",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:55.604Z",
+      "severity": "info",
+      "content": "西二旗领秀新硅谷的隔音很好。",
+      "file": "data/signals/2026-03-29-piauPS6Rwp.md",
+      "subcategory": "apartment",
+      "district": "海淀区",
+      "recommendations": [
+        "隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-RplInoQ1jA",
+      "target_name": "宋家庄横七条",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:51.835Z",
+      "severity": "info",
+      "content": "宋家庄横七条的房子隔音不好，楼上楼下说话都能听见。",
+      "file": "data/signals/2026-03-29-RplInoQ1jA.md",
+      "subcategory": "apartment",
+      "district": "丰台区",
+      "warnings": [
+        "楼上楼下说话都能听见"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-19Nc9DHNf0",
       "target_name": "润枫嘉尚",
       "target_category": "housing",
