@@ -82,6 +82,780 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-8g6s0BLqhX",
+      "target_name": "绿地海珀璞晖",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "新江湾城绿地海珀璞晖不错，天花板下面做了壁橱塞满被子形成隔音层，另外还有地暖又增加一层隔音。",
+      "file": "data/signals/2026-03-29-8g6s0BLqhX.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "recommendations": [
+        "天花板壁橱隔音层",
+        "地暖增加隔音",
+        "隔音不错"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-Bv3XTdvfry",
+      "target_name": "西镇小区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "住长宁老房子（新华路西镇），隔音比郊区远大新好。住了半年多从来没听到过邻居动静。保暖效果好，不开取暖设备室内常温18度。",
+      "file": "data/signals/2026-03-29-Bv3XTdvfry.md",
+      "subcategory": "apartment",
+      "district": "长宁区",
+      "recommendations": [
+        "隔音好，半年没听到邻居动静",
+        "保暖效果好，室温18度",
+        "新华路地段"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "old-building"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-DxPvuDdxfo",
+      "target_name": "新江湾中凯",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "新江湾中凯隔音好，楼上有小孩天天跑听不到。只有一次小孩拍球才能听到，邻居素质好会制止。小区最近卖不上价因为觉得老，但居住体验很好。",
+      "file": "data/signals/2026-03-29-DxPvuDdxfo.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "recommendations": [
+        "隔音好，楼上小孩跑听不到",
+        "邻居素质好",
+        "居住体验好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-EolmQutV7Q",
+      "target_name": "森兰名苑",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "避雷森兰名苑，隔音差。",
+      "file": "data/signals/2026-03-29-EolmQutV7Q.md",
+      "subcategory": "apartment",
+      "district": "浦东新区",
+      "warnings": [
+        "隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-FcjLmOr51k",
+      "target_name": "松江区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "松江那些房子挺好的，入住率不高，房屋密度也不高，比较安静。除了远点。",
+      "file": "data/signals/2026-03-29-FcjLmOr51k.md",
+      "subcategory": "apartment",
+      "district": "松江区",
+      "recommendations": [
+        "入住率不高",
+        "房屋密度低",
+        "比较安静"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "quiet"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-HLPHBOBo9O",
+      "target_name": "知雅汇",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "避雷九亭知雅汇，隔音很差。",
+      "file": "data/signals/2026-03-29-HLPHBOBo9O.md",
+      "subcategory": "apartment",
+      "district": "松江区",
+      "warnings": [
+        "隔音很差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-JNVcZNvrHa",
+      "target_name": "七宝航线下小区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "七宝航线下面的房子，因为在航线下反而房子修得隔音特别好，至少邻居声音一点听不到。不过飞机一天12小时。",
+      "file": "data/signals/2026-03-29-JNVcZNvrHa.md",
+      "subcategory": "apartment",
+      "district": "闵行区",
+      "recommendations": [
+        "航线下房子隔音特别好",
+        "邻居声音一点听不到"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "special-case"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-MSIMJCwH1V",
+      "target_name": "金符",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "24年的新房，尿尿都能听见，关灯插板声一清二楚，卧室不敢讲话没有隐私。",
+      "file": "data/signals/2026-03-29-MSIMJCwH1V.md",
+      "subcategory": "apartment",
+      "district": "浦东新区",
+      "warnings": [
+        "极差隔音",
+        "能听到隔壁生活细节",
+        "无隐私"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing",
+        "new-building"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-MVSUl4u_HA",
+      "target_name": "远中风华",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "远中风华隔音好，除了施工声音其他声音确实没有。但隔三差五有装修施工，建议选一期。位于南京西路。",
+      "file": "data/signals/2026-03-29-MVSUl4u_HA.md",
+      "subcategory": "apartment",
+      "district": "静安区",
+      "recommendations": [
+        "隔音好，除施工外无噪音",
+        "建议选一期",
+        "南京西路地段"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-OiDJNO-bF_",
+      "target_name": "杨浦区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "warning",
+      "content": "也别来杨浦，杨浦现在老小区都动工。",
+      "file": "data/signals/2026-03-29-OiDJNO-bF_.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "warnings": [
+        "老小区施工多"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing",
+        "construction-noise"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-T_JcfIzZgJ",
+      "target_name": "青浦赵巷",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "青浦赵巷这边还可以。",
+      "file": "data/signals/2026-03-29-T_JcfIzZgJ.md",
+      "subcategory": "apartment",
+      "district": "青浦区",
+      "recommendations": [
+        "环境还可以"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-WMX-vfREXp",
+      "target_name": "和平花苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "和平花苑是外销房，蛮安静的，没有楼里邻居抱怨过。",
+      "file": "data/signals/2026-03-29-WMX-vfREXp.md",
+      "subcategory": "apartment",
+      "recommendations": [
+        "外销房隔音好",
+        "没有邻居抱怨过"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "old-building"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-ZfkE8qzxr9",
+      "target_name": "七宝",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "warning",
+      "content": "别来七宝就行。不过也有人说上海康城、七宝那边都很安静，看具体小区和邻居。",
+      "file": "data/signals/2026-03-29-ZfkE8qzxr9.md",
+      "subcategory": "apartment",
+      "district": "闵行区",
+      "warnings": [
+        "评价不一，需实地考察"
+      ],
+      "tags": [
+        "soundproofing",
+        "mixed-reviews"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-Zt8_jmpsEg",
+      "target_name": "紫云小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "先帮你排除娄山关的紫云小区，隔音没有的。",
+      "file": "data/signals/2026-03-29-Zt8_jmpsEg.md",
+      "subcategory": "apartment",
+      "district": "长宁区",
+      "warnings": [
+        "隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-aqwzGTQzA0",
+      "target_name": "九龙仓",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "九龙仓静安或者滨江，隔音好。",
+      "file": "data/signals/2026-03-29-aqwzGTQzA0.md",
+      "subcategory": "apartment",
+      "district": "静安区",
+      "recommendations": [
+        "隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-d7p3rXv1Zu",
+      "target_name": "94年老破小（一梯四户）",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "住过最安静的居然是94年一梯四户老破小，因为邻居都是正常人，正常作息。真是千金买房，万金买邻。",
+      "file": "data/signals/2026-03-29-d7p3rXv1Zu.md",
+      "subcategory": "apartment",
+      "recommendations": [
+        "94年老破小隔音反而好",
+        "一梯四户",
+        "邻居素质是关键"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "old-building"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-dYh3sKMLeC",
+      "target_name": "龙华一村",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "之前在徐汇住的老房子隔音好，龙华一村。",
+      "file": "data/signals/2026-03-29-dYh3sKMLeC.md",
+      "subcategory": "apartment",
+      "district": "徐汇区",
+      "recommendations": [
+        "老房子隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "old-building"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-fsKXwFzWRl",
+      "target_name": "静安区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "warning",
+      "content": "别来静安，吵得很。徐汇也一样，每一栋楼都有特别响的空调外机，还有墙体共振。",
+      "file": "data/signals/2026-03-29-fsKXwFzWRl.md",
+      "subcategory": "apartment",
+      "district": "静安区",
+      "warnings": [
+        "空调外机噪音",
+        "墙体共振"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing",
+        "ac-noise"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-h5o6f8HE-I",
+      "target_name": "98年外销商品房塔楼（通用建议）",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "老的塔楼隔音好，要混凝土现浇的楼板。近十年的板式都不行。98年的外销商品房隔音非常好，家里孩子弹钢琴楼上邻居都不知道。老的砖混隔音好，砖和水泥是不同材料中间有气孔无法形成共振。",
+      "file": "data/signals/2026-03-29-h5o6f8HE-I.md",
+      "subcategory": "apartment",
+      "recommendations": [
+        "选老塔楼",
+        "混凝土现浇楼板",
+        "砖混结构隔音好",
+        "外销商品房品质好"
+      ],
+      "suitable_for": [
+        "noise-sensitive",
+        "home-buyers"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "buying-advice",
+        "old-building"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-hkuqsCD-9h",
+      "target_name": "上海院子",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "上海院子隔音一塌糊涂。虽然说是三房两卫，每个房间都很小，尤其北面两个房间站门口就感觉到头了，厨房一个人转身都嫌挤，晚上在家鸡娃邻居都能听到。不值那个价钱。",
+      "file": "data/signals/2026-03-29-hkuqsCD-9h.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "warnings": [
+        "隔音一塌糊涂",
+        "房间小",
+        "邻居能听到说话"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-jeHygpsnri",
+      "target_name": "德州六村",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "水电路德州六村靠灵岩路那部分隔音超好。部队造的老破小，一点声音都没有，除非在家门口说话。",
+      "file": "data/signals/2026-03-29-jeHygpsnri.md",
+      "subcategory": "apartment",
+      "district": "虹口区",
+      "recommendations": [
+        "部队造的老破小隔音超好",
+        "靠灵岩路那部分"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "old-building"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-jhZeWlPB6o",
+      "target_name": "中远两湾城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "中远两湾城隔音差，楼上拉椅子、隔壁吵架、楼下弹琴都能听到。层数多一直有人装修，平均每个月都有装修。",
+      "file": "data/signals/2026-03-29-jhZeWlPB6o.md",
+      "subcategory": "apartment",
+      "district": "普陀区",
+      "warnings": [
+        "楼上拉椅子声",
+        "隔壁吵架声",
+        "楼下弹琴声",
+        "常年有装修"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-jiHWq37zv1",
+      "target_name": "长宁区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "warning",
+      "content": "别来长宁，挖个不停，一到晚上就开始施工，路面坑坑洼洼。",
+      "file": "data/signals/2026-03-29-jiHWq37zv1.md",
+      "subcategory": "apartment",
+      "district": "长宁区",
+      "warnings": [
+        "施工噪音严重",
+        "路面坑洼"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing",
+        "construction-noise"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-kEP3vb0cHi",
+      "target_name": "加州水郡",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "加州水郡隔音差。",
+      "file": "data/signals/2026-03-29-kEP3vb0cHi.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "warnings": [
+        "隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-kt0InmmNBa",
+      "target_name": "合生江湾",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "合生江湾隔音一塌糊涂。",
+      "file": "data/signals/2026-03-29-kt0InmmNBa.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "warnings": [
+        "隔音一塌糊涂"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-lEbsQL6n0y",
+      "target_name": "中企云萃江湾",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "critical",
+      "content": "中企云萃江湾隔音差。",
+      "file": "data/signals/2026-03-29-lEbsQL6n0y.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "warnings": [
+        "隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-nghzzuBFp3",
+      "target_name": "2015年前建成小区（通用建议）",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "基本上2015年后建的房子隔音都不好，要想隔音好尽量挑2015或2010年以前建的。进小区看看空调室外机是在南面还是北面，一般在北面的都是中央空调，买这种房子。",
+      "file": "data/signals/2026-03-29-nghzzuBFp3.md",
+      "subcategory": "apartment",
+      "recommendations": [
+        "选2015年前建成的房子",
+        "看空调外机位置判断是否中央空调"
+      ],
+      "suitable_for": [
+        "noise-sensitive",
+        "home-buyers"
+      ],
+      "tags": [
+        "soundproofing",
+        "buying-advice"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-pCln9qMsa4",
+      "target_name": "紫竹半岛",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "紫竹半岛隔音极好，就是太远了。住了10来个小区，其他都很差，95%都没隔音。",
+      "file": "data/signals/2026-03-29-pCln9qMsa4.md",
+      "subcategory": "apartment",
+      "district": "闵行区",
+      "recommendations": [
+        "隔音极好",
+        "经验丰富用户推荐"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-s1BlwQY01h",
+      "target_name": "普陀区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "warning",
+      "content": "别来普陀，动不动挖地施工，修路修到怀疑人生。",
+      "file": "data/signals/2026-03-29-s1BlwQY01h.md",
+      "subcategory": "apartment",
+      "district": "普陀区",
+      "warnings": [
+        "频繁施工",
+        "修路噪音"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing",
+        "construction-noise"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-s3ekOhTCGV",
+      "target_name": "康发小区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "住过康发小区，隔音好。",
+      "file": "data/signals/2026-03-29-s3ekOhTCGV.md",
+      "subcategory": "apartment",
+      "recommendations": [
+        "隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-u4_3NeaTLL",
+      "target_name": "嘉松中路新盘",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "青浦嘉松中路地铁站新小区，楼板隔音还行，层高3m，开发商做好了中央空调和地暖，门一关几乎听不到声音。",
+      "file": "data/signals/2026-03-29-u4_3NeaTLL.md",
+      "subcategory": "apartment",
+      "district": "青浦区",
+      "recommendations": [
+        "楼板隔音好",
+        "层高3m",
+        "中央空调+地暖",
+        "关门听不到声音"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "new-building"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-zmY5cK8shw",
+      "target_name": "顾村",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T10:30:00.000Z",
+      "severity": "info",
+      "content": "到顾村来，没有学区房，可以买在地铁边，很多05年左右的动迁小区建筑质量不错，而且河道纵横，空气好。但也有人反映新房子楼板最厚13厘米最薄8厘米，隔音堪忧。",
+      "file": "data/signals/2026-03-29-zmY5cK8shw.md",
+      "subcategory": "apartment",
+      "district": "宝山区",
+      "recommendations": [
+        "地铁方便",
+        "05年动迁小区建筑质量不错",
+        "河道纵横空气好"
+      ],
+      "suitable_for": [
+        "budget-conscious"
+      ],
+      "tags": [
+        "soundproofing",
+        "mixed-reviews",
+        "affordable"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-Fbph4ExwMC",
       "target_name": "海阳新村",
       "target_category": "housing",
