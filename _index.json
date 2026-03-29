@@ -82,6 +82,57 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-SKAWBXtU2b",
+      "target_name": "紫金长安",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:55:44.608Z",
+      "severity": "notable",
+      "content": "紫金长安被列入隔音好的小区白名单。；紫金长安隔音效果极佳，根本听不到楼上楼下和隔壁的任何噪音，居住体验非常好。",
+      "file": "data/signals/2026-03-29-SKAWBXtU2b.md",
+      "subcategory": "apartment",
+      "district": "海淀区",
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音好，听不到邻里噪音",
+        "小区环境好，邻居素质高"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-oEKi6W9Iex",
+      "target_name": "新源里西小区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:55:41.602Z",
+      "severity": "info",
+      "content": "新源里西小区（新东路东侧的）隔音效果好，与西侧的新源西里隔音差形成对比。；新源里西小区（新东路东侧的那个）隔音还行。",
+      "file": "data/signals/2026-03-29-oEKi6W9Iex.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "新东路东侧的隔音好",
+        "隔音还行"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-OrzmVkD10E",
       "target_name": "中铁花溪渡",
       "target_category": "housing",
