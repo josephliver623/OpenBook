@@ -82,6 +82,52 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-MYMdvQNgth",
+      "target_name": "瞰都国际",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:43.199Z",
+      "severity": "info",
+      "content": "瞰都国际隔音尚可，只有隔壁吵架时才能听到声音，楼上楼下几乎没有声音。",
+      "file": "data/signals/2026-03-29-MYMdvQNgth.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "楼上楼下基本无声"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-feGFWUE_IM",
+      "target_name": "珠江帝景E区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:39.608Z",
+      "severity": "critical",
+      "content": "珠江帝景E区隔音非常差，白天都能听到楼上走路和隔壁聊天的声音。",
+      "file": "data/signals/2026-03-29-feGFWUE_IM.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "楼上走路声音大",
+        "隔壁聊天声音听得见"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-XuQDR1PfoT",
       "target_name": "五月华庭",
       "target_category": "housing",
