@@ -82,6 +82,49 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-3y6Mtto1Fn",
+      "target_name": "泗泾动迁房",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:02:13.848Z",
+      "severity": "critical",
+      "content": "泗泾的动迁房隔音巨差，不建议考虑。",
+      "file": "data/signals/2026-03-29-3y6Mtto1Fn.md",
+      "subcategory": "apartment",
+      "district": "松江区",
+      "warnings": [
+        "隔音巨差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-QJckdUILqB",
+      "target_name": "鹤沙航城瑞祥苑",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:02:10.117Z",
+      "severity": "critical",
+      "content": "鹤沙航城的瑞祥苑隔音巨差，邻居经常为了隔音问题吵架。",
+      "file": "data/signals/2026-03-29-QJckdUILqB.md",
+      "subcategory": "apartment",
+      "district": "浦东新区",
+      "warnings": [
+        "隔音巨差",
+        "邻里因噪音问题争吵"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-7-CvSgTRNI",
       "target_name": "合生江湾",
       "target_category": "housing",
