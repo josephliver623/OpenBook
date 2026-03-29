@@ -82,6 +82,28 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-Fbph4ExwMC",
+      "target_name": "海阳新村",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:02:41.064Z",
+      "severity": "critical",
+      "content": "海阳新村（成山路、杨思区域）的房子感觉隔音巨差，附近一直在装修。",
+      "file": "data/signals/2026-03-29-Fbph4ExwMC.md",
+      "subcategory": "apartment",
+      "district": "浦东新区",
+      "warnings": [
+        "隔音巨差",
+        "周边装修噪音大"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-3ZqHoaGcO0",
       "target_name": "瑞虹新城八期",
       "target_category": "housing",
@@ -2193,6 +2215,33 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-3RCC6Sbcbg",
+      "target_name": "红庙北里一号楼",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:56:04.135Z",
+      "severity": "info",
+      "content": "红庙北里一号楼被列入隔音好的小区白名单。；之前住1号楼，非常安静，除了装修电钻声，其他声音都没有。横向隔音也比较好。；红庙北里一号楼隔音还行。",
+      "file": "data/signals/2026-03-29-3RCC6Sbcbg.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "横向隔音好",
+        "居住安静",
+        "隔音还行"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-3OLMvMK9O5",
       "target_name": "将府锦苑",
       "target_category": "housing",
@@ -2230,6 +2279,32 @@
       "district": "丰台区",
       "recommendations": [
         "薯友严选的隔音好小区"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-a1Z3M37Ht2",
+      "target_name": "翠海明苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:55:54.281Z",
+      "severity": "info",
+      "content": "翠海明苑被列入隔音好的小区白名单。；翠海明苑隔音效果可以，之前住过感觉不错。；坐在家里基本上听不到外面噪音，但邻里之间的隔音情况未明确提及。",
+      "file": "data/signals/2026-03-29-a1Z3M37Ht2.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音效果可以",
+        "对外隔音效果好"
       ],
       "suitable_for": [
         "noise-sensitive"
@@ -2482,6 +2557,31 @@
       "warnings": [
         "客厅隔音差",
         "客厅与隔壁共墙"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-NDt9WDQBXY",
+      "target_name": "新华联家园南区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:55:19.306Z",
+      "severity": "notable",
+      "content": "通州区新华联家园南区被列入隔音好的小区白名单。；隔音非常好，住了三年非常安静，楼下弹琴声隐约可闻。房东称墙体厚。",
+      "file": "data/signals/2026-03-29-NDt9WDQBXY.md",
+      "subcategory": "apartment",
+      "district": "通州区",
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "墙体厚，隔音效果好"
       ],
       "suitable_for": [
         "noise-sensitive"
