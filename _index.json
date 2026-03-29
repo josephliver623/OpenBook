@@ -82,6 +82,31 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-mi88GO-CH1",
+      "target_name": "郭公庄幸福家园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:14.329Z",
+      "severity": "critical",
+      "content": "墙薄的跟纸糊的一样，白天能听到隔壁小孩哭闹，晚上能听到大人打呼噜。隔壁半夜讲电话听得一清二楚，楼上大象腿走路震得心脏疼。",
+      "file": "data/signals/2026-03-29-mi88GO-CH1.md",
+      "subcategory": "apartment",
+      "district": "丰台区",
+      "warnings": [
+        "墙体薄弱",
+        "能听到隔壁小孩哭闹",
+        "能听到隔壁大人打呼噜",
+        "能听到隔壁讲电话",
+        "楼上走路震动大"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-FB_jfElNb7",
       "target_name": "太阳宫新纪家园",
       "target_category": "housing",
