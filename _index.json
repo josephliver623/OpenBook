@@ -82,6 +82,53 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-zEKPOHjCNb",
+      "target_name": "望都家园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:58:42.535Z",
+      "severity": "info",
+      "content": "同小区复式户型隔音意外地好。",
+      "file": "data/signals/2026-03-29-zEKPOHjCNb.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "复式户型隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-3ghjUvKi72",
+      "target_name": "望都家园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:58:39.715Z",
+      "severity": "critical",
+      "content": "平层户型隔音非常吵，厕所能听到隔壁客厅说话，卧室能听到楼上打游戏。靠近路边的房子有24小时车流声。",
+      "file": "data/signals/2026-03-29-3ghjUvKi72.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "邻里噪音大",
+        "外部噪音大",
+        "平层隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-YrW4Z385CR",
       "target_name": "东恒时代三期17号楼",
       "target_category": "housing",
