@@ -82,6 +82,78 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-3OLMvMK9O5",
+      "target_name": "将府锦苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:56:01.131Z",
+      "severity": "info",
+      "content": "将府锦苑被列入隔音好的小区白名单。",
+      "file": "data/signals/2026-03-29-3OLMvMK9O5.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "薯友严选的隔音好小区"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-Puum0Bq71F",
+      "target_name": "芳城园一区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:55:57.371Z",
+      "severity": "info",
+      "content": "芳城园一区被列入隔音好的小区白名单。",
+      "file": "data/signals/2026-03-29-Puum0Bq71F.md",
+      "subcategory": "apartment",
+      "district": "丰台区",
+      "recommendations": [
+        "薯友严选的隔音好小区"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-Z7y-EDGLty",
+      "target_name": "东恒时代三期",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:55:51.169Z",
+      "severity": "info",
+      "content": "东恒时代三期被列入隔音好的小区白名单。",
+      "file": "data/signals/2026-03-29-Z7y-EDGLty.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "薯友严选的隔音好小区"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-y2JPHzylGM",
       "target_name": "中粮祥云国际生活区",
       "target_category": "housing",
