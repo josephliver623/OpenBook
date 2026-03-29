@@ -82,6 +82,53 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-IxmysTbJ36",
+      "target_name": "拂林园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:57:32.711Z",
+      "severity": "critical",
+      "content": "拂林园隔音巨差，楼上弹钢琴、吹笛子、小孩跑动声音巨清楚，隔壁邻居训孩子、楼上斜对过吵架连说的什么都听得清，严重影响睡眠。",
+      "file": "data/signals/2026-03-29-IxmysTbJ36.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "楼上弹钢琴、吹笛子、小孩跑动声音巨清楚",
+        "隔壁邻居训孩子、楼上斜对过吵架连说的什么都听得清",
+        "严重影响睡眠"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-NkTCidOo-n",
+      "target_name": "农光里中社区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:57:29.615Z",
+      "severity": "info",
+      "content": "农光里中社区夜里邻居吵架需要开窗户才能听到，说明隔音不错，但存在水管老化问题。",
+      "file": "data/signals/2026-03-29-NkTCidOo-n.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "夜里邻居吵架需开窗才能听到"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-PMPYS9JLJS",
       "target_name": "双龙南里",
       "target_category": "housing",
