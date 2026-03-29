@@ -82,6 +82,81 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-VTuTP6JMV2",
+      "target_name": "学院路20号院",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:56:28.936Z",
+      "severity": "info",
+      "content": "学院路20号院被列入隔音好的小区白名单。；用户反馈隔音不错。小区房源可能较老，部分可交易。",
+      "file": "data/signals/2026-03-29-VTuTP6JMV2.md",
+      "subcategory": "apartment",
+      "district": "海淀区",
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音效果好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-ZhwUdl7pZz",
+      "target_name": "水利社区二号院",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:56:25.995Z",
+      "severity": "info",
+      "content": "水利社区二号院大户型被列入隔音好的小区白名单。",
+      "file": "data/signals/2026-03-29-ZhwUdl7pZz.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "大户型隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-Aywfzm7Kn-",
+      "target_name": "逸成东苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:56:22.356Z",
+      "severity": "notable",
+      "content": "逸成东苑被列入隔音好的小区白名单。；墙体厚，隔音效果好。",
+      "file": "data/signals/2026-03-29-Aywfzm7Kn-.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "墙体厚",
+        "隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-HqzDqyg41w",
       "target_name": "世纪城",
       "target_category": "housing",
