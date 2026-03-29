@@ -82,6 +82,54 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-nrUhW7ghgR",
+      "target_name": "砖塔胡同78号院",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:57:48.081Z",
+      "severity": "notable",
+      "content": "苏式楼，隔音效果非常好，家里非常寂静，仿佛楼上无人居住。",
+      "file": "data/signals/2026-03-29-nrUhW7ghgR.md",
+      "subcategory": "apartment",
+      "district": "西城区",
+      "recommendations": [
+        "苏式楼，隔音效果极佳"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-xvkOlZCSjS",
+      "target_name": "新华联家园南区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:57:43.681Z",
+      "severity": "critical",
+      "content": "有飞机声、楼下电动车声和野猫叫声，体验感极差。部分楼栋隔音差，能听到楼上骂小孩和弹琴声。；新华联家园南区隔音极差，能清楚听到楼上冲水、正常走路、拖椅子、重物落地以及妈妈训孩子的声音。",
+      "file": "data/signals/2026-03-29-xvkOlZCSjS.md",
+      "subcategory": "apartment",
+      "district": "通州区",
+      "warnings": [
+        "有飞机噪音",
+        "楼下电动车和野猫叫声",
+        "部分楼栋隔音差，能听到楼上声音",
+        "隔音差，能听到楼上冲水、走路、拖椅子、重物落地、训孩子等各种噪音"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-IxmysTbJ36",
       "target_name": "拂林园",
       "target_category": "housing",
