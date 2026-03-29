@@ -82,6 +82,59 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-4KH48XdP5F",
+      "target_name": "玉泉新城",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:55:23.041Z",
+      "severity": "info",
+      "content": "玉泉新城卧室隔音效果好，但客厅隔音一般。；卧室隔音好，但客厅不隔音，和隔壁共墙。",
+      "file": "data/signals/2026-03-29-4KH48XdP5F.md",
+      "subcategory": "apartment",
+      "district": "海淀区",
+      "recommendations": [
+        "卧室隔音好",
+        "卧室隔音效果好"
+      ],
+      "warnings": [
+        "客厅隔音差",
+        "客厅与隔壁共墙"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-jPI2rl1xoW",
+      "target_name": "宋家庄横七条",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:55:16.343Z",
+      "severity": "info",
+      "content": "宋家庄横七条被列入隔音好的小区白名单。",
+      "file": "data/signals/2026-03-29-jPI2rl1xoW.md",
+      "subcategory": "apartment",
+      "district": "丰台区",
+      "recommendations": [
+        "薯友严选的隔音好小区"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-4SuRIxS2B3",
       "target_name": "樱花园",
       "target_category": "housing",
