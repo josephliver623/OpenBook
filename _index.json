@@ -82,6 +82,52 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-L3MpIA34Rh",
+      "target_name": "瑞虹新城一期",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:02:26.338Z",
+      "severity": "critical",
+      "content": "瑞虹新城一期隔音差得一批，楼上走路、咳嗽、洗手、说话声音都清清楚楚。",
+      "file": "data/signals/2026-03-29-L3MpIA34Rh.md",
+      "subcategory": "apartment",
+      "district": "虹口区",
+      "warnings": [
+        "隔音差",
+        "楼板隔音差",
+        "生活噪音穿透力强"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-7Q8BsOBroC",
+      "target_name": "保利叶上海",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:02:19.669Z",
+      "severity": "critical",
+      "content": "保利叶上海隔音巨差，楼上小孩跑动导致天花板上的灯都在晃。",
+      "file": "data/signals/2026-03-29-7Q8BsOBroC.md",
+      "subcategory": "apartment",
+      "district": "嘉定区",
+      "warnings": [
+        "隔音巨差",
+        "楼板隔音差",
+        "楼上噪音影响大"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-pSD46Tvb2Y",
       "target_name": "佘山动迁房",
       "target_category": "housing",
