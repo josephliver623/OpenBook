@@ -1238,6 +1238,27 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-k4P3MBSyJt",
+      "target_name": "云泽嘉苑",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:11.269Z",
+      "severity": "info",
+      "content": "隔音差。",
+      "file": "data/signals/2026-03-29-k4P3MBSyJt.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-FB_jfElNb7",
       "target_name": "太阳宫新纪家园",
       "target_category": "housing",
@@ -1310,6 +1331,48 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-ELIH5aDNu2",
+      "target_name": "常青园北里",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:58:58.362Z",
+      "severity": "info",
+      "content": "隔音差。",
+      "file": "data/signals/2026-03-29-ELIH5aDNu2.md",
+      "subcategory": "apartment",
+      "district": "海淀区",
+      "warnings": [
+        "隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-ptw7vxcEDc",
+      "target_name": "东大桥东里",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:58:55.348Z",
+      "severity": "info",
+      "content": "隔音差。",
+      "file": "data/signals/2026-03-29-ptw7vxcEDc.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-U9tmb2fjP4",
       "target_name": "红庙北里五号楼",
       "target_category": "housing",
@@ -1324,6 +1387,27 @@
       "warnings": [
         "楼板隔音差",
         "能听到楼上拉动推拉门声音"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-RHHeauDXAI",
+      "target_name": "太平桥西里小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:58:48.651Z",
+      "severity": "critical",
+      "content": "隔音差，楼下说话都能听得见。",
+      "file": "data/signals/2026-03-29-RHHeauDXAI.md",
+      "subcategory": "apartment",
+      "district": "西城区",
+      "warnings": [
+        "邻里噪音大"
       ],
       "tags": [
         "soundproofing",
@@ -1595,6 +1679,28 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-kAgRkgvzpW",
+      "target_name": "惠新里小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:57:35.749Z",
+      "severity": "critical",
+      "content": "惠新里小区隔音极差，隔壁咳嗽打喷嚏都听得一清二楚，被多位薯友投诉，建议避雷。",
+      "file": "data/signals/2026-03-29-kAgRkgvzpW.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "隔壁咳嗽打喷嚏都听得一清二楚",
+        "被多位薯友投诉隔音差"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-IxmysTbJ36",
       "target_name": "拂林园",
       "target_category": "housing",
@@ -1709,6 +1815,29 @@
       "tags": [
         "soundproofing",
         "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-kKIYPo15uI",
+      "target_name": "百环家园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-03-29T07:57:16.872Z",
+      "severity": "critical",
+      "content": "百环家园隔音极差，楼上拉衣柜门、猫跑动都听得见，声音能从四面八方传来，导致邻里纠纷。",
+      "file": "data/signals/2026-03-29-kKIYPo15uI.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "warnings": [
+        "楼上拉衣柜门、猫跑动都听得见",
+        "声音从四面八方传来",
+        "容易引起邻里纠纷"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
       ]
     },
     {
@@ -2038,6 +2167,30 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-tTiDOOZuPX",
+      "target_name": "嘉铭桐城d区",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:56:32.024Z",
+      "severity": "info",
+      "content": "嘉铭桐城d区被列入隔音好的小区白名单。",
+      "file": "data/signals/2026-03-29-tTiDOOZuPX.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "薯友严选的隔音好小区"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-VTuTP6JMV2",
       "target_name": "学院路20号院",
       "target_category": "housing",
@@ -2156,6 +2309,30 @@
         "楼下未投诉噪音",
         "未听到楼上声音",
         "隔音效果好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-RYLI8_Jm8_",
+      "target_name": "国贸公寓",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:56:13.556Z",
+      "severity": "info",
+      "content": "国贸公寓被列入隔音好的小区白名单。",
+      "file": "data/signals/2026-03-29-RYLI8_Jm8_.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ],
       "suitable_for": [
         "noise-sensitive"
