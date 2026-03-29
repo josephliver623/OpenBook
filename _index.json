@@ -82,6 +82,30 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-y8OdxXnTku",
+      "target_name": "新江湾中凯",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:02:00.866Z",
+      "severity": "notable",
+      "content": "新江湾中凯隔音很好，楼上有小孩天天跑听不到，猫跑酷楼下也听不到，只有小孩拍球偶尔能听到。",
+      "file": "data/signals/2026-03-29-y8OdxXnTku.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "recommendations": [
+        "楼板隔音效果好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29--y8nIgyWpf",
       "target_name": "星河湾",
       "target_category": "housing",
