@@ -82,6 +82,52 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-4IBO0KGJDT",
+      "target_name": "华贸城",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:05.046Z",
+      "severity": "info",
+      "content": "住过十年，没听见邻居的声音，隔音可以。特别是两层的户型，隔音效果更好。",
+      "file": "data/signals/2026-03-29-4IBO0KGJDT.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "recommendations": [
+        "没听到邻居声音",
+        "两层户型隔音好"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-cMWCYkT43A",
+      "target_name": "当代城市家园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Beijing",
+      "date": "2026-03-29T07:59:01.496Z",
+      "severity": "info",
+      "content": "隔音还行。",
+      "file": "data/signals/2026-03-29-cMWCYkT43A.md",
+      "subcategory": "apartment",
+      "district": "海淀区",
+      "recommendations": [
+        "隔音尚可"
+      ],
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-U9tmb2fjP4",
       "target_name": "红庙北里五号楼",
       "target_category": "housing",
