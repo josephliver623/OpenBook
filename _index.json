@@ -82,6 +82,53 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-k7vEhOHbXk",
+      "target_name": "中企云萃江湾",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:01:50.967Z",
+      "severity": "critical",
+      "content": "中企云萃江湾隔音差，朋友反映在家训狗都要在业主群里被抱怨。",
+      "file": "data/signals/2026-03-29-k7vEhOHbXk.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "warnings": [
+        "隔音差",
+        "噪音影响邻居"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29-4Ny6HIa-Ca",
+      "target_name": "上海院子",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:01:48.043Z",
+      "severity": "critical",
+      "content": "上海院子隔音很差，房型也不好，房间小，厨房转身都嫌挤，在家鸡娃邻居都能听到并抱怨，不值那个价钱。；新江湾城上海院子有用户反映隔音效果差。",
+      "file": "data/signals/2026-03-29-4Ny6HIa-Ca.md",
+      "subcategory": "apartment",
+      "district": "杨浦区",
+      "warnings": [
+        "隔音差",
+        "房型差",
+        "房间小",
+        "厨房拥挤",
+        "噪音影响邻居"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-EJnxj3Vta2",
       "target_name": "绿地海珀璞晖",
       "target_category": "housing",
