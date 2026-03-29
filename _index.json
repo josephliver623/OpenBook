@@ -82,6 +82,28 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-03-29--y8nIgyWpf",
+      "target_name": "星河湾",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-03-29T08:01:54.149Z",
+      "severity": "notable",
+      "content": "星河湾隔音差，还有些住户干直播会产生噪音。",
+      "file": "data/signals/2026-03-29--y8nIgyWpf.md",
+      "subcategory": "apartment",
+      "district": "浦东新区",
+      "warnings": [
+        "隔音差",
+        "有住户直播产生噪音"
+      ],
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-29-k7vEhOHbXk",
       "target_name": "中企云萃江湾",
       "target_category": "housing",
