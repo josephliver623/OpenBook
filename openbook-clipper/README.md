@@ -1,6 +1,6 @@
 # OpenBook Clipper
 
-A Chrome extension that lets you clip valuable posts and comments from Xiaohongshu (RedNote) directly into the OpenBook format.
+A Chrome extension that lets you clip valuable posts and comments from 社交平台 directly into the OpenBook format.
 
 [English](./README.md) | [简体中文](#简体中文)
 
@@ -8,7 +8,7 @@ A Chrome extension that lets you clip valuable posts and comments from Xiaohongs
 
 ## What It Does
 
-When you're browsing Xiaohongshu and find a post worth preserving — a rental scam warning, a noise complaint about a building, a review of a landlord — click the OpenBook Clipper icon. The extension will:
+When you're browsing 社交平台 and find a post worth preserving — a rental scam warning, a noise complaint about a building, a review of a landlord — click the OpenBook Clipper icon. The extension will:
 
 1. **Extract** the post title, author, content, and all comments from the current page
 2. **Generate** a SHA-256 evidence hash of the raw content (for tamper-proof verification)
@@ -26,7 +26,7 @@ When you're browsing Xiaohongshu and find a post worth preserving — a rental s
 
 ## Usage
 
-1. Navigate to any Xiaohongshu post page (`xiaohongshu.com/explore/...`)
+1. Navigate to any 社交平台 post page (`social-platform.com/explore/...`)
 2. Click the **OpenBook Clipper** icon in your toolbar
 3. Review the extracted content and evidence hash
 4. Fill in metadata (city, area, category, tags)
@@ -37,7 +37,7 @@ When you're browsing Xiaohongshu and find a post worth preserving — a rental s
 ## Privacy & Security
 
 - All data extraction happens **locally in your browser**
-- Your Xiaohongshu cookies and login state **never leave your device**
+- Your 社交平台 cookies and login state **never leave your device**
 - No data is sent to any server — the extension works entirely offline
 - The evidence hash is computed locally using the Web Crypto API
 
@@ -63,7 +63,7 @@ openbook-clipper/
 
 ### 这是什么
 
-一个 Chrome 浏览器插件，让你在浏览小红书时，一键将有价值的帖子和评论"剪藏"为 OpenBook 格式。
+一个 Chrome 浏览器插件，让你在浏览社交平台时，一键将有价值的帖子和评论"剪藏"为 OpenBook 格式。
 
 ### 安装方法
 
@@ -75,7 +75,7 @@ openbook-clipper/
 
 ### 使用方法
 
-1. 打开任意小红书帖子页面
+1. 打开任意社交平台帖子页面
 2. 点击工具栏的 **OpenBook Clipper** 图标
 3. 查看提取的内容和证据哈希
 4. 填写元数据（城市、区域、分类、标签）
@@ -86,6 +86,6 @@ openbook-clipper/
 ### 隐私与安全
 
 - 所有数据提取都在**你的浏览器本地**完成
-- 你的小红书 Cookie 和登录状态**绝不会离开你的设备**
+- 你的社交平台 Cookie 和登录状态**绝不会离开你的设备**
 - 不会向任何服务器发送数据——插件完全离线工作
 - 证据哈希使用浏览器原生的 Web Crypto API 在本地计算

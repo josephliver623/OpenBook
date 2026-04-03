@@ -1,5 +1,5 @@
 // OpenBook Clipper — Content Script
-// Extracts post and comment data from Xiaohongshu pages
+// Extracts post and comment data from 社交平台 pages
 
 (function () {
   "use strict";
@@ -13,7 +13,7 @@
 
   function toISODate(str) {
     if (!str) return new Date().toISOString().slice(0, 10);
-    // 小红书常见格式: "2024-11-15", "11-15", "3天前", "昨天", etc.
+    // 社交平台常见格式: "2024-11-15", "11-15", "3天前", "昨天", etc.
     const full = /(\d{4})-(\d{1,2})-(\d{1,2})/;
     const m = str.match(full);
     if (m) return `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`;
@@ -119,7 +119,7 @@
   function extractComments() {
     const comments = [];
 
-    // 小红书评论区的常见选择器
+    // 社交平台评论区的常见选择器
     const commentContainers = document.querySelectorAll(
       '.comment-item, [class*="comment-item"], [class*="commentItem"], .parent-comment, [class*="noteComment"]'
     );
@@ -188,7 +188,7 @@ area: ${meta.area}
 date: ${post.date}
 tags: ${tags}
 source_url: ${post.url}
-source_platform: xiaohongshu
+source_platform: social-platform
 evidence_hash: ${meta.evidenceHash}
 disputed: false
 ---
@@ -204,7 +204,7 @@ disputed: false
     md += `## 原始内容\n\n`;
     md += `> **作者：** ${post.author}\n`;
     md += `> **日期：** ${post.date}\n`;
-    md += `> **来源：** [小红书](${post.url})\n\n`;
+    md += `> **来源：** [社交平台](${post.url})\n\n`;
     md += `${post.content}\n\n`;
 
     if (post.comments && post.comments.length > 0) {

@@ -46,7 +46,7 @@ This is the core of OpenBook: **a decentralized reputation system based on verif
 
 ## Why OpenBook?
 
-Today's review platforms are broken. Yelp, Xiaohongshu (Little Red Book), and Google Reviews all share the same fundamental problems: recommendation algorithms bury honest voices, commercial interests distort rankings, and unstructured text makes it nearly impossible for AI Agents to extract precise, actionable information.
+Today's review platforms are broken. Yelp, social platforms, and Google Reviews all share the same fundamental problems: recommendation algorithms bury honest voices, commercial interests distort rankings, and unstructured text makes it nearly impossible for AI Agents to extract precise, actionable information.
 
 OpenBook takes a radically different approach:
 

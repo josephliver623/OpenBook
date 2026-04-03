@@ -72,7 +72,7 @@ area: ${escapeYaml(area)}
 date: ${post.date || new Date().toISOString().slice(0, 10)}
 tags: ${tagsStr}
 source_url: ${post.url}
-source_platform: xiaohongshu
+source_platform: social-platform
 evidence_hash: ${post.evidenceHash}
 disputed: false
 ---
@@ -88,7 +88,7 @@ disputed: false
     md += `## 原始内容\n\n`;
     md += `> **作者：** ${post.author || "未知"}\n`;
     md += `> **日期：** ${post.date || "未知"}\n`;
-    md += `> **来源：** [小红书](${post.url})\n\n`;
+    md += `> **来源：** [社交平台](${post.url})\n\n`;
     md += `${post.content || ""}\n\n`;
 
     // Selected comments
@@ -262,7 +262,7 @@ disputed: false
       // Get current tab
       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
-      if (!tab || !tab.url || !tab.url.includes("xiaohongshu.com")) {
+      if (!tab || !tab.url || !tab.url.includes("social-platform.com")) {
         showState(stateNotXhs);
         return;
       }

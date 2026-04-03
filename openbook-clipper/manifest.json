@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "OpenBook Clipper",
   "version": "0.1.0",
-  "description": "Clip valuable posts and comments from Xiaohongshu (RedNote) to OpenBook — the decentralized reputation infrastructure.",
+  "description": "Clip valuable posts and comments from 社交平台 to OpenBook — the decentralized reputation infrastructure.",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "popup.html",
@@ -19,7 +19,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://www.xiaohongshu.com/*"],
+      "matches": ["*://www.social-platform.com/*"],
       "js": ["content.js"],
       "css": ["content.css"],
       "run_at": "document_idle"
