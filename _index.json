@@ -82,6 +82,28 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-03-axNwMR8a3p",
+      "target_name": "金光景庭",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Shanghai",
+      "date": "2026-04-03T20:16:16.270Z",
+      "severity": "critical",
+      "content": "金光景庭隔音巨差，虽然都是实体墙。不要被前卫外表和精美装修迷惑，而且有租户素质很低。半夜常有不明巨响（类似锤子砸墙声）、高跟鞋声、弹珠声，穿透性极强，像是有人闯进家中。有精神不稳定者和吵架情侣也常给他人造成困扰。之前疑似有人被带走，但深夜不明巨响依然没有停止。(2025年的情况)",
+      "file": "data/signals/2026-04-03-axNwMR8a3p.md",
+      "neighborhood": "祁安路",
+      "tags": [
+        "隔音差",
+        "噪音",
+        "租户素质",
+        "公寓",
+        "居住体验",
+        "普陀区",
+        "祁安路"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-03-8yfesT1wKV",
       "target_name": "世纪之门",
       "target_category": "housing",
