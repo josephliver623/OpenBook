@@ -1,5 +1,6 @@
 ---
 _schema: openbook/schema/v1
+name: campus
 id: campus
 title: Campus Life Signal
 description: Signals related to campus life, including course reviews, professor feedback, and other academic experiences.
