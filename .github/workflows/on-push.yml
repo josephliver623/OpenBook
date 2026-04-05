@@ -10,6 +10,9 @@ on:
       - 'data/**'
       - 'schemas/**'
 
+permissions:
+  contents: write
+
 jobs:
   validate-and-index:
     runs-on: ubuntu-latest
