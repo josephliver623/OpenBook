@@ -82,6 +82,28 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-05-GNOsofouHQ",
+      "target_name": "绿城沁园",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Beijing",
+      "date": "2026-04-05T16:47:33.501Z",
+      "severity": "info",
+      "content": "朝阳区绿城沁园很好",
+      "file": "data/signals/2026-04-05-GNOsofouHQ.md",
+      "subcategory": "apartment",
+      "district": "朝阳区",
+      "rating_info": "很好",
+      "tags": [
+        "绿城沁园",
+        "朝阳区",
+        "公寓",
+        "住宅",
+        "好"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-05-_yes0L_ytl",
       "target_name": "炫特嘉园",
       "target_category": "housing",
