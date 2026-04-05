@@ -75,7 +75,7 @@ jobs:
                 target_category: meta.target_category,
                 signal_type: meta.signal_type,
                 city: meta.city,
-                date: meta.date,
+                date: meta.date instanceof Date ? meta.date.toISOString() : String(meta.date || ''),
                 severity: meta.severity || 'info',
                 content: meta.content,
                 file: `data/signals/${file}`,
@@ -105,7 +105,7 @@ jobs:
           }
 
           // Sort by date descending
-          signals.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+          signals.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
 
           // Update index, preserving reviews
           const updated = {

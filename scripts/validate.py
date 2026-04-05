@@ -96,7 +96,11 @@ def main():
     schemas = {}
     for schema_file in schemas_dir.glob("*.yml"):
         schema = load_schema(str(schema_file))
-        schemas[schema["name"]] = schema
+        schema_key = schema.get("name") or schema.get("id")
+        if not schema_key:
+            print(f"Warning: schema {schema_file} has no 'name' or 'id' field, skipping")
+            continue
+        schemas[schema_key] = schema
 
     if not schemas:
         print("No schemas found!")
