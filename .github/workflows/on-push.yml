@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: index-update
+  cancel-in-progress: false
+
 jobs:
   validate-and-index:
     runs-on: ubuntu-latest
@@ -40,4 +44,5 @@ jobs:
           git config user.email "bot@openbook.community"
           git add _index.json
           git diff --cached --quiet || git commit -m "chore: rebuild index [skip ci]"
+          git pull --rebase origin main || true
           git push
