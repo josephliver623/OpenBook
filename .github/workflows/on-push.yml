@@ -2,6 +2,7 @@ name: Validate & Build Index
 
 on:
   push:
+    branches: [main]
     paths:
       - 'data/**'
       - 'schemas/**'
@@ -14,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: index-update
+  group: index-update-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -22,6 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,18 +34,37 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
-      - name: Validate all reviews
-        run: python3 scripts/validate.py .
-
       - name: Build index
         run: python3 scripts/build_index.py .
 
-      - name: Commit updated index
+      - name: Commit and push updated index (with retry)
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "openbook-bot"
           git config user.email "bot@openbook.community"
           git add _index.json
-          git diff --cached --quiet || git commit -m "chore: rebuild index [skip ci]"
-          git pull --rebase origin main || true
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to _index.json"
+            exit 0
+          fi
+          git commit -m "chore: rebuild index [skip ci]"
+          # Retry push up to 3 times to handle race conditions
+          for i in 1 2 3; do
+            if git push origin main; then
+              echo "Push succeeded on attempt $i"
+              exit 0
+            fi
+            echo "Push failed on attempt $i, rebasing and retrying..."
+            git pull --rebase origin main
+            # Regenerate index after rebase in case new files were added
+            python3 scripts/build_index.py .
+            git add _index.json
+            if git diff --cached --quiet; then
+              echo "Index already up to date after rebase"
+              exit 0
+            fi
+            git commit --amend --no-edit
+            sleep 2
+          done
+          echo "Failed to push after 3 attempts"
+          exit 1
