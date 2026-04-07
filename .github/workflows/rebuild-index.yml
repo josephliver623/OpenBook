@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: index-update
+  cancel-in-progress: false
+
 jobs:
   rebuild-index:
     runs-on: ubuntu-latest
@@ -126,6 +130,7 @@ jobs:
             echo "No changes to _index.json"
           else
             git commit -m "chore: rebuild _index.json from signal files"
+            git pull --rebase origin main || true
             git push
             echo "Index updated and pushed"
           fi
