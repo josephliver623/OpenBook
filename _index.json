@@ -82,6 +82,452 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-2CuMl8VHLQ",
+      "target_name": "河畔丽景/珠江阙",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "河畔丽景、珠江阙小区周边受地铁22号线（平谷线）施工噪音严重影响。据北京市12345热线数据，该区域在2025年1-7月（排名第8）、2025年1-9月（排名第5）、2025年12月（排名第4）、2026年1月（排名第1）多次登上全市噪声投诉Top 10，2026年1月更是排名全市第一。地铁22号线施工工期长，该区域噪音问题短期内难以解决。",
+      "file": "data/signals/2026-04-07-2CuMl8VHLQ.md",
+      "district": "通州区",
+      "neighborhood": "新华街道",
+      "tags": [
+        "12345热线",
+        "地铁施工",
+        "通州",
+        "22号线",
+        "多次上榜",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-7nsW0hOJ9X",
+      "target_name": "田村路40号院/48号院",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "田村路40号院、48号院周边受电力工程施工噪音影响。据北京市12345热线数据，该区域在2026年1月登上全市噪声投诉Top 10（排名第10）。田村路沿线租房需注意电力工程施工情况。",
+      "file": "data/signals/2026-04-07-7nsW0hOJ9X.md",
+      "district": "海淀区",
+      "neighborhood": "田村",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "田村",
+        "海淀区",
+        "电力工程",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-CFDXq1cBtv",
+      "target_name": "望京西路沿线",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "望京西路沿线受道路大修施工噪音影响。据北京市12345热线数据，望京街道望京西路沿线工地在2025年1-7月（排名第1）、2025年1-9月（排名第2）登上全市噪声投诉Top 10。望京西路沿线租房需注意道路施工情况。",
+      "file": "data/signals/2026-04-07-CFDXq1cBtv.md",
+      "district": "朝阳区",
+      "neighborhood": "望京",
+      "tags": [
+        "12345热线",
+        "道路施工",
+        "望京",
+        "朝阳区",
+        "道路大修",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-DkSkJdEZXk",
+      "target_name": "武夷花园/紫运园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "武夷花园、紫运园小区周边受副中心交通枢纽站项目施工噪音影响。据北京市12345热线数据，该区域在2024年全年（排名第3）、2025年1-7月（排名第9）、2025年1-9月（排名第10）多次登上全市噪声投诉Top 10。副中心交通枢纽为大型基建项目，施工周期长。",
+      "file": "data/signals/2026-04-07-DkSkJdEZXk.md",
+      "district": "通州区",
+      "neighborhood": "通运街道",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "通州",
+        "副中心",
+        "交通枢纽",
+        "多次上榜",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-EnqpUg2eKm",
+      "target_name": "郭公庄中街16号院/幸福家园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "郭公庄中街16号院、幸福家园小区周边受地铁九号线郭公庄车辆段项目三期施工噪音影响。据北京市12345热线数据，该区域在2024年全年登上全市噪声投诉Top 10（排名第4）。地铁车辆段项目规模大、工期长。",
+      "file": "data/signals/2026-04-07-EnqpUg2eKm.md",
+      "district": "丰台区",
+      "neighborhood": "郭公庄",
+      "tags": [
+        "12345热线",
+        "地铁施工",
+        "郭公庄",
+        "丰台区",
+        "九号线",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-GWjtM1yr1L",
+      "target_name": "地质大学家属楼周边",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "中国地质大学家属楼周边受危旧楼改造施工噪音影响。据北京市12345热线数据，学院路街道中国地质大学家属楼附近工地（海淀区学院路29号危旧楼改造项目）在2025年1-4月（排名第3）、2025年1-5月（排名第6）登上全市噪声投诉Top 10。学院路沿线租房需关注改造工程进度。",
+      "file": "data/signals/2026-04-07-GWjtM1yr1L.md",
+      "district": "海淀区",
+      "neighborhood": "学院路",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "学院路",
+        "海淀区",
+        "危旧楼改造",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-HaoIkvmk03",
+      "target_name": "大郊亭北街18号院/珠江帝景",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "大郊亭北街18号院、珠江帝景周边受广渠路城中村改造施工噪音影响。据北京市12345热线数据，该区域在2026年1月登上全市噪声投诉Top 10（排名第2）。珠江帝景周边租房需关注城中村改造工程进度。",
+      "file": "data/signals/2026-04-07-HaoIkvmk03.md",
+      "district": "朝阳区",
+      "neighborhood": "广渠路",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "广渠路",
+        "朝阳区",
+        "城中村改造",
+        "珠江帝景",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-HuNT1nv09O",
+      "target_name": "松榆东里/平乐园/珠江帝景",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "松榆东里、平乐园小区、珠江帝景附近受西大望路道路大修工程施工噪音影响。据北京市12345热线数据，该区域在2024年全年登上全市噪声投诉Top 10（排名第1）。值得注意的是，松榆东里和平乐园本身也是知乎用户反映隔音差的小区，施工噪音+小区隔音差双重叠加，居住体验极差。",
+      "file": "data/signals/2026-04-07-HuNT1nv09O.md",
+      "district": "朝阳区",
+      "neighborhood": "西大望路",
+      "tags": [
+        "12345热线",
+        "道路施工",
+        "朝阳区",
+        "西大望路",
+        "隔音差",
+        "双重噪音",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-Klkpg9A2Eb",
+      "target_name": "政馨园一区/二区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "政馨园一区、二区周边受横一条南口道路拓宽施工噪音影响。据北京市12345热线数据，该区域在2025年12月登上全市噪声投诉Top 10（排名第6）。道路拓宽工程影响周边多个小区。",
+      "file": "data/signals/2026-04-07-Klkpg9A2Eb.md",
+      "district": "丰台区",
+      "neighborhood": "太平桥",
+      "tags": [
+        "12345热线",
+        "道路施工",
+        "太平桥",
+        "丰台区",
+        "道路拓宽",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-QWCdgNGGb3",
+      "target_name": "福怡苑/棕榈泉/甜水园北里",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "福怡苑、棕榈泉、甜水园北里周边受排水管网改造施工噪音影响。据北京市12345热线数据，该区域在2025年12月（排名第2）、2026年1月（排名第9）连续登上全市噪声投诉Top 10。排水管网改造工程影响范围较广，涉及多个小区。",
+      "file": "data/signals/2026-04-07-QWCdgNGGb3.md",
+      "district": "朝阳区",
+      "neighborhood": "甜水园",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "甜水园",
+        "朝阳区",
+        "排水管网",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-RWRONxFKxK",
+      "target_name": "永旺家园一区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "永旺家园一区周边施工噪音严重。据北京市12345热线数据，西北旺镇永旺家园一区附近工地在2025年1-4月（排名第4）、2025年1-5月（排名第9）、2025年1-7月（排名第10）、2025年1-9月（排名第8）多次登上全市噪声投诉Top 10。该区域施工项目持续时间长，租房需关注施工进度。",
+      "file": "data/signals/2026-04-07-RWRONxFKxK.md",
+      "district": "海淀区",
+      "neighborhood": "西北旺",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "西北旺",
+        "海淀区",
+        "多次上榜",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-SY2BnMPrMt",
+      "target_name": "姚家园西里",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "姚家园西里小区周边受安置房项目施工噪音影响。据北京市12345热线数据，平房地区姚家园西里小区附近工地（安置房项目西区）在2025年1-5月（排名第2）、2025年1-7月（排名第5）、2025年1-9月（排名第7）、2025年12月（排名第7）多次登上全市噪声投诉Top 10。该区域施工项目持续时间长。",
+      "file": "data/signals/2026-04-07-SY2BnMPrMt.md",
+      "district": "朝阳区",
+      "neighborhood": "平房",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "平房",
+        "朝阳区",
+        "安置房",
+        "多次上榜",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-XYIRhO7Ez6",
+      "target_name": "朱房村周边",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "清河街道朱房村周边受棚户区改造施工噪音影响。据北京市12345热线数据，朱房四街棚户区改造项目在2025年1-4月（排名第9）、2025年1-5月（排名第4）、2025年1-7月（排名第6）、2025年1-9月（排名第9）多次登上全市噪声投诉Top 10。清河区域租房需注意棚改工程进度。",
+      "file": "data/signals/2026-04-07-XYIRhO7Ez6.md",
+      "district": "海淀区",
+      "neighborhood": "清河",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "清河",
+        "海淀区",
+        "棚户区改造",
+        "多次上榜",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-Xd99l0KqM9",
+      "target_name": "双花园南里/广泉小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "双花园南里、广泉小区周边受地铁17号线施工噪音严重影响。据北京市12345热线数据，该区域在2025年1-5月（排名第3）、2025年1-7月（排名第3）、2025年1-9月（排名第1）多次登上全市噪声投诉Top 10，2025年1-9月更是排名全市第一。地铁施工持续时间长，该区域租房需做好长期噪音准备。",
+      "file": "data/signals/2026-04-07-Xd99l0KqM9.md",
+      "district": "朝阳区",
+      "neighborhood": "双井",
+      "tags": [
+        "12345热线",
+        "地铁施工",
+        "双井",
+        "朝阳区",
+        "17号线",
+        "多次上榜",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-Y35TNYKl0w",
+      "target_name": "翠微南里小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "翠微南里小区东侧施工噪音影响居民生活。据北京市12345热线数据，万寿路街道翠微南里小区东侧工地在2025年1-4月登上全市噪声投诉Top 10（排名第7）。租住该区域需注意周边施工情况。",
+      "file": "data/signals/2026-04-07-Y35TNYKl0w.md",
+      "district": "海淀区",
+      "neighborhood": "万寿路",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "万寿路",
+        "海淀区",
+        "翠微",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-giEMV01waF",
+      "target_name": "冠英园小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "冠英园小区、东冠英胡同周边受赵登禹路道路大修施工噪音影响。据北京市12345热线数据，该区域在2025年12月登上全市噪声投诉Top 10（排名第1）。西城区道路大修工程影响周边居民。",
+      "file": "data/signals/2026-04-07-giEMV01waF.md",
+      "district": "西城区",
+      "neighborhood": "赵登禹路",
+      "tags": [
+        "12345热线",
+        "道路施工",
+        "西城区",
+        "赵登禹路",
+        "道路大修",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-hwBkOXEKme",
+      "target_name": "东大桥东里小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "东大桥东里小区周边受地铁28号线施工噪音影响。据北京市12345热线数据，该区域在2026年1月登上全市噪声投诉Top 10（排名第5）。地铁施工持续时间较长，东大桥区域租房需做好噪音准备。",
+      "file": "data/signals/2026-04-07-hwBkOXEKme.md",
+      "district": "朝阳区",
+      "neighborhood": "东大桥",
+      "tags": [
+        "12345热线",
+        "地铁施工",
+        "东大桥",
+        "朝阳区",
+        "28号线",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-lhLu4FoR9f",
+      "target_name": "丽新怡园小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "丽新怡园小区周边受丽泽金融商务区施工噪音影响。据北京市12345热线数据，该区域在2026年1月登上全市噪声投诉Top 10（排名第4）。丽泽商务区大规模建设持续进行中，周边租房需注意施工噪音。",
+      "file": "data/signals/2026-04-07-lhLu4FoR9f.md",
+      "district": "丰台区",
+      "neighborhood": "丽泽",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "丽泽",
+        "丰台区",
+        "商务区建设",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-n0XC8qswzN",
+      "target_name": "惠新西街沿线",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "moderate",
+      "content": "惠新西街沿线受道路大修施工噪音影响。据北京市12345热线数据，小关街道惠新西街沿线工地在2025年1-7月（排名第2）、2025年1-9月（排名第6）登上全市噪声投诉Top 10。惠新西街沿线租房需注意道路施工进度。",
+      "file": "data/signals/2026-04-07-n0XC8qswzN.md",
+      "district": "朝阳区",
+      "neighborhood": "小关",
+      "tags": [
+        "12345热线",
+        "道路施工",
+        "小关",
+        "朝阳区",
+        "道路大修",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-07-tD5ymcLLl2",
+      "target_name": "中航广场周边住宅",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-07T12:00:00.000Z",
+      "severity": "critical",
+      "content": "中航广场周边住宅深受施工噪音困扰。据北京市12345热线数据，中关村街道北三环西路43号中航广场工地在2024-2026年间连续6期登上全市噪声投诉Top 10（2024全年排名第5、2025年1-4月排名第1、2025年1-5月排名第1、2025年1-7月排名第4、2025年1-9月排名第3、2026年1月排名第3），是北京市噪声投诉最持久的热点之一。周边居民长期受施工噪音影响，租房需特别注意。",
+      "file": "data/signals/2026-04-07-tD5ymcLLl2.md",
+      "district": "海淀区",
+      "neighborhood": "中关村",
+      "tags": [
+        "12345热线",
+        "施工噪音",
+        "中关村",
+        "海淀区",
+        "连续上榜",
+        "噪音投诉"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-06-ZeTf4poH6V",
       "target_name": "华贸城",
       "target_category": "housing",
@@ -130,17 +576,17 @@
       "file": "data/signals/2026-04-05-OZX_7rRX73.md",
       "subcategory": "apartment",
       "district": "Chaoyang District",
-      "rating_info": "隔音很差",
-      "warnings": [
-        "隔音很差"
-      ],
       "tags": [
         "都会华庭",
         "隔音差",
         "公寓",
         "北京",
         "朝阳区"
-      ]
+      ],
+      "warnings": [
+        "隔音很差"
+      ],
+      "rating_info": "隔音很差"
     },
     {
       "_schema": "openbook/signal/v1",
@@ -155,14 +601,14 @@
       "file": "data/signals/2026-04-05-GNOsofouHQ.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "rating_info": "很好",
       "tags": [
         "绿城沁园",
         "朝阳区",
         "公寓",
         "住宅",
         "好"
-      ]
+      ],
+      "rating_info": "很好"
     },
     {
       "_schema": "openbook/signal/v1",
@@ -179,9 +625,6 @@
       "district": "朝阳区",
       "neighborhood": "石佛营",
       "address": "石佛营炫特嘉园",
-      "warnings": [
-        "隔音差"
-      ],
       "tags": [
         "炫特嘉园",
         "公寓",
@@ -189,6 +632,9 @@
         "隔音",
         "石佛营",
         "朝阳区"
+      ],
+      "warnings": [
+        "隔音差"
       ]
     },
     {
@@ -379,17 +825,17 @@
       "file": "data/signals/2026-03-29-8g6s0BLqhX.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "recommendations": [
-        "天花板壁橱隔音层",
-        "地暖增加隔音",
-        "隔音不错"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "天花板壁橱隔音层",
+        "地暖增加隔音",
+        "隔音不错"
       ]
     },
     {
@@ -444,18 +890,18 @@
       "file": "data/signals/2026-03-29-Bv3XTdvfry.md",
       "subcategory": "apartment",
       "district": "长宁区",
-      "recommendations": [
-        "隔音好，半年没听到邻居动静",
-        "保暖效果好，室温18度",
-        "新华路地段"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing",
         "old-building"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "recommendations": [
+        "隔音好，半年没听到邻居动静",
+        "保暖效果好，室温18度",
+        "新华路地段"
       ]
     },
     {
@@ -508,17 +954,17 @@
       "file": "data/signals/2026-03-29-DxPvuDdxfo.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "recommendations": [
-        "隔音好，楼上小孩跑听不到",
-        "邻居素质好",
-        "居住体验好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音好，楼上小孩跑听不到",
+        "邻居素质好",
+        "居住体验好"
       ]
     },
     {
@@ -534,12 +980,12 @@
       "file": "data/signals/2026-03-29-EolmQutV7Q.md",
       "subcategory": "apartment",
       "district": "浦东新区",
-      "warnings": [
-        "隔音差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差"
       ]
     },
     {
@@ -555,18 +1001,18 @@
       "file": "data/signals/2026-03-29-FcjLmOr51k.md",
       "subcategory": "apartment",
       "district": "松江区",
-      "recommendations": [
-        "入住率不高",
-        "房屋密度低",
-        "比较安静"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing",
         "quiet"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "recommendations": [
+        "入住率不高",
+        "房屋密度低",
+        "比较安静"
       ]
     },
     {
@@ -599,12 +1045,12 @@
       "file": "data/signals/2026-03-29-HLPHBOBo9O.md",
       "subcategory": "apartment",
       "district": "松江区",
-      "warnings": [
-        "隔音很差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音很差"
       ]
     },
     {
@@ -639,17 +1085,17 @@
       "file": "data/signals/2026-03-29-JNVcZNvrHa.md",
       "subcategory": "apartment",
       "district": "闵行区",
-      "recommendations": [
-        "航线下房子隔音特别好",
-        "邻居声音一点听不到"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing",
         "special-case"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "recommendations": [
+        "航线下房子隔音特别好",
+        "邻居声音一点听不到"
       ]
     },
     {
@@ -722,15 +1168,15 @@
       "file": "data/signals/2026-03-29-MSIMJCwH1V.md",
       "subcategory": "apartment",
       "district": "浦东新区",
-      "warnings": [
-        "极差隔音",
-        "能听到隔壁生活细节",
-        "无隐私"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing",
         "new-building"
+      ],
+      "warnings": [
+        "极差隔音",
+        "能听到隔壁生活细节",
+        "无隐私"
       ]
     },
     {
@@ -746,17 +1192,17 @@
       "file": "data/signals/2026-03-29-MVSUl4u_HA.md",
       "subcategory": "apartment",
       "district": "静安区",
-      "recommendations": [
-        "隔音好，除施工外无噪音",
-        "建议选一期",
-        "南京西路地段"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音好，除施工外无噪音",
+        "建议选一期",
+        "南京西路地段"
       ]
     },
     {
@@ -772,13 +1218,13 @@
       "file": "data/signals/2026-03-29-OiDJNO-bF_.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "warnings": [
-        "老小区施工多"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing",
         "construction-noise"
+      ],
+      "warnings": [
+        "老小区施工多"
       ]
     },
     {
@@ -870,15 +1316,15 @@
       "file": "data/signals/2026-03-29-T_JcfIzZgJ.md",
       "subcategory": "apartment",
       "district": "青浦区",
-      "recommendations": [
-        "环境还可以"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "环境还可以"
       ]
     },
     {
@@ -911,17 +1357,17 @@
       "content": "和平花苑是外销房，蛮安静的，没有楼里邻居抱怨过。",
       "file": "data/signals/2026-03-29-WMX-vfREXp.md",
       "subcategory": "apartment",
-      "recommendations": [
-        "外销房隔音好",
-        "没有邻居抱怨过"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing",
         "old-building"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "recommendations": [
+        "外销房隔音好",
+        "没有邻居抱怨过"
       ]
     },
     {
@@ -1011,12 +1457,12 @@
       "file": "data/signals/2026-03-29-ZfkE8qzxr9.md",
       "subcategory": "apartment",
       "district": "闵行区",
-      "warnings": [
-        "评价不一，需实地考察"
-      ],
       "tags": [
         "soundproofing",
         "mixed-reviews"
+      ],
+      "warnings": [
+        "评价不一，需实地考察"
       ]
     },
     {
@@ -1050,12 +1496,12 @@
       "file": "data/signals/2026-03-29-Zt8_jmpsEg.md",
       "subcategory": "apartment",
       "district": "长宁区",
-      "warnings": [
-        "隔音差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差"
       ]
     },
     {
@@ -1071,15 +1517,15 @@
       "file": "data/signals/2026-03-29-aqwzGTQzA0.md",
       "subcategory": "apartment",
       "district": "静安区",
-      "recommendations": [
-        "隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音好"
       ]
     },
     {
@@ -1116,18 +1562,18 @@
       "content": "住过最安静的居然是94年一梯四户老破小，因为邻居都是正常人，正常作息。真是千金买房，万金买邻。",
       "file": "data/signals/2026-03-29-d7p3rXv1Zu.md",
       "subcategory": "apartment",
-      "recommendations": [
-        "94年老破小隔音反而好",
-        "一梯四户",
-        "邻居素质是关键"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing",
         "old-building"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "recommendations": [
+        "94年老破小隔音反而好",
+        "一梯四户",
+        "邻居素质是关键"
       ]
     },
     {
@@ -1160,16 +1606,16 @@
       "file": "data/signals/2026-03-29-dYh3sKMLeC.md",
       "subcategory": "apartment",
       "district": "徐汇区",
-      "recommendations": [
-        "老房子隔音好"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing",
         "old-building"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "recommendations": [
+        "老房子隔音好"
       ]
     },
     {
@@ -1203,14 +1649,14 @@
       "file": "data/signals/2026-03-29-fsKXwFzWRl.md",
       "subcategory": "apartment",
       "district": "静安区",
-      "warnings": [
-        "空调外机噪音",
-        "墙体共振"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing",
         "ac-noise"
+      ],
+      "warnings": [
+        "空调外机噪音",
+        "墙体共振"
       ]
     },
     {
@@ -1243,21 +1689,21 @@
       "content": "老的塔楼隔音好，要混凝土现浇的楼板。近十年的板式都不行。98年的外销商品房隔音非常好，家里孩子弹钢琴楼上邻居都不知道。老的砖混隔音好，砖和水泥是不同材料中间有气孔无法形成共振。",
       "file": "data/signals/2026-03-29-h5o6f8HE-I.md",
       "subcategory": "apartment",
-      "recommendations": [
-        "选老塔楼",
-        "混凝土现浇楼板",
-        "砖混结构隔音好",
-        "外销商品房品质好"
-      ],
-      "suitable_for": [
-        "noise-sensitive",
-        "home-buyers"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing",
         "buying-advice",
         "old-building"
+      ],
+      "suitable_for": [
+        "noise-sensitive",
+        "home-buyers"
+      ],
+      "recommendations": [
+        "选老塔楼",
+        "混凝土现浇楼板",
+        "砖混结构隔音好",
+        "外销商品房品质好"
       ]
     },
     {
@@ -1293,14 +1739,14 @@
       "file": "data/signals/2026-03-29-hkuqsCD-9h.md",
       "subcategory": "apartment",
       "district": "杨浦区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "隔音一塌糊涂",
         "房间小",
         "邻居能听到说话"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -1316,17 +1762,17 @@
       "file": "data/signals/2026-03-29-jeHygpsnri.md",
       "subcategory": "apartment",
       "district": "虹口区",
-      "recommendations": [
-        "部队造的老破小隔音超好",
-        "靠灵岩路那部分"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing",
         "old-building"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
+      "recommendations": [
+        "部队造的老破小隔音超好",
+        "靠灵岩路那部分"
       ]
     },
     {
@@ -1342,15 +1788,15 @@
       "file": "data/signals/2026-03-29-jhZeWlPB6o.md",
       "subcategory": "apartment",
       "district": "普陀区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "楼上拉椅子声",
         "隔壁吵架声",
         "楼下弹琴声",
         "常年有装修"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -1366,14 +1812,14 @@
       "file": "data/signals/2026-03-29-jiHWq37zv1.md",
       "subcategory": "apartment",
       "district": "长宁区",
-      "warnings": [
-        "施工噪音严重",
-        "路面坑洼"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing",
         "construction-noise"
+      ],
+      "warnings": [
+        "施工噪音严重",
+        "路面坑洼"
       ]
     },
     {
@@ -1408,12 +1854,12 @@
       "file": "data/signals/2026-03-29-kEP3vb0cHi.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "warnings": [
-        "隔音差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差"
       ]
     },
     {
@@ -1448,12 +1894,12 @@
       "file": "data/signals/2026-03-29-kt0InmmNBa.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "warnings": [
-        "隔音一塌糊涂"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音一塌糊涂"
       ]
     },
     {
@@ -1487,12 +1933,12 @@
       "file": "data/signals/2026-03-29-lEbsQL6n0y.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "warnings": [
-        "隔音差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差"
       ]
     },
     {
@@ -1525,17 +1971,17 @@
       "content": "基本上2015年后建的房子隔音都不好，要想隔音好尽量挑2015或2010年以前建的。进小区看看空调室外机是在南面还是北面，一般在北面的都是中央空调，买这种房子。",
       "file": "data/signals/2026-03-29-nghzzuBFp3.md",
       "subcategory": "apartment",
-      "recommendations": [
-        "选2015年前建成的房子",
-        "看空调外机位置判断是否中央空调"
+      "tags": [
+        "soundproofing",
+        "buying-advice"
       ],
       "suitable_for": [
         "noise-sensitive",
         "home-buyers"
       ],
-      "tags": [
-        "soundproofing",
-        "buying-advice"
+      "recommendations": [
+        "选2015年前建成的房子",
+        "看空调外机位置判断是否中央空调"
       ]
     },
     {
@@ -1551,16 +1997,16 @@
       "file": "data/signals/2026-03-29-pCln9qMsa4.md",
       "subcategory": "apartment",
       "district": "闵行区",
-      "recommendations": [
-        "隔音极好",
-        "经验丰富用户推荐"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音极好",
+        "经验丰富用户推荐"
       ]
     },
     {
@@ -1595,14 +2041,14 @@
       "file": "data/signals/2026-03-29-s1BlwQY01h.md",
       "subcategory": "apartment",
       "district": "普陀区",
-      "warnings": [
-        "频繁施工",
-        "修路噪音"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing",
         "construction-noise"
+      ],
+      "warnings": [
+        "频繁施工",
+        "修路噪音"
       ]
     },
     {
@@ -1617,15 +2063,15 @@
       "content": "住过康发小区，隔音好。",
       "file": "data/signals/2026-03-29-s3ekOhTCGV.md",
       "subcategory": "apartment",
-      "recommendations": [
-        "隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音好"
       ]
     },
     {
@@ -1679,19 +2125,19 @@
       "file": "data/signals/2026-03-29-u4_3NeaTLL.md",
       "subcategory": "apartment",
       "district": "青浦区",
+      "tags": [
+        "soundproofing",
+        "good-soundproofing",
+        "new-building"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
       "recommendations": [
         "楼板隔音好",
         "层高3m",
         "中央空调+地暖",
         "关门听不到声音"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing",
-        "new-building"
       ]
     },
     {
@@ -1744,18 +2190,18 @@
       "file": "data/signals/2026-03-29-zmY5cK8shw.md",
       "subcategory": "apartment",
       "district": "宝山区",
-      "recommendations": [
-        "地铁方便",
-        "05年动迁小区建筑质量不错",
-        "河道纵横空气好"
-      ],
-      "suitable_for": [
-        "budget-conscious"
-      ],
       "tags": [
         "soundproofing",
         "mixed-reviews",
         "affordable"
+      ],
+      "suitable_for": [
+        "budget-conscious"
+      ],
+      "recommendations": [
+        "地铁方便",
+        "05年动迁小区建筑质量不错",
+        "河道纵横空气好"
       ]
     },
     {
@@ -1771,13 +2217,13 @@
       "file": "data/signals/2026-03-29-Fbph4ExwMC.md",
       "subcategory": "apartment",
       "district": "浦东新区",
-      "warnings": [
-        "隔音巨差",
-        "周边装修噪音大"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音巨差",
+        "周边装修噪音大"
       ]
     },
     {
@@ -1793,12 +2239,12 @@
       "file": "data/signals/2026-03-29-3ZqHoaGcO0.md",
       "subcategory": "apartment",
       "district": "虹口区",
-      "warnings": [
-        "隔音烂到爆炸"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音烂到爆炸"
       ]
     },
     {
@@ -1814,12 +2260,12 @@
       "file": "data/signals/2026-03-29-MIVrlXcZBr.md",
       "subcategory": "apartment",
       "district": "虹口区",
-      "warnings": [
-        "隔音烂到爆炸"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音烂到爆炸"
       ]
     },
     {
@@ -1835,12 +2281,12 @@
       "file": "data/signals/2026-03-29-Yh01aXB2ID.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "warnings": [
-        "噪音大"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "噪音大"
       ]
     },
     {
@@ -1856,14 +2302,14 @@
       "file": "data/signals/2026-03-29-L3MpIA34Rh.md",
       "subcategory": "apartment",
       "district": "虹口区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "隔音差",
         "楼板隔音差",
         "生活噪音穿透力强"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -1879,14 +2325,14 @@
       "file": "data/signals/2026-03-29-IG0aTgJwKF.md",
       "subcategory": "apartment",
       "district": "闵行区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "隔音差",
         "楼板隔音差",
         "生活噪音穿透力强"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -1902,14 +2348,14 @@
       "file": "data/signals/2026-03-29-7Q8BsOBroC.md",
       "subcategory": "apartment",
       "district": "嘉定区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "隔音巨差",
         "楼板隔音差",
         "楼上噪音影响大"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -1925,12 +2371,12 @@
       "file": "data/signals/2026-03-29-pSD46Tvb2Y.md",
       "subcategory": "apartment",
       "district": "松江区",
-      "warnings": [
-        "隔音巨差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音巨差"
       ]
     },
     {
@@ -1946,12 +2392,12 @@
       "file": "data/signals/2026-03-29-3y6Mtto1Fn.md",
       "subcategory": "apartment",
       "district": "松江区",
-      "warnings": [
-        "隔音巨差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音巨差"
       ]
     },
     {
@@ -1967,13 +2413,13 @@
       "file": "data/signals/2026-03-29-QJckdUILqB.md",
       "subcategory": "apartment",
       "district": "浦东新区",
-      "warnings": [
-        "隔音巨差",
-        "邻里因噪音问题争吵"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音巨差",
+        "邻里因噪音问题争吵"
       ]
     },
     {
@@ -1989,14 +2435,14 @@
       "file": "data/signals/2026-03-29-ucqsclhM_p.md",
       "subcategory": "apartment",
       "district": "静安区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "隔音非常差",
         "外墙不隔音",
         "室外噪音影响室内"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -2012,12 +2458,12 @@
       "file": "data/signals/2026-03-29-7-CvSgTRNI.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "warnings": [
-        "隔音一塌糊涂"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音一塌糊涂"
       ]
     },
     {
@@ -2033,15 +2479,15 @@
       "file": "data/signals/2026-03-29-y8OdxXnTku.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "recommendations": [
-        "楼板隔音效果好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "楼板隔音效果好"
       ]
     },
     {
@@ -2057,12 +2503,12 @@
       "file": "data/signals/2026-03-29-yQecp-z98Z.md",
       "subcategory": "apartment",
       "district": "浦东新区",
-      "warnings": [
-        "隔音巨差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音巨差"
       ]
     },
     {
@@ -2078,13 +2524,13 @@
       "file": "data/signals/2026-03-29--y8nIgyWpf.md",
       "subcategory": "apartment",
       "district": "浦东新区",
-      "warnings": [
-        "隔音差",
-        "有住户直播产生噪音"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差",
+        "有住户直播产生噪音"
       ]
     },
     {
@@ -2100,13 +2546,13 @@
       "file": "data/signals/2026-03-29-k7vEhOHbXk.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "warnings": [
-        "隔音差",
-        "噪音影响邻居"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差",
+        "噪音影响邻居"
       ]
     },
     {
@@ -2122,16 +2568,16 @@
       "file": "data/signals/2026-03-29-4Ny6HIa-Ca.md",
       "subcategory": "apartment",
       "district": "杨浦区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "隔音差",
         "房型差",
         "房间小",
         "厨房拥挤",
         "噪音影响邻居"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -2147,14 +2593,14 @@
       "file": "data/signals/2026-03-29-MRSUz_V48Q.md",
       "subcategory": "apartment",
       "district": "杨浦区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "隔音差",
         "楼栋群因隔音问题争吵",
         "厨房油烟倒灌"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -2170,16 +2616,16 @@
       "file": "data/signals/2026-03-29-EJnxj3Vta2.md",
       "subcategory": "apartment",
       "district": "杨浦区",
-      "recommendations": [
-        "天花板下壁橱塞被子形成隔音层",
-        "地暖增加隔音效果"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "天花板下壁橱塞被子形成隔音层",
+        "地暖增加隔音效果"
       ]
     },
     {
@@ -2194,12 +2640,12 @@
       "content": "之前居住时非常安静，但现在楼上住户周末早上八点就开始发出咚咚咚的噪音。",
       "file": "data/signals/2026-03-29-7E4-zJhEvn.md",
       "subcategory": "apartment",
-      "warnings": [
-        "楼上住户噪音影响，周末早上八点开始咚咚咚"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "楼上住户噪音影响，周末早上八点开始咚咚咚"
       ]
     },
     {
@@ -2214,15 +2660,15 @@
       "content": "位于地铁7号线场中路附近，整体安静，但需注意临近机场的飞机声音（非民航）。",
       "file": "data/signals/2026-03-29-xbG7nSxz8I.md",
       "subcategory": "apartment",
-      "recommendations": [
-        "小区环境安静"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "小区环境安静"
       ]
     },
     {
@@ -2237,12 +2683,12 @@
       "content": "2023年建的新房，隔音巨差，关门声、冲马桶声听得特别清楚。",
       "file": "data/signals/2026-03-29-PUlSKUf5JQ.md",
       "subcategory": "apartment",
-      "warnings": [
-        "楼板薄，关门声、冲马桶声清晰可闻"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "楼板薄，关门声、冲马桶声清晰可闻"
       ]
     },
     {
@@ -2258,14 +2704,14 @@
       "file": "data/signals/2026-03-29-i9jmNPYOVa.md",
       "subcategory": "apartment",
       "district": "市区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "墙壁薄如纸",
         "楼上楼下隔壁都吵",
         "噪音无处不在"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -2281,17 +2727,17 @@
       "file": "data/signals/2026-03-29-q_-oD91nyo.md",
       "subcategory": "apartment",
       "district": "嘉定区",
-      "recommendations": [
-        "小区安静",
-        "房子隔音扎实",
-        "高架旁也安静"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "小区安静",
+        "房子隔音扎实",
+        "高架旁也安静"
       ]
     },
     {
@@ -2307,16 +2753,16 @@
       "file": "data/signals/2026-03-29-DqgaF-1kzG.md",
       "subcategory": "apartment",
       "district": "闵行区",
-      "recommendations": [
-        "听不到邻居声音",
-        "商品房隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "听不到邻居声音",
+        "商品房隔音好"
       ]
     },
     {
@@ -2332,17 +2778,17 @@
       "file": "data/signals/2026-03-29-i-67YuKCWM.md",
       "subcategory": "apartment",
       "district": "宝山区",
-      "recommendations": [
-        "听不到楼上声音",
-        "有电梯",
-        "隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "听不到楼上声音",
+        "有电梯",
+        "隔音好"
       ]
     },
     {
@@ -2358,16 +2804,16 @@
       "file": "data/signals/2026-03-29-KdsATopZe0.md",
       "subcategory": "apartment",
       "district": "宝山区",
-      "recommendations": [
-        "隔壁声音听不见",
-        "老房子隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔壁声音听不见",
+        "老房子隔音好"
       ]
     },
     {
@@ -2383,17 +2829,17 @@
       "file": "data/signals/2026-03-29-RA3BH7X0o4.md",
       "subcategory": "apartment",
       "district": "浦东高行",
-      "recommendations": [
-        "楼板厚",
-        "听不见邻居声音",
-        "听不见马路车声"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "楼板厚",
+        "听不见邻居声音",
+        "听不见马路车声"
       ]
     },
     {
@@ -2409,16 +2855,16 @@
       "file": "data/signals/2026-03-29-cuMFtPZng5.md",
       "subcategory": "apartment",
       "district": "普陀区",
-      "recommendations": [
-        "小区安静",
-        "闹中取静"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "小区安静",
+        "闹中取静"
       ]
     },
     {
@@ -2434,15 +2880,15 @@
       "file": "data/signals/2026-03-29-mqDHngkKxa.md",
       "subcategory": "apartment",
       "district": "闵行区",
-      "recommendations": [
-        "隔音效果极佳，听不到楼上声音"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音效果极佳，听不到楼上声音"
       ]
     },
     {
@@ -2458,15 +2904,15 @@
       "file": "data/signals/2026-03-29-KoUvOlclMz.md",
       "subcategory": "apartment",
       "district": "闵行区",
-      "recommendations": [
-        "房屋质量不错"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "房屋质量不错"
       ]
     },
     {
@@ -2482,16 +2928,16 @@
       "file": "data/signals/2026-03-29-1p0H0uwHAV.md",
       "subcategory": "apartment",
       "district": "闵行区",
-      "recommendations": [
-        "隔音效果好",
-        "房屋质量不错"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音效果好",
+        "房屋质量不错"
       ]
     },
     {
@@ -2507,15 +2953,15 @@
       "file": "data/signals/2026-03-29-UEP6vmF_2q.md",
       "subcategory": "apartment",
       "district": "普陀区",
-      "recommendations": [
-        "用户对小区整体满意，可能包括隔音方面。"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "用户对小区整体满意，可能包括隔音方面。"
       ]
     },
     {
@@ -2530,13 +2976,13 @@
       "content": "翠海明苑隔音差，能听见隔壁邻居训娃，而且管道声音极大。",
       "file": "data/signals/2026-03-29-EbgiCx0udQ.md",
       "subcategory": "apartment",
-      "warnings": [
-        "能听见隔壁邻居训娃",
-        "管道声音极大"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "能听见隔壁邻居训娃",
+        "管道声音极大"
       ]
     },
     {
@@ -2551,12 +2997,12 @@
       "content": "花溪渡隔音很不好。",
       "file": "data/signals/2026-03-29-IGOM_Nczo5.md",
       "subcategory": "apartment",
-      "warnings": [
-        "隔音很不好"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音很不好"
       ]
     },
     {
@@ -2571,13 +3017,13 @@
       "content": "丰泽家园隔音差的一批，隔壁电视声音大点都能听到。",
       "file": "data/signals/2026-03-29-vEVXlvlHZi.md",
       "subcategory": "apartment",
-      "warnings": [
-        "隔音极差",
-        "隔壁电视声音大点都能听到"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音极差",
+        "隔壁电视声音大点都能听到"
       ]
     },
     {
@@ -2593,13 +3039,13 @@
       "file": "data/signals/2026-03-29-DyBvDJiCAr.md",
       "subcategory": "apartment",
       "district": "昌平区",
-      "warnings": [
-        "没有隔音",
-        "能听到邻居打呼噜、开柜子、尿尿、翻箱子等各种声音"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "没有隔音",
+        "能听到邻居打呼噜、开柜子、尿尿、翻箱子等各种声音"
       ]
     },
     {
@@ -2615,15 +3061,15 @@
       "file": "data/signals/2026-03-29-BkoofhfHa4.md",
       "subcategory": "apartment",
       "district": "亦庄",
-      "recommendations": [
-        "除非电钻装修，基本听不到邻居声音"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "除非电钻装修，基本听不到邻居声音"
       ]
     },
     {
@@ -2638,13 +3084,13 @@
       "content": "万绿园小区隔音差，楼上或者隔壁说话贴着墙都能听到，吵架大声说话不用贴墙就能听到，电梯运行、楼道开关门、楼上冲厕所等声音都听得到。",
       "file": "data/signals/2026-03-29-64TBydXgIy.md",
       "subcategory": "apartment",
-      "warnings": [
-        "隔壁说话、吵架声清晰可闻",
-        "电梯运行、楼道开关门、楼上冲厕所等噪音大"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔壁说话、吵架声清晰可闻",
+        "电梯运行、楼道开关门、楼上冲厕所等噪音大"
       ]
     },
     {
@@ -2660,15 +3106,15 @@
       "file": "data/signals/2026-03-29-uGj4LRXhcr.md",
       "subcategory": "apartment",
       "district": "西城区",
-      "recommendations": [
-        "隔音不错"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音不错"
       ]
     },
     {
@@ -2684,18 +3130,18 @@
       "file": "data/signals/2026-03-29-9ynYePcCXo.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
       "recommendations": [
         "大部分时间安静"
       ],
       "warnings": [
         "偶尔能听到门厅噪音"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
       ]
     },
     {
@@ -2711,16 +3157,16 @@
       "file": "data/signals/2026-03-29-1io2qDR1l0.md",
       "subcategory": "apartment",
       "district": "西城区",
-      "recommendations": [
-        "板楼隔音好",
-        "里屋听不见外面敲门声"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "板楼隔音好",
+        "里屋听不见外面敲门声"
       ]
     },
     {
@@ -2736,15 +3182,15 @@
       "file": "data/signals/2026-03-29-VfEsQgWJY2.md",
       "subcategory": "apartment",
       "district": "石景山区",
-      "recommendations": [
-        "楼上楼下基本听不到动静"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "楼上楼下基本听不到动静"
       ]
     },
     {
@@ -2760,15 +3206,15 @@
       "file": "data/signals/2026-03-29-uNugPGf3rW.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "基本听不见邻居声音"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "基本听不见邻居声音"
       ]
     },
     {
@@ -2784,15 +3230,15 @@
       "file": "data/signals/2026-03-29-3sVaMEx85E.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "recommendations": [
-        "听不到邻居声音"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "听不到邻居声音"
       ]
     },
     {
@@ -2808,14 +3254,14 @@
       "file": "data/signals/2026-03-29-TU0060zXAR.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "楼下噪音大",
         "小孩跑跳声",
         "隔音不好"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -2831,6 +3277,10 @@
       "file": "data/signals/2026-03-29-VknAW2LCK1.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "楼上说话声",
         "楼上走路声",
@@ -2839,10 +3289,6 @@
         "邻居空调外机声",
         "楼上咚咚声",
         "电梯抱闸声"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -2858,15 +3304,15 @@
       "file": "data/signals/2026-03-29-piauPS6Rwp.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "recommendations": [
-        "隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音好"
       ]
     },
     {
@@ -2882,12 +3328,12 @@
       "file": "data/signals/2026-03-29-RplInoQ1jA.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "warnings": [
-        "楼上楼下说话都能听见"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "楼上楼下说话都能听见"
       ]
     },
     {
@@ -2903,13 +3349,13 @@
       "file": "data/signals/2026-03-29-19Nc9DHNf0.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "能听到隔壁电视声音",
-        "楼内黑民宿和钟点房多，噪音扰民"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "能听到隔壁电视声音",
+        "楼内黑民宿和钟点房多，噪音扰民"
       ]
     },
     {
@@ -2925,15 +3371,15 @@
       "file": "data/signals/2026-03-29-MYMdvQNgth.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "楼上楼下基本无声"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "楼上楼下基本无声"
       ]
     },
     {
@@ -2949,13 +3395,13 @@
       "file": "data/signals/2026-03-29-feGFWUE_IM.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "楼上走路声音大",
-        "隔壁聊天声音听得见"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "楼上走路声音大",
+        "隔壁聊天声音听得见"
       ]
     },
     {
@@ -2971,12 +3417,12 @@
       "file": "data/signals/2026-03-29-XuQDR1PfoT.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "夜里能听到邻居讲悄悄话"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "夜里能听到邻居讲悄悄话"
       ]
     },
     {
@@ -2992,15 +3438,15 @@
       "file": "data/signals/2026-03-29-gLEvn21pBU.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "recommendations": [
-        "隔音效果好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音效果好"
       ]
     },
     {
@@ -3016,12 +3462,12 @@
       "file": "data/signals/2026-03-29-4uBTiMzqWW.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "warnings": [
-        "四面八方的声音都能听到"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "四面八方的声音都能听到"
       ]
     },
     {
@@ -3037,12 +3483,12 @@
       "file": "data/signals/2026-03-29-HH-gPvrwk8.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "warnings": [
-        "四面八方的声音都能听到"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "四面八方的声音都能听到"
       ]
     },
     {
@@ -3058,13 +3504,13 @@
       "file": "data/signals/2026-03-29-IdpXTCkEEL.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "隔壁打呼噜墙震动",
-        "楼上吵架内容听清"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔壁打呼噜墙震动",
+        "楼上吵架内容听清"
       ]
     },
     {
@@ -3080,13 +3526,13 @@
       "file": "data/signals/2026-03-29-UG1yiIeHQU.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "隔音差",
-        "能听到楼上说话声"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差",
+        "能听到楼上说话声"
       ]
     },
     {
@@ -3102,15 +3548,15 @@
       "file": "data/signals/2026-03-29-oKzXimBFWD.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "楼上噪音大",
         "能听到隔壁声音",
         "有震楼机问题",
         "隔音极差"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -3126,16 +3572,16 @@
       "file": "data/signals/2026-03-29-mi88GO-CH1.md",
       "subcategory": "apartment",
       "district": "丰台区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "墙体薄弱",
         "能听到隔壁小孩哭闹",
         "能听到隔壁大人打呼噜",
         "能听到隔壁讲电话",
         "楼上走路震动大"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -3151,12 +3597,12 @@
       "file": "data/signals/2026-03-29-k4P3MBSyJt.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "隔音差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差"
       ]
     },
     {
@@ -3172,17 +3618,17 @@
       "file": "data/signals/2026-03-29-FB_jfElNb7.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "楼上楼下无噪音",
-        "卧室间隔音好",
-        "实体墙隔音效果佳"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "楼上楼下无噪音",
+        "卧室间隔音好",
+        "实体墙隔音效果佳"
       ]
     },
     {
@@ -3198,16 +3644,16 @@
       "file": "data/signals/2026-03-29-4IBO0KGJDT.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "没听到邻居声音",
-        "两层户型隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "没听到邻居声音",
+        "两层户型隔音好"
       ]
     },
     {
@@ -3223,12 +3669,12 @@
       "file": "data/signals/2026-03-29-cMWCYkT43A.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "recommendations": [
-        "隔音尚可"
-      ],
       "tags": [
         "soundproofing",
         "good-soundproofing"
+      ],
+      "recommendations": [
+        "隔音尚可"
       ]
     },
     {
@@ -3244,12 +3690,12 @@
       "file": "data/signals/2026-03-29-ELIH5aDNu2.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "warnings": [
-        "隔音差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差"
       ]
     },
     {
@@ -3265,12 +3711,12 @@
       "file": "data/signals/2026-03-29-ptw7vxcEDc.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "隔音差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔音差"
       ]
     },
     {
@@ -3286,13 +3732,13 @@
       "file": "data/signals/2026-03-29-U9tmb2fjP4.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "楼板隔音差",
-        "能听到楼上拉动推拉门声音"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "楼板隔音差",
+        "能听到楼上拉动推拉门声音"
       ]
     },
     {
@@ -3308,12 +3754,12 @@
       "file": "data/signals/2026-03-29-RHHeauDXAI.md",
       "subcategory": "apartment",
       "district": "西城区",
-      "warnings": [
-        "邻里噪音大"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "邻里噪音大"
       ]
     },
     {
@@ -3329,12 +3775,12 @@
       "file": "data/signals/2026-03-29-vnI9h8_AQ6.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "邻里噪音大"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "邻里噪音大"
       ]
     },
     {
@@ -3350,15 +3796,15 @@
       "file": "data/signals/2026-03-29-zEKPOHjCNb.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "复式户型隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "复式户型隔音好"
       ]
     },
     {
@@ -3374,14 +3820,14 @@
       "file": "data/signals/2026-03-29-3ghjUvKi72.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "邻里噪音大",
         "外部噪音大",
         "平层隔音差"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -3397,16 +3843,16 @@
       "file": "data/signals/2026-03-29-YrW4Z385CR.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "整体安静",
-        "夜晚无打扰"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "整体安静",
+        "夜晚无打扰"
       ]
     },
     {
@@ -3422,15 +3868,15 @@
       "file": "data/signals/2026-03-29-DxdhAF0FLW.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "隔音效果好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音效果好"
       ]
     },
     {
@@ -3446,15 +3892,15 @@
       "file": "data/signals/2026-03-29-AIxj7MYyRE.md",
       "subcategory": "apartment",
       "district": "通州区",
-      "recommendations": [
-        "墙体厚，隔音效果好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "墙体厚，隔音效果好"
       ]
     },
     {
@@ -3470,15 +3916,15 @@
       "file": "data/signals/2026-03-29-0CfvhkrI68.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "隔音效果不错"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "隔音效果不错"
       ]
     },
     {
@@ -3494,15 +3940,15 @@
       "file": "data/signals/2026-03-29-OdFAtRnbbk.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "关门后隔音效果极佳"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "关门后隔音效果极佳"
       ]
     },
     {
@@ -3518,6 +3964,10 @@
       "file": "data/signals/2026-03-29--74MyOL8TZ.md",
       "subcategory": "apartment",
       "district": "丰台区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "能听到隔壁大爷打呼噜",
         "能听到楼上小孩跑跳和大人动静",
@@ -3525,10 +3975,6 @@
         "隔音不行",
         "楼板薄",
         "邻里噪音大"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -3544,15 +3990,15 @@
       "file": "data/signals/2026-03-29-nrUhW7ghgR.md",
       "subcategory": "apartment",
       "district": "西城区",
-      "recommendations": [
-        "苏式楼，隔音效果极佳"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "苏式楼，隔音效果极佳"
       ]
     },
     {
@@ -3568,15 +4014,15 @@
       "file": "data/signals/2026-03-29-xvkOlZCSjS.md",
       "subcategory": "apartment",
       "district": "通州区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "有飞机噪音",
         "楼下电动车和野猫叫声",
         "部分楼栋隔音差，能听到楼上声音",
         "隔音差，能听到楼上冲水、走路、拖椅子、重物落地、训孩子等各种噪音"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -3592,13 +4038,13 @@
       "file": "data/signals/2026-03-29-kAgRkgvzpW.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "warnings": [
-        "隔壁咳嗽打喷嚏都听得一清二楚",
-        "被多位薯友投诉隔音差"
-      ],
       "tags": [
         "soundproofing",
         "bad-soundproofing"
+      ],
+      "warnings": [
+        "隔壁咳嗽打喷嚏都听得一清二楚",
+        "被多位薯友投诉隔音差"
       ]
     },
     {
@@ -3614,14 +4060,14 @@
       "file": "data/signals/2026-03-29-IxmysTbJ36.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "楼上弹钢琴、吹笛子、小孩跑动声音巨清楚",
         "隔壁邻居训孩子、楼上斜对过吵架连说的什么都听得清",
         "严重影响睡眠"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -3637,15 +4083,15 @@
       "file": "data/signals/2026-03-29-NkTCidOo-n.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "夜里邻居吵架需开窗才能听到"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "夜里邻居吵架需开窗才能听到"
       ]
     },
     {
@@ -3661,15 +4107,15 @@
       "file": "data/signals/2026-03-29-PMPYS9JLJS.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "没听到过邻居声音"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "没听到过邻居声音"
       ]
     },
     {
@@ -3685,14 +4131,14 @@
       "file": "data/signals/2026-03-29-gzHI8wPFn6.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "楼上正常走路听得一清二楚",
         "隔壁打电话能直播",
         "正常起居都会影响"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -3708,15 +4154,15 @@
       "file": "data/signals/2026-03-29-crvgeK7JTA.md",
       "subcategory": "apartment",
       "district": "东城区",
-      "recommendations": [
-        "除了楼上打孩子，其余时间安静"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "除了楼上打孩子，其余时间安静"
       ]
     },
     {
@@ -3732,14 +4178,14 @@
       "file": "data/signals/2026-03-29-kKIYPo15uI.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "bad-soundproofing"
+      ],
       "warnings": [
         "楼上拉衣柜门、猫跑动都听得见",
         "声音从四面八方传来",
         "容易引起邻里纠纷"
-      ],
-      "tags": [
-        "soundproofing",
-        "bad-soundproofing"
       ]
     },
     {
@@ -3755,15 +4201,15 @@
       "file": "data/signals/2026-03-29-Ah2_bklLuK.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -3779,15 +4225,15 @@
       "file": "data/signals/2026-03-29-o-2-c6U3Bm.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -3803,15 +4249,15 @@
       "file": "data/signals/2026-03-29-BkbMIVeWd-.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -3827,19 +4273,19 @@
       "file": "data/signals/2026-03-29-olVth8YVEs.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
       "recommendations": [
         "商品房顶层复式隔音好",
         "墙体厚",
         "顶层优势",
         "户数少",
         "隔音效果好"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
       ]
     },
     {
@@ -3855,15 +4301,15 @@
       "file": "data/signals/2026-03-29-KwbXi-CB0G.md",
       "subcategory": "apartment",
       "district": "大兴区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -3879,15 +4325,15 @@
       "file": "data/signals/2026-03-29-zsA9dtB-Yt.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -3903,17 +4349,17 @@
       "file": "data/signals/2026-03-29-p_Ku8RMARd.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "楼板厚",
-        "层高高"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "楼板厚",
+        "层高高"
       ]
     },
     {
@@ -3929,17 +4375,17 @@
       "file": "data/signals/2026-03-29-ejHjgmehqB.md",
       "subcategory": "apartment",
       "district": "昌平区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "两个小矮楼隔音好",
-        "住了两年听不到邻居声音"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "两个小矮楼隔音好",
+        "住了两年听不到邻居声音"
       ]
     },
     {
@@ -3955,16 +4401,16 @@
       "file": "data/signals/2026-03-29-MhSs30Wexi.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "一点声音都听不见"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "一点声音都听不见"
       ]
     },
     {
@@ -3980,15 +4426,15 @@
       "file": "data/signals/2026-03-29-aoWrYI4SBP.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4004,17 +4450,17 @@
       "file": "data/signals/2026-03-29-OQ_NDW3FW4.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "物业管理好",
-        "墙体巨厚",
-        "老楼隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "物业管理好",
+        "墙体巨厚",
+        "老楼隔音好"
       ]
     },
     {
@@ -4030,16 +4476,16 @@
       "file": "data/signals/2026-03-29-BCk-GQywRi.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "隔音好，不吵闹"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音好，不吵闹"
       ]
     },
     {
@@ -4055,16 +4501,16 @@
       "file": "data/signals/2026-03-29-fkwhOvTNFf.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "隔音尚可"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音尚可"
       ]
     },
     {
@@ -4080,15 +4526,15 @@
       "file": "data/signals/2026-03-29-tTiDOOZuPX.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4104,16 +4550,16 @@
       "file": "data/signals/2026-03-29-VTuTP6JMV2.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "隔音效果好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音效果好"
       ]
     },
     {
@@ -4129,15 +4575,15 @@
       "file": "data/signals/2026-03-29-ZhwUdl7pZz.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "大户型隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "大户型隔音好"
       ]
     },
     {
@@ -4153,17 +4599,17 @@
       "file": "data/signals/2026-03-29-Aywfzm7Kn-.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "墙体厚",
-        "隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "墙体厚",
+        "隔音好"
       ]
     },
     {
@@ -4179,15 +4625,15 @@
       "file": "data/signals/2026-03-29-HqzDqyg41w.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4203,6 +4649,13 @@
       "file": "data/signals/2026-03-29-kmNmEEyrIJ.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
       "recommendations": [
         "薯友严选的隔音好小区",
         "隔音效果好，几乎听不到噪音",
@@ -4211,13 +4664,6 @@
         "楼下未投诉噪音",
         "未听到楼上声音",
         "隔音效果好"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
       ]
     },
     {
@@ -4233,15 +4679,15 @@
       "file": "data/signals/2026-03-29-RYLI8_Jm8_.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4257,15 +4703,15 @@
       "file": "data/signals/2026-03-29-_WWR-5Vkqq.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4281,15 +4727,15 @@
       "file": "data/signals/2026-03-29-XIKM-XxWvj.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4305,18 +4751,18 @@
       "file": "data/signals/2026-03-29-3RCC6Sbcbg.md",
       "subcategory": "apartment",
       "district": "朝阳区",
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
       "recommendations": [
         "薯友严选的隔音好小区",
         "横向隔音好",
         "居住安静",
         "隔音还行"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
       ]
     },
     {
@@ -4332,15 +4778,15 @@
       "file": "data/signals/2026-03-29-3OLMvMK9O5.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4356,15 +4802,15 @@
       "file": "data/signals/2026-03-29-Puum0Bq71F.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4380,17 +4826,17 @@
       "file": "data/signals/2026-03-29-a1Z3M37Ht2.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "隔音效果可以",
-        "对外隔音效果好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音效果可以",
+        "对外隔音效果好"
       ]
     },
     {
@@ -4406,15 +4852,15 @@
       "file": "data/signals/2026-03-29-Z7y-EDGLty.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4430,15 +4876,15 @@
       "file": "data/signals/2026-03-29-y2JPHzylGM.md",
       "subcategory": "apartment",
       "district": "顺义区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4454,17 +4900,17 @@
       "file": "data/signals/2026-03-29-SKAWBXtU2b.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "隔音好，听不到邻里噪音",
-        "小区环境好，邻居素质高"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音好，听不到邻里噪音",
+        "小区环境好，邻居素质高"
       ]
     },
     {
@@ -4480,16 +4926,16 @@
       "file": "data/signals/2026-03-29-oEKi6W9Iex.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "新东路东侧的隔音好",
-        "隔音还行"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "新东路东侧的隔音好",
+        "隔音还行"
       ]
     },
     {
@@ -4505,16 +4951,16 @@
       "file": "data/signals/2026-03-29-OrzmVkD10E.md",
       "subcategory": "apartment",
       "district": "顺义区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "隔音好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "隔音好"
       ]
     },
     {
@@ -4530,17 +4976,17 @@
       "file": "data/signals/2026-03-29-dIaEANEFhI.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "楼板隔音效果好",
-        "外部噪音控制好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "楼板隔音效果好",
+        "外部噪音控制好"
       ]
     },
     {
@@ -4556,15 +5002,15 @@
       "file": "data/signals/2026-03-29-nKxPqlPVGW.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4580,15 +5026,15 @@
       "file": "data/signals/2026-03-29-Wy8xOHRKls.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4604,16 +5050,16 @@
       "file": "data/signals/2026-03-29-DJQnQB35UZ.md",
       "subcategory": "apartment",
       "district": "海淀区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "室内隔音效果好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "室内隔音效果好"
       ]
     },
     {
@@ -4629,6 +5075,13 @@
       "file": "data/signals/2026-03-29-4KH48XdP5F.md",
       "subcategory": "apartment",
       "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
       "recommendations": [
         "卧室隔音好",
         "卧室隔音效果好"
@@ -4636,13 +5089,6 @@
       "warnings": [
         "客厅隔音差",
         "客厅与隔壁共墙"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
       ]
     },
     {
@@ -4658,16 +5104,16 @@
       "file": "data/signals/2026-03-29-NDt9WDQBXY.md",
       "subcategory": "apartment",
       "district": "通州区",
-      "recommendations": [
-        "薯友严选的隔音好小区",
-        "墙体厚，隔音效果好"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区",
+        "墙体厚，隔音效果好"
       ]
     },
     {
@@ -4683,15 +5129,15 @@
       "file": "data/signals/2026-03-29-jPI2rl1xoW.md",
       "subcategory": "apartment",
       "district": "丰台区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -4707,18 +5153,18 @@
       "file": "data/signals/2026-03-29-4SuRIxS2B3.md",
       "subcategory": "apartment",
       "district": "海淀区",
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
+      ],
+      "suitable_for": [
+        "noise-sensitive"
+      ],
       "recommendations": [
         "住过的几个房子都很安静",
         "楼板厚",
         "层高高",
         "环境清静"
-      ],
-      "suitable_for": [
-        "noise-sensitive"
-      ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
       ]
     },
     {
@@ -4734,15 +5180,15 @@
       "file": "data/signals/2026-03-29-_2FykLxPjq.md",
       "subcategory": "apartment",
       "district": "朝阳区",
-      "recommendations": [
-        "薯友严选的隔音好小区"
+      "tags": [
+        "soundproofing",
+        "good-soundproofing"
       ],
       "suitable_for": [
         "noise-sensitive"
       ],
-      "tags": [
-        "soundproofing",
-        "good-soundproofing"
+      "recommendations": [
+        "薯友严选的隔音好小区"
       ]
     },
     {
@@ -7584,15 +8030,15 @@
       "district": "Huangpu District",
       "neighborhood": "Huaihai Middle Road",
       "address": "淮海中路",
-      "warnings": [
-        "闭店"
-      ],
       "tags": [
         "FILA",
         "淮海中路",
         "闭店",
         "零售",
         "运动品牌"
+      ],
+      "warnings": [
+        "闭店"
       ]
     },
     {
@@ -7610,9 +8056,6 @@
       "district": "徐汇区",
       "neighborhood": "徐家汇",
       "address": "华山路1901号徐家汇ITC商场",
-      "warnings": [
-        "生意不好"
-      ],
       "tags": [
         "Louis Vuitton",
         "LV",
@@ -7622,6 +8065,9 @@
         "商场",
         "奢侈品",
         "关门"
+      ],
+      "warnings": [
+        "生意不好"
       ]
     },
     {
@@ -7638,17 +8084,17 @@
       "subcategory": "restaurant",
       "district": "Changning District",
       "neighborhood": "愚园路",
-      "rating_info": "我很喜欢吃",
-      "warnings": [
-        "已关店"
-      ],
       "tags": [
         "咬强羊肉面",
         "羊肉面",
         "愚园路",
         "关店",
         "面馆"
-      ]
+      ],
+      "warnings": [
+        "已关店"
+      ],
+      "rating_info": "我很喜欢吃"
     },
     {
       "_schema": "openbook/signal/v1",
@@ -7707,13 +8153,6 @@
       "district": "浦东新区",
       "neighborhood": "世纪汇",
       "address": "世纪汇广场",
-      "rating_info": "总的来说味道一般",
-      "recommendations": [
-        "炒花蛤还不错"
-      ],
-      "warnings": [
-        "三杯鸡不是特别嫩，建议不用点"
-      ],
       "tags": [
         "台湾菜",
         "三杯鸡",
@@ -7721,7 +8160,14 @@
         "味道一般",
         "不推荐",
         "炒花蛤"
-      ]
+      ],
+      "recommendations": [
+        "炒花蛤还不错"
+      ],
+      "warnings": [
+        "三杯鸡不是特别嫩，建议不用点"
+      ],
+      "rating_info": "总的来说味道一般"
     },
     {
       "_schema": "openbook/signal/v1",
@@ -7740,11 +8186,6 @@
       "address": "浦东新区陆家嘴世纪大道88号金茂大厦Gala Mall",
       "price": 35,
       "price_unit": "CNY",
-      "price_context": "single_item",
-      "rating_info": "环境不错, 采光座位都很舒服",
-      "recommendations": [
-        "巴斯克蛋糕"
-      ],
       "tags": [
         "星巴克",
         "冷萃",
@@ -7754,7 +8195,12 @@
         "巴斯克蛋糕",
         "采光好",
         "座位舒服"
-      ]
+      ],
+      "recommendations": [
+        "巴斯克蛋糕"
+      ],
+      "rating_info": "环境不错, 采光座位都很舒服",
+      "price_context": "single_item"
     },
     {
       "_schema": "openbook/signal/v1",
