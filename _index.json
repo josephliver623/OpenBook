@@ -12268,20 +12268,6 @@
       ]
     },
     {
-      "_schema": "openbook/housing/v1",
-      "_id": "signals/20260317-east-village-deposit-dispute",
-      "target_name": "East Village房东张三无理扣押金",
-      "target_category": "",
-      "signal_type": "",
-      "city": "New York",
-      "date": "2026-03-17",
-      "severity": "info",
-      "content": "",
-      "file": "data/housing/20260317-east-village-deposit-dispute.md",
-      "neighborhood": "East Village",
-      "address": "E 10th St & 1st Ave, New York"
-    },
-    {
       "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-16-0w5qBCeACB",
       "target_name": "阳光城悦云邸",
@@ -15128,86 +15114,6 @@
         "环境",
         "味道"
       ]
-    },
-    {
-      "_schema": "openbook/food/v1",
-      "_id": "signals/20260310-bashu-zhenwei-hotpot",
-      "target_name": "法拉盛巴蜀真味火锅，正宗川味",
-      "target_category": "",
-      "signal_type": "",
-      "city": "New York",
-      "date": "2026-03-10",
-      "severity": "info",
-      "content": "",
-      "file": "data/food/20260310-bashu-zhenwei-hotpot.md",
-      "neighborhood": "Flushing",
-      "address": "136-20 Roosevelt Ave"
-    },
-    {
-      "_schema": "openbook/housing/v1",
-      "_id": "signals/20260310-east-village-1br-quiet",
-      "target_name": "东村一室一厅，安静但贵",
-      "target_category": "",
-      "signal_type": "",
-      "city": "New York",
-      "date": "2026-03-10",
-      "severity": "info",
-      "content": "",
-      "file": "data/housing/20260310-east-village-1br-quiet.md",
-      "neighborhood": "East Village",
-      "address": "E 10th St & 1st Ave"
-    },
-    {
-      "_schema": "openbook/food/v1",
-      "_id": "signals/20260308-sushi-nakazawa",
-      "target_name": "Sushi Nakazawa omakase，值得一试",
-      "target_category": "",
-      "signal_type": "",
-      "city": "New York",
-      "date": "2026-03-08",
-      "severity": "info",
-      "content": "",
-      "file": "data/food/20260308-sushi-nakazawa.md",
-      "neighborhood": "West Village",
-      "address": "23 Commerce St"
-    },
-    {
-      "_schema": "openbook/jobs/v1",
-      "_id": "signals/20260308-google-swe-l4",
-      "target_name": "Google SWE L4 面经，4轮技术面",
-      "target_category": "",
-      "signal_type": "",
-      "city": "Mountain View",
-      "date": "2026-03-08",
-      "severity": "info",
-      "content": "",
-      "file": "data/jobs/20260308-google-swe-l4.md"
-    },
-    {
-      "_schema": "openbook/housing/v1",
-      "_id": "signals/20260305-soma-studio-noisy",
-      "target_name": "SoMa Studio，便宜但吵",
-      "target_category": "",
-      "signal_type": "",
-      "city": "San Francisco",
-      "date": "2026-03-05",
-      "severity": "info",
-      "content": "",
-      "file": "data/housing/20260305-soma-studio-noisy.md",
-      "neighborhood": "SoMa",
-      "address": "5th St & Mission St"
-    },
-    {
-      "_schema": "openbook/jobs/v1",
-      "_id": "signals/20260301-stripe-swe",
-      "target_name": "Stripe SWE 面经，难度较高但体验好",
-      "target_category": "",
-      "signal_type": "",
-      "city": "San Francisco",
-      "date": "2026-03-01",
-      "severity": "info",
-      "content": "",
-      "file": "data/jobs/20260301-stripe-swe.md"
     },
     {
       "_schema": "openbook/campus/v1",
