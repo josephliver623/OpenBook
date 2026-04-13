@@ -6289,6 +6289,1886 @@
     },
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-kcpfH9ecAi",
+      "target_name": "明旭晶晖里",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "楼上隔壁 走路搬椅子开门 说话吵架 全听得见",
+      "file": "data/signals/2026-04-13-kcpfH9ecAi.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-kwHxTPndPs",
+      "target_name": "复地壹中心",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "复地壹中心和浙港国际还有余杭方隅公寓这三家有人住过吗",
+      "file": "data/signals/2026-04-13-kwHxTPndPs.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-l0YlcC788K",
+      "target_name": "钱江湾花园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "房屋隔音比大部分新小区都好",
+      "file": "data/signals/2026-04-13-l0YlcC788K.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-l0rOloDezV",
+      "target_name": "杭语宸鹭院",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "没想到被楼下和电梯吵",
+      "file": "data/signals/2026-04-13-l0rOloDezV.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "临平区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-l5dYqBG9fY",
+      "target_name": "泊寓北辰",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "避雷泊寓北辰，隔音巨差",
+      "file": "data/signals/2026-04-13-l5dYqBG9fY.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-lJPZB1fFGM",
+      "target_name": "瑞城花园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "楼上楼下说话声音也能听到 走路声音听不到",
+      "file": "data/signals/2026-04-13-lJPZB1fFGM.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-lJmXcNaW7M",
+      "target_name": "中梁云都会",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "已经住进来了，确实隔音不太好",
+      "file": "data/signals/2026-04-13-lJmXcNaW7M.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-lm8EQd1NkQ",
+      "target_name": "文鼎苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "文鼎苑基本上听不到邻居的声音",
+      "file": "data/signals/2026-04-13-lm8EQd1NkQ.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-ly0guK2xaV",
+      "target_name": "绿城桃李春风",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "绿城桃李春风，环境优美，隔音跟纸糊的一样，共享所有动静。",
+      "file": "data/signals/2026-04-13-ly0guK2xaV.md",
+      "district": "临安区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "临安区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-mEocwTDdPQ",
+      "target_name": "篁外山庄",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "在转塘住过隔音好的房子是真听不见隔壁声音",
+      "file": "data/signals/2026-04-13-mEocwTDdPQ.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-mO5WtsuMFP",
+      "target_name": "山水人家",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "warning",
+      "content": "山水人家住过一楼的隔音很差啊",
+      "file": "data/signals/2026-04-13-mO5WtsuMFP.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-mWjlIcwqDQ",
+      "target_name": "草荡苑",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "西溪北苑、草荡苑我年前看过来条件更差一些",
+      "file": "data/signals/2026-04-13-mWjlIcwqDQ.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-mXdKMT5aTJ",
+      "target_name": "亲亲家园二期",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "我之前住二期从来没因为楼上楼下隔音问题干扰过现在想起来那时候好幸福",
+      "file": "data/signals/2026-04-13-mXdKMT5aTJ.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-msNgmRCLOH",
+      "target_name": "万家星城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "万家星城是滨江的房子吗...真的很吵，开放式阳台，楼层低的真的崩溃，狗叫声，小孩子玩闹声音",
+      "file": "data/signals/2026-04-13-msNgmRCLOH.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-mt118RYdMn",
+      "target_name": "汇铂金座",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "汇铂金座",
+      "file": "data/signals/2026-04-13-mt118RYdMn.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-n4vkL1p04M",
+      "target_name": "下沙多蓝水岸",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "下沙多蓝水岸，18年在那儿住的时候隔音挺好的",
+      "file": "data/signals/2026-04-13-n4vkL1p04M.md",
+      "district": "钱塘区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "钱塘区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-nJp6yMFb6x",
+      "target_name": "龙湖旭辉春江悦茗",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "春江悦茗我住过，隔音纯靠邻居，有个晚上不睡爱打游戏的楼上全完蛋",
+      "file": "data/signals/2026-04-13-nJp6yMFb6x.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-nv3YaN3J6v",
+      "target_name": "余杭港郦中心",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "余杭港郦中心双钥匙公寓，住楼下半年不堪其扰",
+      "file": "data/signals/2026-04-13-nv3YaN3J6v.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-o4Nu3cQegT",
+      "target_name": "麦粒公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "避雷麦粒公寓，隔音差到爆，能完全听清楼下的对话。",
+      "file": "data/signals/2026-04-13-o4Nu3cQegT.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-o88IATV0Ge",
+      "target_name": "中杭府",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "我住在中杭府的公寓，隔音还挺好的，不知道是不是因为是小区开发商自己做的，都是实墙",
+      "file": "data/signals/2026-04-13-o88IATV0Ge.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-o8YJM3naNs",
+      "target_name": "海天公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "避雷上城区海天公寓，隔音差到路过的人在你耳边说话",
+      "file": "data/signals/2026-04-13-o8YJM3naNs.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-oEIXVh91wh",
+      "target_name": "华丰时代城",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "华丰时代城，住了一年，续签了",
+      "file": "data/signals/2026-04-13-oEIXVh91wh.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-ozQcSyXg3D",
+      "target_name": "氧气公寓",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "氧气公寓（骆家庄）咋样呀",
+      "file": "data/signals/2026-04-13-ozQcSyXg3D.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-p732aFpxt6",
+      "target_name": "星洲花园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "我也住城西，星洲花园，2000年的房子，隔音是真的好",
+      "file": "data/signals/2026-04-13-p732aFpxt6.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-pHJU1QjMDO",
+      "target_name": "红苹果",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "我一边拉屎一边可以帮邻居唱歌打节拍合唱低声部",
+      "file": "data/signals/2026-04-13-pHJU1QjMDO.md",
+      "district": "钱塘区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "钱塘区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-pbtFl729CE",
+      "target_name": "潮鸣苑",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "warning",
+      "content": "潮鸣苑",
+      "file": "data/signals/2026-04-13-pbtFl729CE.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-pvCu8k62Oa",
+      "target_name": "御东湾",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "warning",
+      "content": "大江东河庄御东湾，我住西边套，真的是一点噪音都没有，上下左右，没听过邻居的厨房的马桶的声音",
+      "file": "data/signals/2026-04-13-pvCu8k62Oa.md",
+      "district": "钱塘区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "钱塘区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-pvDk0TVIGg",
+      "target_name": "亲亲家园一期",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "楼上隔壁说话都能听见，天天脚步声咚咚咚，听着别人的呼噜声睡觉",
+      "file": "data/signals/2026-04-13-pvDk0TVIGg.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qBydvIWc6U",
+      "target_name": "红星家园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "上城金雅苑 罗兰春天 红星家园[完啦R]隔音都差得离谱",
+      "file": "data/signals/2026-04-13-qBydvIWc6U.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qEq3cZB7yc",
+      "target_name": "复尚发展大厦",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "复尚发展大厦公寓 我觉得隔音不错",
+      "file": "data/signals/2026-04-13-qEq3cZB7yc.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qIvlckB0eQ",
+      "target_name": "大华观止",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "刚还刷到一个住大华观止的，说隔音很差",
+      "file": "data/signals/2026-04-13-qIvlckB0eQ.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qKOhBKc8tr",
+      "target_name": "玫瑰园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "推荐你玫瑰园小区或者桃花源",
+      "file": "data/signals/2026-04-13-qKOhBKc8tr.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qXTrAdaQoE",
+      "target_name": "格月雅城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "下沙西头格月雅城，下沙世贸广场，隔音超级差。",
+      "file": "data/signals/2026-04-13-qXTrAdaQoE.md",
+      "district": "钱塘区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "钱塘区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qcNVtvcgWl",
+      "target_name": "德慧公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "看电视笑了都要被投诉 今天刚班家",
+      "file": "data/signals/2026-04-13-qcNVtvcgWl.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qg15vZTP4c",
+      "target_name": "山水时代",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "斜对面山水时代 更差",
+      "file": "data/signals/2026-04-13-qg15vZTP4c.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qgY2ot4wyB",
+      "target_name": "金鱼井",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "避雷金鱼井，隔音超级差",
+      "file": "data/signals/2026-04-13-qgY2ot4wyB.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qjlcYy8rzu",
+      "target_name": "钱龙大厦",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "钱龙大厦",
+      "file": "data/signals/2026-04-13-qjlcYy8rzu.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-qq9xLy88l3",
+      "target_name": "鑫运时代金座",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "我现在住鑫运时代金座这边真滴满足！独门独户整租基本上很安静（非双钥匙），这边墙是实体墙，想睡几点都可以！",
+      "file": "data/signals/2026-04-13-qq9xLy88l3.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "临平区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-r94qFJtM7o",
+      "target_name": "兴义家园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "warning",
+      "content": "兴义家园隔音一点都不好",
+      "file": "data/signals/2026-04-13-r94qFJtM7o.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "临平区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-rA7iEMcytO",
+      "target_name": "大华澄品",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "大华澄品，感觉墙和地板后，怎么动都不太震，隔音挺好",
+      "file": "data/signals/2026-04-13-rA7iEMcytO.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-rCg1FrqHp3",
+      "target_name": "蓝桥名苑",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "蓝桥名苑和丰收湖的别住！说实体墙实际上隔音不好！隔壁说话都听得到",
+      "file": "data/signals/2026-04-13-rCg1FrqHp3.md",
+      "district": "钱塘区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "钱塘区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-rJSk8gax35",
+      "target_name": "杭州碧桂园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "之前住过下沙大学城北杭州碧桂园，几乎无声音。",
+      "file": "data/signals/2026-04-13-rJSk8gax35.md",
+      "district": "钱塘区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "钱塘区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-rOGoZjuSuF",
+      "target_name": "远洋大河宸章",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "远洋大河宸章这个小区真的一点声音都没有，房子质量也超级好，隔壁两家都有小朋友和宠物，一点声音都听不到这个小区确实价格和品质成正比",
+      "file": "data/signals/2026-04-13-rOGoZjuSuF.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-rXOGRF0REB",
+      "target_name": "玉园",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "请问临平玉园的房子隔音效果怎么样啊",
+      "file": "data/signals/2026-04-13-rXOGRF0REB.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "临平区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-rdN49Sd88S",
+      "target_name": "潮悦府",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "避雷会潮悦府，隔壁按墙上灯的开关都能听到，我也是服了",
+      "file": "data/signals/2026-04-13-rdN49Sd88S.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-rwGWL8mL9I",
+      "target_name": "星创新里程",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "星创新里程，本来隔音也不错，我加了隔音条更好了",
+      "file": "data/signals/2026-04-13-rwGWL8mL9I.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "临平区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-sHwoNzKm54",
+      "target_name": "三塘桃园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "三塘桃园和沁园都住过，很安静",
+      "file": "data/signals/2026-04-13-sHwoNzKm54.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-sMZigzztqA",
+      "target_name": "紫云山庄",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "富阳区紫云山庄上下楼隔音极差",
+      "file": "data/signals/2026-04-13-sMZigzztqA.md",
+      "district": "富阳区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "富阳区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-sm3dtas1Hi",
+      "target_name": "诚园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "诚园，今天立春鞭炮都没听到",
+      "file": "data/signals/2026-04-13-sm3dtas1Hi.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-soGh8mwEjY",
+      "target_name": "中尚汇府",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "中尚汇府隔音好不好呀姐妹们！",
+      "file": "data/signals/2026-04-13-soGh8mwEjY.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "临平区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-sqHjQPl0Oz",
+      "target_name": "朝晖稻香园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "朝晖稻香园这片的老小区两三点经常有人在外面喊，吆喝，听不懂但是声音很大。。。十一二点一点也有，喝醉酒的。。。四五点就开始有各种很大的车声，翻倒垃圾桶踢饮料瓶子的声。。。。下午也不消停，小孩嗷嗷叫，家长嗷嗷哄",
+      "file": "data/signals/2026-04-13-sqHjQPl0Oz.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-tHJJd9Qxk8",
+      "target_name": "黄龙和山",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "能听到隔壁清脆的关灯声，楼上光脚走路的声音",
+      "file": "data/signals/2026-04-13-tHJJd9Qxk8.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-tIGdWVh4P1",
+      "target_name": "深蓝国际",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "深蓝国际或者嘉润公馆的隔音咋样，整租的",
+      "file": "data/signals/2026-04-13-tIGdWVh4P1.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-tIURJ3ruCV",
+      "target_name": "闻堰湘湖9号",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "闻堰湘湖9号我住过最像住宅的公寓了",
+      "file": "data/signals/2026-04-13-tIURJ3ruCV.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-tMiIEu39KV",
+      "target_name": "三塘兰园",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "三塘兰园的怎么样？隔音好吗",
+      "file": "data/signals/2026-04-13-tMiIEu39KV.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-ta1LpVuGqb",
+      "target_name": "星桥五月花城",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "星桥五月花城！",
+      "file": "data/signals/2026-04-13-ta1LpVuGqb.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "临平区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-thTVtmLPNL",
+      "target_name": "铭雅苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "我之前铭雅苑住1年，亲亲家园二期住2年，都没这个问题",
+      "file": "data/signals/2026-04-13-thTVtmLPNL.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-tqXkUsmA5Z",
+      "target_name": "三塘沁园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "三塘桃园和沁园都住过，很安静",
+      "file": "data/signals/2026-04-13-tqXkUsmA5Z.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-u5FNPtpQ2e",
+      "target_name": "梧桐公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "隔音差到爆",
+      "file": "data/signals/2026-04-13-u5FNPtpQ2e.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-uLJMcGMqNH",
+      "target_name": "七古登公寓",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "七古登公寓",
+      "file": "data/signals/2026-04-13-uLJMcGMqNH.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-uP7zkwy4Hf",
+      "target_name": "云启之江",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "最近交付的云启之江。东区云笙挺好的",
+      "file": "data/signals/2026-04-13-uP7zkwy4Hf.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-uSPqXYAxD0",
+      "target_name": "西溪风情澄品",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "大华西溪风情澄品，隔音还不错，住了一年，只有几次听到一点邻居的声音。",
+      "file": "data/signals/2026-04-13-uSPqXYAxD0.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-uWN0bK5Ao6",
+      "target_name": "东新府",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "东新府",
+      "file": "data/signals/2026-04-13-uWN0bK5Ao6.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-uZRKxTiETm",
+      "target_name": "银湖宸语",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "避雷银湖宸语",
+      "file": "data/signals/2026-04-13-uZRKxTiETm.md",
+      "district": "富阳区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "富阳区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-uhRhP6wg8Z",
+      "target_name": "新州花苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "滨江区 新州花苑（老小区但是有电梯房，绿化做的也很不错），我从来没听到邻居的声音",
+      "file": "data/signals/2026-04-13-uhRhP6wg8Z.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-unSXCuBm6l",
+      "target_name": "萧山万象汇",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "萧山万象汇这边的单身公寓有人住过吗，不知道怎么样",
+      "file": "data/signals/2026-04-13-unSXCuBm6l.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-uuhGGC8EmW",
+      "target_name": "申花掬月",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "申花掬月狠狠避雷",
+      "file": "data/signals/2026-04-13-uuhGGC8EmW.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-ux6yfW5K5D",
+      "target_name": "江畔云庐",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "经常有没素质的半夜两点多还吵闹，听得一清二楚",
+      "file": "data/signals/2026-04-13-ux6yfW5K5D.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-vM5QENOu6F",
+      "target_name": "晴瑞里",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "warning",
+      "content": "主卧能听到邻居聊天 但听不清楚说什么 睡觉耳边一直有人说话",
+      "file": "data/signals/2026-04-13-vM5QENOu6F.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-vVtCnmPSpH",
+      "target_name": "未名府",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "warning",
+      "content": "租过北大资源未名府从来没有噪音的烦恼",
+      "file": "data/signals/2026-04-13-vVtCnmPSpH.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-vWGTnh3FRS",
+      "target_name": "现代野风",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "有住在 现代野风，的单身公寓吗，房子情况和 隔音怎么样呢？",
+      "file": "data/signals/2026-04-13-vWGTnh3FRS.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-vuQFtH93DZ",
+      "target_name": "国樾湾",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "warning",
+      "content": "之前住国樾湾 贵而且隔音差 大开间",
+      "file": "data/signals/2026-04-13-vuQFtH93DZ.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-w9BMG4CyBY",
+      "target_name": "大河宸章",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "远洋大河宸章，隔壁弹钢琴都只能隐约听到声音",
+      "file": "data/signals/2026-04-13-w9BMG4CyBY.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-wE6S7yDDJi",
+      "target_name": "嘉禾花苑悦享公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "千万别租 全是隔断 现在困扰",
+      "file": "data/signals/2026-04-13-wE6S7yDDJi.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-wOAXKg8NnN",
+      "target_name": "佳境天城人和苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "佳境天城人和苑我觉得挺好的，唯一的缺点是当时的室友卫生习惯不太好",
+      "file": "data/signals/2026-04-13-wOAXKg8NnN.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-wRpCCKCv40",
+      "target_name": "克拉天玺",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "大半夜在那聊天说话 吵死我了",
+      "file": "data/signals/2026-04-13-wRpCCKCv40.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-wT7Diu6yEb",
+      "target_name": "黄龙金茂悦",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "黄龙金茂悦挺好的，之前在那里租房，物业管的很严，楼上楼下邻居也蛮有素质的",
+      "file": "data/signals/2026-04-13-wT7Diu6yEb.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-wa1Uo7zEjc",
+      "target_name": "学院华庭",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "学院华庭洋房，隔壁弹钢琴，一墙之隔啥也听不到。住了那么多年，只能听到装修声",
+      "file": "data/signals/2026-04-13-wa1Uo7zEjc.md",
+      "district": "临平区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "临平区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-wbq3ah3JcC",
+      "target_name": "和平小区",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "和平小区不是红房子的隔音很差，正要搬",
+      "file": "data/signals/2026-04-13-wbq3ah3JcC.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-wrexh0SSGw",
+      "target_name": "东港空间",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "杭州东站那边的东港空间怎么样啊",
+      "file": "data/signals/2026-04-13-wrexh0SSGw.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-xWWYZaInxn",
+      "target_name": "蓝钱",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "蓝钱以前朋友来我家都说是静音小区",
+      "file": "data/signals/2026-04-13-xWWYZaInxn.md",
+      "district": "未知",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-xZHyfkPPYX",
+      "target_name": "下沙世贸广场",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "下沙西头格月雅城，下沙世贸广场，隔音超级差。",
+      "file": "data/signals/2026-04-13-xZHyfkPPYX.md",
+      "district": "钱塘区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "钱塘区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-xaOUSBddg3",
+      "target_name": "泊朗廷",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "泊朗廷 挺不错",
+      "file": "data/signals/2026-04-13-xaOUSBddg3.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-xfwuNoIdSy",
+      "target_name": "嘉里云荷廷",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "我刚被吵醒，6:30开始拖东西一直到现在，隔音超级差",
+      "file": "data/signals/2026-04-13-xfwuNoIdSy.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-xmUKcxz4N1",
+      "target_name": "下沙宝龙",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "别住下沙宝龙 隔音差的要死",
+      "file": "data/signals/2026-04-13-xmUKcxz4N1.md",
+      "district": "钱塘区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "钱塘区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-xqIKVnOTj7",
+      "target_name": "efc",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "我住efc，也是很差，大家避雷！楼上楼下隔音很差！",
+      "file": "data/signals/2026-04-13-xqIKVnOTj7.md",
+      "district": "余杭区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "余杭区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-xugkTskF3q",
+      "target_name": "康新花园",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "康新花园，四面墙都是钢筋混凝土的承重墙",
+      "file": "data/signals/2026-04-13-xugkTskF3q.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-xv0vbSVn9v",
+      "target_name": "沁园雅舍",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "楼上1.5几目测有80多斤的女性走路楼板都会震，楼上拉抽屉声音都能听见",
+      "file": "data/signals/2026-04-13-xv0vbSVn9v.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-y23VRki0Kn",
+      "target_name": "西溪景苑",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "景苑还好",
+      "file": "data/signals/2026-04-13-y23VRki0Kn.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-y7GFWnfbBt",
+      "target_name": "浙港国际",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "复地壹中心和浙港国际还有余杭方隅公寓这三家有人住过吗",
+      "file": "data/signals/2026-04-13-y7GFWnfbBt.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-y9AS1wpa3w",
+      "target_name": "绿城丽江公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "绿城丽江公寓避雷",
+      "file": "data/signals/2026-04-13-y9AS1wpa3w.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-yLtg1FVP8b",
+      "target_name": "丰收湖嘉园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "避雷丰收湖嘉园",
+      "file": "data/signals/2026-04-13-yLtg1FVP8b.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-yfTAcMVl3B",
+      "target_name": "御临云府",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "叹口气楼上都能听见",
+      "file": "data/signals/2026-04-13-yfTAcMVl3B.md",
+      "district": "拱墅区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "拱墅区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-yoZYvjRM0Q",
+      "target_name": "奥兰多小镇",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "邻居咳嗽都听得一清二楚",
+      "file": "data/signals/2026-04-13-yoZYvjRM0Q.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-yxPgjSsuyX",
+      "target_name": "万科中央公园",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "有万科中央公园的业主么？请问上下楼隔音如何",
+      "file": "data/signals/2026-04-13-yxPgjSsuyX.md",
+      "district": "未知",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "未知"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-z0xr5GQouF",
+      "target_name": "金色海岸",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "金色海岸还行，住了十几年只有楼下邻居在家拍皮球被吵到过，别的日常听不到什么声音",
+      "file": "data/signals/2026-04-13-z0xr5GQouF.md",
+      "district": "上城区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "上城区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-z9P1LhYGsB",
+      "target_name": "乐虹湾",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "乐虹湾",
+      "file": "data/signals/2026-04-13-z9P1LhYGsB.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-zQLUBHXNOE",
+      "target_name": "新里程中心",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "新里程中心隔音挺好的",
+      "file": "data/signals/2026-04-13-zQLUBHXNOE.md",
+      "district": "滨江区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "滨江区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-zVsy35ePVX",
+      "target_name": "枫华府第",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "info",
+      "content": "我住过同人广场，枫华府第。隔音都很好。",
+      "file": "data/signals/2026-04-13-zVsy35ePVX.md",
+      "district": "西湖区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "recommended",
+        "西湖区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-13-zx2dxvTnrc",
+      "target_name": "御湖城",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-13T04:00:00.000Z",
+      "severity": "critical",
+      "content": "避雷萧山永瑞轩西区、品文府、御湖城，都是我之前住过的，且不说隔套墙差的要死，楼上打个喷嚏吐口痰我都能听到",
+      "file": "data/signals/2026-04-13-zx2dxvTnrc.md",
+      "district": "萧山区",
+      "tags": [
+        "hangzhou",
+        "soundproofing",
+        "warning",
+        "萧山区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-09-DNW3Nkw3GI",
       "target_name": "金盏嘉园",
       "target_category": "housing",
