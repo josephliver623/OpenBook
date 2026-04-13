@@ -1,0 +1,29 @@
+---
+_schema: openbook/signal/v1
+_version: 1
+_confidence: 0.8
+_source: nlp_extraction
+_verified: false
+_access: public
+target_name: "下沙世贸广场"
+target_category: housing
+city: Hangzhou
+district: "钱塘区"
+signal_type: warning
+content: "下沙西头格月雅城，下沙世贸广场，隔音超级差。"
+severity: critical
+date: 2026-04-13T12:00:00+08:00
+housing_meta:
+  noise_level: 1
+  sentiment: negative
+  noise_sources:
+    - "unknown"
+tags:
+  - hangzhou
+  - soundproofing
+  - warning
+  - 钱塘区
+---
+# 下沙世贸广场 — 避雷 🔴
+下沙西头格月雅城，下沙世贸广场，隔音超级差。
+**来源**: 小红书社区讨论

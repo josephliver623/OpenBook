@@ -1,0 +1,29 @@
+---
+_schema: openbook/signal/v1
+_version: 1
+_confidence: 0.8
+_source: nlp_extraction
+_verified: false
+_access: public
+target_name: "完全星河景庭"
+target_category: housing
+city: Hangzhou
+district: "滨江区"
+signal_type: tip
+content: "完全星河景庭小区绿化好，门口就是地铁站和商超，且没有白事困扰。"
+severity: info
+date: 2026-04-13T12:00:00+08:00
+housing_meta:
+  noise_level: 4
+  sentiment: positive
+  noise_sources:
+    - "unknown"
+tags:
+  - hangzhou
+  - soundproofing
+  - recommended
+  - 滨江区
+---
+# 完全星河景庭 — 推荐 🟢
+完全星河景庭小区绿化好，门口就是地铁站和商超，且没有白事困扰。
+**来源**: 小红书社区讨论
