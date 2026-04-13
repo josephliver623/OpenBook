@@ -19869,6 +19869,1316 @@
       ]
     },
     {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/ao-xuan-cheng",
+      "target_name": "傲旋城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "傲旋城隔音差，隔壁喊叫声和电梯内手掌击打声清晰，业主投诉无效。",
+      "file": "data/housing/hangzhou/ao-xuan-cheng.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/bai-di-yuan",
+      "target_name": "白荻苑",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "白荻苑凌晨两点洗衣机响，打游戏砸墙声，隔音超级差，隔壁说话声都能听见。",
+      "file": "data/housing/hangzhou/bai-di-yuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/bin-jiang-jin-se-li-ming",
+      "target_name": "滨江金色黎明",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "滨江金色黎明楼上小孩跑动声，楼下空调共振，邻居说话和打呼噜声都能听见，业主失望。",
+      "file": "data/housing/hangzhou/bin-jiang-jin-se-li-ming.md",
+      "district": "滨江区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/bin-jiang-wang-tao-yue-ming",
+      "target_name": "滨江望涛月明",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "滨江望涛月明主卧能听见楼上走路声、开关灯声、厕所开关门和冲水声，甚至叫床声，隔音太差。",
+      "file": "data/housing/hangzhou/bin-jiang-wang-tao-yue-ming.md",
+      "district": "滨江区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/bin-tian-yao-cheng",
+      "target_name": "滨天耀城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "滨天耀城隔音差，业主纷纷搬走，受害者多。",
+      "file": "data/housing/hangzhou/bin-tian-yao-cheng.md",
+      "district": "滨江区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/cang-yi-dong-yuan",
+      "target_name": "仓溢东苑",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "仓溢东苑楼上走路咚咚咚，邻居大半夜打电话，洗澡水声清晰，呼噜声明显，业主神经衰弱。",
+      "file": "data/housing/hangzhou/cang-yi-dong-yuan.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/cang-yi-lv-yuan",
+      "target_name": "仓溢绿苑",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "仓溢绿苑被提及，隔音情况不佳。",
+      "file": "data/housing/hangzhou/cang-yi-lv-yuan.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/chun-jiang-hua-yue",
+      "target_name": "春江花月",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "春江花月隔音差，楼上楼下声音尤其明显，楼下晚上撒尿声和开衣柜声都能听见，窗户隔音不好。",
+      "file": "data/housing/hangzhou/chun-jiang-hua-yue.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "绿城"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/chun-xi-shang-he-wan",
+      "target_name": "春熙上和湾",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "春熙上和湾楼板薄，隔音差。",
+      "file": "data/housing/hangzhou/chun-xi-shang-he-wan.md",
+      "district": "三塘",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/cui-lan-yun-jing",
+      "target_name": "翠揽云境",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "翠揽云境楼上楼下隔音差，居民因噪音报警，楼上冲水、关灯、拖鞋声清晰。",
+      "file": "data/housing/hangzhou/cui-lan-yun-jing.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/da-hua-hai-pai-feng-fan",
+      "target_name": "大华海派风范",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "老余杭的大华海派风范隔音很好，墙体厚，物业自有，得房率100%，业主点赞。",
+      "file": "data/housing/hangzhou/da-hua-hai-pai-feng-fan.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "recommended"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/feng-ya-qian-tang",
+      "target_name": "风雅钱塘",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "风雅钱塘隔音不行，靠近天街装修和地铁噪音大，业主换到铂金时代。",
+      "file": "data/housing/hangzhou/feng-ya-qian-tang.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/fu-xiang-yuan",
+      "target_name": "馥香园",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "馥香园楼上拖椅子走路声清晰，隔音差，价格较贵。",
+      "file": "data/housing/hangzhou/fu-xiang-yuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "绿城"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/fu-yang-gui-yu-xin-yue-li",
+      "target_name": "富阳桂语新月里",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "富阳桂语新月里楼板薄，物业偏向业主，业主通过播放大声视频缓解噪音敏感。",
+      "file": "data/housing/hangzhou/fu-yang-gui-yu-xin-yue-li.md",
+      "district": "富阳区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/ge-ya-gong-yu",
+      "target_name": "戈雅公寓",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "戈雅公寓楼下打呼噜声清晰，隔音较差。",
+      "file": "data/housing/hangzhou/ge-ya-gong-yu.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/gu-feng-gong-yu",
+      "target_name": "谷丰公寓",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "滨江浦沿谷丰公寓隔音巨差，正常说话声清晰，业主避雷。",
+      "file": "data/housing/hangzhou/gu-feng-gong-yu.md",
+      "district": "滨江区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/guan-yi-jing-ting",
+      "target_name": "观逸景亭",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "大关的观逸景亭，楼上说话楼下都能听得一清二楚。",
+      "file": "data/housing/hangzhou/guan-yi-jing-ting.md",
+      "district": "大关",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/hai-shang-hai",
+      "target_name": "海上海",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "海上海毛坯出售，业主自行装修敲除地面保温层，隔音差，业主想跑路。",
+      "file": "data/housing/hangzhou/hai-shang-hai.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/he-guang-chen-yue",
+      "target_name": "和光尘樾",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "和光尘樾隔音差，业主不想住了已卖掉。",
+      "file": "data/housing/hangzhou/he-guang-chen-yue.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/he-jing-tian-jun",
+      "target_name": "合景天峻",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "合景天峻隔音较差，楼上说话声和上厕所声能听见。",
+      "file": "data/housing/hangzhou/he-jing-tian-jun.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "合景"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/he-jing-ying-yue-tai",
+      "target_name": "合景映月台",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "合景映月台楼上说话声和上厕所声音都能听到。",
+      "file": "data/housing/hangzhou/he-jing-ying-yue-tai.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "合景"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/jin-shang-he-pin-fu",
+      "target_name": "锦尚和品府",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "锦尚和品府被业主提醒千万别住，隔音差。",
+      "file": "data/housing/hangzhou/jin-shang-he-pin-fu.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/kun-lun-xiang-shu-yuan",
+      "target_name": "昆仑橡树园",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "昆仑橡树园隔音差，邻居刷短视频声音清晰，户型单双层客厅卧室交错。",
+      "file": "data/housing/hangzhou/kun-lun-xiang-shu-yuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/li-jing-ju",
+      "target_name": "丽晶居",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "丽晶居隔音特差，业主建议避雷。",
+      "file": "data/housing/hangzhou/li-jing-ju.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/li-xiang-cheng",
+      "target_name": "理想城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "理想城被提及，疑似转塘区域。",
+      "file": "data/housing/hangzhou/li-xiang-cheng.md",
+      "district": "转塘",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/liang-zhu-bai-yang-gang-cheng-yi-qi",
+      "target_name": "良渚白洋港城一期",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "良渚白洋港城一期楼下打哈欠声清晰，邻居声音夸张。",
+      "file": "data/housing/hangzhou/liang-zhu-bai-yang-gang-cheng-yi-qi.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/liang-zhu-wan-ke-bei-chen-zhi-guang",
+      "target_name": "良渚万科北宸之光",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "良渚万科北宸之光被多次提及隔音差，楼上脚步声、说话声、装修噪音明显，业主建议避雷。",
+      "file": "data/housing/hangzhou/liang-zhu-wan-ke-bei-chen-zhi-guang.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/liang-zhu-xing-zhou-cui-gu",
+      "target_name": "良渚星洲翠谷",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "余杭星洲翠谷红砖砌墙，隔音好，邻居声音听不到。",
+      "file": "data/housing/hangzhou/liang-zhu-xing-zhou-cui-gu.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "recommended"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/lin-ping-kang-cheng-guo-ji",
+      "target_name": "临平康城国际",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "临平康城国际被提及，未详细说明隔音情况。",
+      "file": "data/housing/hangzhou/lin-ping-kang-cheng-guo-ji.md",
+      "district": "临平区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "housing/hangzhou/lin-ping-lv-he-die-cui-xuan-2",
+      "target_name": "临平绿荷叠翠轩",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "临平绿荷叠翠轩边套，主卧能听见隔壁闹钟声和洗澡防水声，滨江房子质量差。",
+      "file": "data/housing/hangzhou/lin-ping-lv-he-die-cui-xuan-2.md",
+      "district": "临平区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/lin-ping-lv-he-die-cui-xuan",
+      "target_name": "临平绿荷叠翠轩",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "临平绿荷叠翠轩边套，主卧能听见隔壁闹钟声和洗澡防水声，滨江房子质量差。",
+      "file": "data/housing/hangzhou/lin-ping-lv-he-die-cui-xuan.md",
+      "district": "临平区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/long-hu-xi-xi-tian-jie",
+      "target_name": "龙湖西溪天街",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "龙湖西溪天街附近的公寓隔音都差，五洲国际老旧公寓隔音也差，西溪八方城、西溪天街、西溪宸悦公寓隔音差，公寓梯户比糟糕。",
+      "file": "data/housing/hangzhou/long-hu-xi-xi-tian-jie.md",
+      "district": "西湖区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "龙湖"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/ming-cheng-gong-yu",
+      "target_name": "名城公寓",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "名城公寓隔音差，业主避雷。",
+      "file": "data/housing/hangzhou/ming-cheng-gong-yu.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/ming-yi-dong-fang-xuan",
+      "target_name": "明怡东方轩",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "明怡东方轩回迁房隔音好，物业好，楼层隔音好，装修时有噪音，地铁施工噪音大。",
+      "file": "data/housing/hangzhou/ming-yi-dong-fang-xuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "recommended"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/rong-chuang-he-bin-zhi-cheng-yu-lan-xuan",
+      "target_name": "融创河滨之城雨澜轩",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "融创河滨之城雨澜轩邻居噪音明显，不是高速噪音，水区地板厚，雨区毛坯。",
+      "file": "data/housing/hangzhou/rong-chuang-he-bin-zhi-cheng-yu-lan-xuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "融创"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/rui-li-dong-fang-hua-cheng",
+      "target_name": "瑞立东方花城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "瑞立东方花城隔音差，楼上六点半起床，周末白天敲击声持续，业主吐槽频繁。",
+      "file": "data/housing/hangzhou/rui-li-dong-fang-hua-cheng.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/rui-li-zhong-yang-hua-cheng",
+      "target_name": "瑞立中央花城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "瑞立中央花城隔音不行，楼上夫妻凌晨吵架摔东西大哭，隔壁一家和小孩吵架声音清晰。",
+      "file": "data/housing/hangzhou/rui-li-zhong-yang-hua-cheng.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/san-dun-yi-jing-yuan",
+      "target_name": "三墩颐景园",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "三墩颐景园错层楼栋隔音差，邻居打呼噜声能听见。",
+      "file": "data/housing/hangzhou/san-dun-yi-jing-yuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/tian-kong-zhi-cheng",
+      "target_name": "天空之城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "天空之城邻居楼上木地板隔音差，能听到关灯、上厕所、脚步声，房租贵但隔音差。",
+      "file": "data/housing/hangzhou/tian-kong-zhi-cheng.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/tong-ren-guang-chang",
+      "target_name": "同人广场",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "三坝同人广场公寓隔音很好，住了两年没听到邻居动静，业主推荐诚园和西溪美岸但价格较高。",
+      "file": "data/housing/hangzhou/tong-ren-guang-chang.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "recommended"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "housing/hangzhou/wan-jia-ming-cheng-2",
+      "target_name": "万家名城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万家名城卧室每天能听到楼上走动声，隔音较差。",
+      "file": "data/housing/hangzhou/wan-jia-ming-cheng-2.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/wan-jia-ming-cheng",
+      "target_name": "万家名城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万家名城能听见隔壁人讲话和楼上走动声。",
+      "file": "data/housing/hangzhou/wan-jia-ming-cheng.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/wan-ke-bai-lu-jun-nan",
+      "target_name": "万科白鹭郡南",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万科白鹭郡南被列为避雷楼盘，隔音差，楼上声音明显。",
+      "file": "data/housing/hangzhou/wan-ke-bai-lu-jun-nan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "housing/hangzhou/wan-ke-jin-cao-gong-yu-2",
+      "target_name": "万科金草公寓",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万科金草公寓楼上打呼噜声清晰，隔音极差。",
+      "file": "data/housing/hangzhou/wan-ke-jin-cao-gong-yu-2.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/wan-ke-jin-cao-gong-yu",
+      "target_name": "万科金草公寓",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万科金草公寓楼上打呼噜声清晰，隔音极差。",
+      "file": "data/housing/hangzhou/wan-ke-jin-cao-gong-yu.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/wan-ke-tian-kong-zhi-cheng",
+      "target_name": "万科天空之城",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万科天空之城楼上开关灯声、脚步声、摔门声清晰，业主避雷。",
+      "file": "data/housing/hangzhou/wan-ke-tian-kong-zhi-cheng.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/wan-ke-wei-lai-cheng-er-qi",
+      "target_name": "万科未来城二期",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万科未来城二期隔音不行，绿城月映海棠园也一样。",
+      "file": "data/housing/hangzhou/wan-ke-wei-lai-cheng-er-qi.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/wan-ke-xi-gu-lan-wan",
+      "target_name": "万科溪谷澜湾",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万科溪谷澜湾被列为避雷楼盘，隔音差，楼上声音明显。",
+      "file": "data/housing/hangzhou/wan-ke-xi-gu-lan-wan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/wan-ke-xing-chao-ying-xiang-fu",
+      "target_name": "万科星潮映象府",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万科星潮映象府隔音差，业主避雷。",
+      "file": "data/housing/hangzhou/wan-ke-xing-chao-ying-xiang-fu.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/wan-ke-zhong-yang-hua-yuan",
+      "target_name": "万科中央花园",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "万科中央花园楼上拖椅子声巨大，隔音极差。",
+      "file": "data/housing/hangzhou/wan-ke-zhong-yang-hua-yuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xi-xi-bei-yuan-bei-qu",
+      "target_name": "西溪北苑北区",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "西溪北苑北区老吵，拖椅子声深夜响，装修噪音多，业主神经衰弱准备搬家。",
+      "file": "data/housing/hangzhou/xi-xi-bei-yuan-bei-qu.md",
+      "district": "西湖区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xi-xi-hua-yuan",
+      "target_name": "西溪花园",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "西溪花园对面冲马桶声能听到，隔音差。",
+      "file": "data/housing/hangzhou/xi-xi-hua-yuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xiao-shan-guang-de-xiao-qu",
+      "target_name": "萧山广德小区",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "萧山广德小区老木地板无限放大声音，隔音不好。",
+      "file": "data/housing/hangzhou/xiao-shan-guang-de-xiao-qu.md",
+      "district": "萧山区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xiao-shan-yun-shang-fu",
+      "target_name": "萧山云上府",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "萧山云上府说话声能听到，楼下主播三天两头吵，楼上唱歌彻夜吼叫，物业无效。",
+      "file": "data/housing/hangzhou/xiao-shan-yun-shang-fu.md",
+      "district": "萧山区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xin-bai-ma-gong-yu",
+      "target_name": "新白马公寓",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "新白马公寓楼上脚步声极其清晰，隔音极差。",
+      "file": "data/housing/hangzhou/xin-bai-ma-gong-yu.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xin-he-jia-yuan",
+      "target_name": "新和嘉苑",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "新和嘉苑楼上关灯声清晰，半夜垃圾车开来开去吵，睡眠质量差。",
+      "file": "data/housing/hangzhou/xin-he-jia-yuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xin-sheng-dong-fang-jun",
+      "target_name": "欣盛东方郡",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "欣盛东方郡楼上小孩孕妇吵闹，走路声特别清楚，业主多次找物业无效，后悔租住。",
+      "file": "data/housing/hangzhou/xin-sheng-dong-fang-jun.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xin-zhong-nan-jia-yuan",
+      "target_name": "新中南家园",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "新中南家园能听到高铁声音，隔音一般。",
+      "file": "data/housing/hangzhou/xin-zhong-nan-jia-yuan.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xing-cui-lan-ting",
+      "target_name": "星翠澜庭",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "星翠澜庭楼上走路咚咚咚，隔壁共墙也吵，业主自住感受差。",
+      "file": "data/housing/hangzhou/xing-cui-lan-ting.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/xing-he-ying-gong-yu",
+      "target_name": "星合映公寓",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "星合映公寓每天早上5:30能听到别人的苹果闹铃声，隔音极差。",
+      "file": "data/housing/hangzhou/xing-he-ying-gong-yu.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/yan-yu-chun-feng-ju",
+      "target_name": "燕语春风居",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "燕语春风居，有点动静就被楼下投诉，静音垫和静音拖鞋都没用，一周被投诉三次，晚上移动儿童床几秒钟就被投诉。",
+      "file": "data/housing/hangzhou/yan-yu-chun-feng-ju.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/yang-guang-cheng-yue-yun-di",
+      "target_name": "阳光城悦云邸",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "阳光城悦云邸隔音差，业主吐槽严重。",
+      "file": "data/housing/hangzhou/yang-guang-cheng-yue-yun-di.md",
+      "district": "余杭区",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "阳光城"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/yang-liu-jun",
+      "target_name": "杨柳郡",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "杨柳郡隔音不好。",
+      "file": "data/housing/hangzhou/yang-liu-jun.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/yu-po-ming-fu",
+      "target_name": "昱泊名府",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "昱泊名府被提及，未详细说明隔音情况。",
+      "file": "data/housing/hangzhou/yu-po-ming-fu.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/yun-he-wan-ke-zhong-xin",
+      "target_name": "运河万科中心",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "运河万科中心隔音差，邻居半夜吵闹，打呼噜声清晰，物业态度冷漠。",
+      "file": "data/housing/hangzhou/yun-he-wan-ke-zhong-xin.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning",
+        "万科"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "housing/hangzhou/zhen-cheng-xing-fu-li-2",
+      "target_name": "臻珹幸福里",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "臻珹幸福里楼上说话听得清楚，住了三年隔音差，连悄悄话都听得见。",
+      "file": "data/housing/hangzhou/zhen-cheng-xing-fu-li-2.md",
+      "district": "城北",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/zhen-cheng-xing-fu-li",
+      "target_name": "臻珹幸福里",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "臻珹幸福里楼上说话听得清楚，住了三年隔音差，连悄悄话都听得见。",
+      "file": "data/housing/hangzhou/zhen-cheng-xing-fu-li.md",
+      "district": "城北",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "warning"
+      ]
+    },
+    {
+      "_schema": "openbook/housing/v1",
+      "_id": "housing/hangzhou/zhu-hai-shui-yun",
+      "target_name": "竹海水韵",
+      "target_category": "housing",
+      "signal_type": "review",
+      "city": "Hangzhou",
+      "date": "2026-03-16",
+      "severity": "info",
+      "content": "竹海水韵老小区隔音好，业主未听到楼上动静，朋友打牌到半夜也未被投诉。",
+      "file": "data/housing/hangzhou/zhu-hai-shui-yun.md",
+      "district": "未知",
+      "tags": [
+        "noise",
+        "soundproofing",
+        "hangzhou",
+        "recommended"
+      ]
+    },
+    {
       "_schema": "openbook/signal/v1",
       "_id": "signals/2026-03-14-DtGDIr7HHO",
       "target_name": "MUJI",
