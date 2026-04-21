@@ -2,6 +2,22 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-21-C1oTrj0P_e",
+      "target_name": "宜品上层",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "北京",
+      "date": "2026-04-21T08:58:08.990Z",
+      "severity": "info",
+      "content": "隔音其实也还行，邻居看电视的声音可以基本隔绝，砸地板不行，这些就取决于邻居素质了。另外还取决于单元，有的房间里是公司办公，还有办托儿所那种，这个肯定吵",
+      "file": "data/signals/2026-04-21-C1oTrj0P_e.md",
+      "neighborhood": "海淀区",
+      "tags": [
+        "租房"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-15-FyyxFqsLaz",
       "target_name": "香樟公寓",
       "target_category": "housing",
@@ -31,6 +47,20 @@
       "tags": [
         "noise"
       ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-15-E_iEM1GFQ-",
+      "target_name": "九莲新村",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-15T03:31:24.022Z",
+      "severity": "critical",
+      "content": "列入黑榜",
+      "file": "data/signals/2026-04-15-E_iEM1GFQ-.md",
+      "subcategory": "apartment",
+      "neighborhood": "九莲新村"
     },
     {
       "_schema": "openbook/signal/v1",
@@ -14330,6 +14360,20 @@
       "tags": [
         "噪音"
       ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-06-HtdflSG4AV",
+      "target_name": "九龙花园",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Beijing",
+      "date": "2026-04-06T04:42:05.281Z",
+      "severity": "critical",
+      "content": "列入黑榜",
+      "file": "data/signals/2026-04-06-HtdflSG4AV.md",
+      "subcategory": "apartment",
+      "district": "Chaoyang"
     },
     {
       "_schema": "openbook/signal/v1",
