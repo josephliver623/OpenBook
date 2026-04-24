@@ -2,6 +2,21 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-24-Z9ha1lSmKT",
+      "target_name": "湘云雅苑",
+      "target_category": "housing",
+      "signal_type": "tip",
+      "city": "Hangzhou",
+      "date": "2026-04-24T04:59:34.466Z",
+      "severity": "info",
+      "content": "湘云雅苑 is a must-see",
+      "file": "data/signals/2026-04-24-Z9ha1lSmKT.md",
+      "subcategory": "apartment",
+      "district": "滨江区",
+      "neighborhood": "湘云雅苑"
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-24-1gvvP4IyNO",
       "target_name": "冠新佳苑",
       "target_category": "housing",
