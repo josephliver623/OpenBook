@@ -8,7 +8,7 @@ _access: public
 target_name: "蓝钱"
 target_category: housing
 city: Hangzhou
-district: "未知"
+district: 上城区
 signal_type: tip
 content: "蓝钱以前朋友来我家都说是静音小区"
 severity: info

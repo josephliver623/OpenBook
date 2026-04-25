@@ -8,7 +8,7 @@ _access: public
 target_name: "万科城市之光"
 target_category: housing
 city: Hangzhou
-district: "上城区"
+district: 滨江区
 signal_type: tip
 content: "万科城市之光小区住户年轻，晚上很安静，四周声音几乎听不见。"
 severity: info
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - recommended
-  - 上城区
+  - 滨江区
 ---
 # 万科城市之光 — 推荐 🟢
 万科城市之光小区住户年轻，晚上很安静，四周声音几乎听不见。

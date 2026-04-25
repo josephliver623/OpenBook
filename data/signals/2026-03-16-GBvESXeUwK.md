@@ -8,6 +8,7 @@ _access: public
 target_name: "傲旋城"
 target_category: housing
 city: Hangzhou
+district: 滨江区
 signal_type: warning
 content: "傲旋城隔音极差，邻居喊叫和击打声清晰，业主投诉无果。"
 severity: critical

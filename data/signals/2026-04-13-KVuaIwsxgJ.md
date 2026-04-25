@@ -8,7 +8,7 @@ _access: public
 target_name: "科寓"
 target_category: housing
 city: Hangzhou
-district: "未知"
+district: 拱墅区
 signal_type: warning
 content: "凌晨三四点被doi声音吵醒 聊什么都能听清"
 severity: critical

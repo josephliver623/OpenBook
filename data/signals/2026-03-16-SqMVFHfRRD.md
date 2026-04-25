@@ -8,6 +8,7 @@ _access: public
 target_name: "瑞立东方花城"
 target_category: housing
 city: Hangzhou
+district: 滨江区
 signal_type: warning
 content: "瑞立东方花城隔音差，楼上早起和敲击声影响业主休息。"
 severity: notable

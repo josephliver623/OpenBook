@@ -8,6 +8,7 @@ _access: public
 target_name: "燕语春风居"
 target_category: housing
 city: Hangzhou
+district: 钱塘区
 signal_type: warning
 content: "燕语春风居隔音较差，邻居稍有动静就会被投诉。"
 severity: notable

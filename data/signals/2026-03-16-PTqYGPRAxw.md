@@ -8,7 +8,7 @@ _access: public
 target_name: "春熙上和湾"
 target_category: housing
 city: Hangzhou
-district: "三塘"
+district: 拱墅区
 signal_type: warning
 content: "春熙上和湾楼板薄，隔音差。"
 severity: notable

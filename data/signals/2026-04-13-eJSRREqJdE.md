@@ -8,7 +8,7 @@ _access: public
 target_name: "龙湖紫金上城"
 target_category: housing
 city: Hangzhou
-district: "上城区"
+district: 西湖区
 signal_type: warning
 content: "不要住紫金生活广场隔音巨差巨差巨差楼上看电视我在楼下听得清台词"
 severity: critical
@@ -23,7 +23,7 @@ tags:
   - hangzhou
   - soundproofing
   - warning
-  - 上城区
+  - 西湖区
 ---
 # 龙湖紫金上城 — 避雷 🔴
 不要住紫金生活广场隔音巨差巨差巨差楼上看电视我在楼下听得清台词

@@ -8,7 +8,7 @@ _access: public
 target_name: "港丽中心"
 target_category: housing
 city: Hangzhou
-district: "拱墅区"
+district: 余杭区
 signal_type: warning
 content: "港丽中心 刚刚从那里搬来拱墅有点后悔了"
 severity: warning
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - warning
-  - 拱墅区
+  - 余杭区
 ---
 # 港丽中心 — 避雷 🔴
 港丽中心 刚刚从那里搬来拱墅有点后悔了

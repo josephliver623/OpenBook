@@ -8,7 +8,7 @@ _access: public
 target_name: "望澜府"
 target_category: housing
 city: Hangzhou
-district: "临平区"
+district: 拱墅区
 signal_type: warning
 content: "因为十二点和老婆丈母娘在厅里正常说话活动被四户人家堵在门口"
 severity: critical
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - warning
-  - 临平区
+  - 拱墅区
 ---
 # 望澜府 — 避雷 🔴
 因为十二点和老婆丈母娘在厅里正常说话活动被四户人家堵在门口

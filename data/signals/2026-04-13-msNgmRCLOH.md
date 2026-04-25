@@ -8,7 +8,7 @@ _access: public
 target_name: "万家星城"
 target_category: housing
 city: Hangzhou
-district: "滨江区"
+district: 拱墅区
 signal_type: warning
 content: "万家星城是滨江的房子吗...真的很吵，开放式阳台，楼层低的真的崩溃，狗叫声，小孩子玩闹声音"
 severity: critical
@@ -23,7 +23,7 @@ tags:
   - hangzhou
   - soundproofing
   - warning
-  - 滨江区
+  - 拱墅区
 ---
 # 万家星城 — 避雷 🔴
 万家星城是滨江的房子吗...真的很吵，开放式阳台，楼层低的真的崩溃，狗叫声，小孩子玩闹声音

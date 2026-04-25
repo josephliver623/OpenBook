@@ -8,7 +8,7 @@ _access: public
 target_name: "听海苑"
 target_category: housing
 city: Hangzhou
-district: "西湖区"
+district: 余杭区
 signal_type: tip
 content: "我想说西溪小海的星海苑和听海苑隔音特别好。是真安静"
 severity: info
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - recommended
-  - 西湖区
+  - 余杭区
 ---
 # 听海苑 — 推荐 🟢
 我想说西溪小海的星海苑和听海苑隔音特别好。是真安静

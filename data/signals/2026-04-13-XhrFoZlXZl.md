@@ -8,7 +8,7 @@ _access: public
 target_name: "长泰公寓"
 target_category: housing
 city: Hangzhou
-district: "滨江区"
+district: 萧山区
 signal_type: update
 content: "长泰公寓怎么样啊"
 severity: info
@@ -21,7 +21,7 @@ housing_meta:
 tags:
   - hangzhou
   - soundproofing
-  - 滨江区
+  - 萧山区
 ---
 # 长泰公寓 — 信息 🟡
 长泰公寓怎么样啊

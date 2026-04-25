@@ -8,6 +8,7 @@ _access: public
 target_name: "万家名城"
 target_category: housing
 city: Hangzhou
+district: 余杭区
 signal_type: warning
 content: "万家名城隔音较差，能听见邻居说话和走动声。"
 severity: notable

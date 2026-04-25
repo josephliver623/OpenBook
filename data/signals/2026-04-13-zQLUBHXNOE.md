@@ -8,7 +8,7 @@ _access: public
 target_name: "新里程中心"
 target_category: housing
 city: Hangzhou
-district: "滨江区"
+district: 余杭区
 signal_type: tip
 content: "新里程中心隔音挺好的"
 severity: info
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - recommended
-  - 滨江区
+  - 余杭区
 ---
 # 新里程中心 — 推荐 🟢
 新里程中心隔音挺好的

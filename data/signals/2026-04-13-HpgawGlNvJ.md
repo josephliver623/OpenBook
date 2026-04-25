@@ -8,7 +8,7 @@ _access: public
 target_name: "完全星河景庭"
 target_category: housing
 city: Hangzhou
-district: "滨江区"
+district: 萧山区
 signal_type: tip
 content: "完全星河景庭小区绿化好，门口就是地铁站和商超，且没有白事困扰。"
 severity: info
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - recommended
-  - 滨江区
+  - 萧山区
 ---
 # 完全星河景庭 — 推荐 🟢
 完全星河景庭小区绿化好，门口就是地铁站和商超，且没有白事困扰。

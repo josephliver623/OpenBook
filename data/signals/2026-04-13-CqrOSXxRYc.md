@@ -8,7 +8,7 @@ _access: public
 target_name: "祥和人家"
 target_category: housing
 city: Hangzhou
-district: "未知"
+district: 拱墅区
 signal_type: warning
 content: "祥和人家，简直了"
 severity: critical
@@ -17,7 +17,7 @@ housing_meta:
   noise_level: 1
   sentiment: negative
   noise_sources:
-    - "未知"
+    - "拱墅区"
 tags:
   - hangzhou
   - soundproofing

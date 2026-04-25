@@ -8,7 +8,7 @@ _access: public
 target_name: "施家园花苑"
 target_category: housing
 city: Hangzhou
-district: "拱墅区"
+district: 富阳区
 signal_type: warning
 content: "施家园花苑，5层楼房的那种，隔音超级差，楼上走路声，椅子声，咳嗽声，不绝于耳，楼板不知道多薄。"
 severity: critical
@@ -24,7 +24,7 @@ tags:
   - hangzhou
   - soundproofing
   - warning
-  - 拱墅区
+  - 富阳区
 ---
 # 施家园花苑 — 避雷 🔴
 施家园花苑，5层楼房的那种，隔音超级差，楼上走路声，椅子声，咳嗽声，不绝于耳，楼板不知道多薄。

@@ -8,7 +8,7 @@ _access: public
 target_name: "臻珹幸福里"
 target_category: housing
 city: Hangzhou
-district: "城北"
+district: 余杭区
 signal_type: warning
 content: "臻珹幸福里隔音极差，楼上说话声清晰，业主不满。"
 severity: critical

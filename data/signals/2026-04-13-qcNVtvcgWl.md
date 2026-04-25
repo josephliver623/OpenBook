@@ -8,7 +8,7 @@ _access: public
 target_name: "德慧公寓"
 target_category: housing
 city: Hangzhou
-district: "拱墅区"
+district: 萧山区
 signal_type: warning
 content: "看电视笑了都要被投诉 今天刚班家"
 severity: critical
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - warning
-  - 拱墅区
+  - 萧山区
 ---
 # 德慧公寓 — 避雷 🔴
 看电视笑了都要被投诉 今天刚班家

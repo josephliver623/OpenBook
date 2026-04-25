@@ -8,7 +8,7 @@ _access: public
 target_name: "都会山"
 target_category: housing
 city: Hangzhou
-district: "滨江区"
+district: 萧山区
 signal_type: tip
 content: "都会山隔音还行"
 severity: info
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - recommended
-  - 滨江区
+  - 萧山区
 ---
 # 都会山 — 推荐 🟢
 都会山隔音还行

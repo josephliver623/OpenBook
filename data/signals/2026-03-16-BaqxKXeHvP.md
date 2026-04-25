@@ -8,6 +8,7 @@ _access: public
 target_name: "昆仑橡树园"
 target_category: housing
 city: Hangzhou
+district: 拱墅区
 signal_type: warning
 content: "昆仑橡树园隔音差，邻居说话声清晰，户型设计不合理。"
 severity: notable

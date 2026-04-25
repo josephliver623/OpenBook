@@ -8,7 +8,7 @@ _access: public
 target_name: "五幸银座"
 target_category: housing
 city: Hangzhou
-district: "余杭区"
+district: 西湖区
 signal_type: update
 content: "我就住银座啊 柚米寓就在银座 隔音一般 靠运气看邻居"
 severity: info
@@ -21,7 +21,7 @@ housing_meta:
 tags:
   - hangzhou
   - soundproofing
-  - 余杭区
+  - 西湖区
 ---
 # 五幸银座 — 信息 🟡
 我就住银座啊 柚米寓就在银座 隔音一般 靠运气看邻居

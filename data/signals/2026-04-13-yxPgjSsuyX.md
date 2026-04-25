@@ -8,7 +8,7 @@ _access: public
 target_name: "万科中央公园"
 target_category: housing
 city: Hangzhou
-district: "未知"
+district: 上城区
 signal_type: update
 content: "有万科中央公园的业主么？请问上下楼隔音如何"
 severity: info
@@ -17,11 +17,11 @@ housing_meta:
   noise_level: 3
   sentiment: neutral
   noise_sources:
-    - "未知"
+    - "上城区"
 tags:
   - hangzhou
   - soundproofing
-  - 未知
+  - 上城区
 ---
 # 万科中央公园 — 信息 🟡
 有万科中央公园的业主么？请问上下楼隔音如何

@@ -8,7 +8,7 @@ _access: public
 target_name: "理想城"
 target_category: housing
 city: Hangzhou
-district: "转塘"
+district: 西湖区
 signal_type: warning
 content: "理想城被提及，具体隔音情况未详细说明。"
 severity: info

@@ -8,7 +8,7 @@ _access: public
 target_name: "复地壹中心"
 target_category: housing
 city: Hangzhou
-district: "滨江区"
+district: 拱墅区
 signal_type: update
 content: "复地壹中心和浙港国际还有余杭方隅公寓这三家有人住过吗"
 severity: info
@@ -21,7 +21,7 @@ housing_meta:
 tags:
   - hangzhou
   - soundproofing
-  - 滨江区
+  - 拱墅区
 ---
 # 复地壹中心 — 信息 🟡
 复地壹中心和浙港国际还有余杭方隅公寓这三家有人住过吗

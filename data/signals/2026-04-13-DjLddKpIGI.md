@@ -8,7 +8,7 @@ _access: public
 target_name: "和谐南苑"
 target_category: housing
 city: Hangzhou
-district: "临平区"
+district: 上城区
 signal_type: tip
 content: "和谐南苑顶楼我感觉隔音不错 你可以尽量找共墙少的房间"
 severity: info
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - recommended
-  - 临平区
+  - 上城区
 ---
 # 和谐南苑 — 推荐 🟢
 和谐南苑顶楼我感觉隔音不错 你可以尽量找共墙少的房间

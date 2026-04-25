@@ -8,7 +8,7 @@ _access: public
 target_name: "嘉泰馨庭"
 target_category: housing
 city: Hangzhou
-district: "上城区"
+district: 拱墅区
 signal_type: update
 content: "嘉泰馨庭如何？"
 severity: info
@@ -21,7 +21,7 @@ housing_meta:
 tags:
   - hangzhou
   - soundproofing
-  - 上城区
+  - 拱墅区
 ---
 # 嘉泰馨庭 — 信息 🟡
 嘉泰馨庭如何？

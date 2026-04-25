@@ -8,7 +8,7 @@ _access: public
 target_name: "映月璟园"
 target_category: housing
 city: Hangzhou
-district: "拱墅区"
+district: 余杭区
 signal_type: warning
 content: "映月璟园千万别租 隔音特别差"
 severity: critical
@@ -22,7 +22,7 @@ tags:
   - hangzhou
   - soundproofing
   - warning
-  - 拱墅区
+  - 余杭区
 ---
 # 映月璟园 — 避雷 🔴
 映月璟园千万别租 隔音特别差
