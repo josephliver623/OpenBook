@@ -2,6 +2,23 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-txpeRDsEAE",
+      "target_name": "广兴新村",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:08:33.921Z",
+      "severity": "notable",
+      "content": "移动家具和走路声音明显",
+      "file": "data/signals/2026-04-27-txpeRDsEAE.md",
+      "neighborhood": "拱墅区",
+      "tags": [
+        "噪音",
+        "老旧小区"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-27-1apc5IOykA",
       "target_name": "运河郡",
       "target_category": "housing",
