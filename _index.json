@@ -2,6 +2,44 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-w_Pdnyfx12",
+      "target_name": "天阳上河",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:19:45.603Z",
+      "severity": "notable",
+      "content": "隔音差，邻居吵闹，老人挪凳子，小孩跑跳，关门声大",
+      "file": "data/signals/2026-04-27-w_Pdnyfx12.md",
+      "subcategory": "apartment",
+      "district": "Gongshu",
+      "neighborhood": "天阳上河",
+      "tags": [
+        "隔音差",
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-s_Wytc3dR-",
+      "target_name": "漾和人家",
+      "target_category": "housing",
+      "signal_type": "update",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:19:15.149Z",
+      "severity": "info",
+      "content": "隔音一般, 业主租户素质高, 物业很好",
+      "file": "data/signals/2026-04-27-s_Wytc3dR-.md",
+      "subcategory": "apartment",
+      "district": "拱墅区",
+      "tags": [
+        "soundproofing",
+        "community",
+        "property management"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-27-LiIFzbMmcG",
       "target_name": "皋亭景苑",
       "target_category": "housing",
