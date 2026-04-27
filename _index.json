@@ -2,6 +2,74 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-RLyKHp6ULF",
+      "target_name": "北上新城",
+      "target_category": "housing",
+      "signal_type": "quality_change",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:06:36.049Z",
+      "severity": "notable",
+      "content": "保洁路过噪音大",
+      "file": "data/signals/2026-04-27-RLyKHp6ULF.md",
+      "subcategory": "apartment",
+      "district": "拱墅区",
+      "neighborhood": "北上新城",
+      "tags": [
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-bZJ3m7-feQ",
+      "target_name": "新霄辰府",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:05:46.755Z",
+      "severity": "notable",
+      "content": "楼上晚上说话都能听见",
+      "file": "data/signals/2026-04-27-bZJ3m7-feQ.md",
+      "neighborhood": "拱墅区",
+      "tags": [
+        "noise"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-xCSqgxFbam",
+      "target_name": "晟光里公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:04:57.601Z",
+      "severity": "notable",
+      "content": "隔壁打喷嚏都能听得一清二楚",
+      "file": "data/signals/2026-04-27-xCSqgxFbam.md",
+      "subcategory": "apartment",
+      "district": "拱墅区",
+      "neighborhood": "晟光里",
+      "tags": [
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-9h3ZDiedt4",
+      "target_name": "橙野公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:04:09.988Z",
+      "severity": "notable",
+      "content": "仿佛住进隔壁情侣被窝里面",
+      "file": "data/signals/2026-04-27-9h3ZDiedt4.md",
+      "tags": [
+        "noise",
+        "privacy"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-27-XRYdnVu4S1",
       "target_name": "绿城运河郡",
       "target_category": "housing",
