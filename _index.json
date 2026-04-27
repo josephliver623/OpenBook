@@ -2,6 +2,24 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-XIBMz3BGgf",
+      "target_name": "蔡马人家",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:17:46.328Z",
+      "severity": "notable",
+      "content": "隔音差，对面有人吵架",
+      "file": "data/signals/2026-04-27-XIBMz3BGgf.md",
+      "subcategory": "apartment",
+      "district": "拱墅区",
+      "neighborhood": "蔡马",
+      "tags": [
+        "隔音差"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-27-z7Mr2Sb2H5",
       "target_name": "万科中尚汇",
       "target_category": "housing",
