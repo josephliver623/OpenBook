@@ -2,6 +2,25 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-JD0tTdm_ZZ",
+      "target_name": "天邑国际大厦公寓",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:07:10.838Z",
+      "severity": "notable",
+      "content": "公寓隔音差，旁边工地施工，楼外人说话听得一清二楚",
+      "file": "data/signals/2026-04-27-JD0tTdm_ZZ.md",
+      "subcategory": "apartment",
+      "district": "拱墅区",
+      "neighborhood": "天邑国际大厦",
+      "tags": [
+        "隔音差",
+        "工地噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-27-RLyKHp6ULF",
       "target_name": "北上新城",
       "target_category": "housing",
