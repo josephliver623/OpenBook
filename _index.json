@@ -2,6 +2,25 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-CzZtuWuTyg",
+      "target_name": "华丰",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:20:35.754Z",
+      "severity": "critical",
+      "content": "隔音差, 邻居说话大声, 空调外机对着床头嗡嗡响",
+      "file": "data/signals/2026-04-27-CzZtuWuTyg.md",
+      "subcategory": "apartment",
+      "district": "拱墅区",
+      "neighborhood": "华丰",
+      "tags": [
+        "隔音差",
+        "噪音"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-27-0ynmAOOISy",
       "target_name": "陆家坞",
       "target_category": "housing",
