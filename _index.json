@@ -2,6 +2,27 @@
   "signals": [
     {
       "_schema": "openbook/signal/v1",
+      "_id": "signals/2026-04-27-0ynmAOOISy",
+      "target_name": "陆家坞",
+      "target_category": "housing",
+      "signal_type": "warning",
+      "city": "Hangzhou",
+      "date": "2026-04-27T04:20:16.287Z",
+      "severity": "critical",
+      "content": "回迁小区楼间距近噪音大，自行车被盗，快递被偷",
+      "file": "data/signals/2026-04-27-0ynmAOOISy.md",
+      "subcategory": "apartment",
+      "district": "Gongshu",
+      "neighborhood": "陆家坞",
+      "tags": [
+        "噪音",
+        "治安差",
+        "快递丢失",
+        "自行车被盗"
+      ]
+    },
+    {
+      "_schema": "openbook/signal/v1",
       "_id": "signals/2026-04-27-w_Pdnyfx12",
       "target_name": "天阳上河",
       "target_category": "housing",
